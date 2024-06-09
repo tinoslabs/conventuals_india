@@ -1,0 +1,95 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+
+{% block content %}
+<!-- <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <section class="home">
+        <div class="toggle-sidebar">
+            <i class='bx bx-menu'></i>
+            <div class="text">Toggle</div>
+        </div>
+
+            <div class="container-1">
+                <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+
+                    <h2>UPDATE PROVINCE</h2>
+                    <div class="content-1">   
+                        <div class="input-box">
+                            <label for="name">Name</label>
+                            <input type="text" placeholder="" name="name" value="{{friars.name}}" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="" name="email" value="{{friars.email}}" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="image">Upload Images</label>
+                            <input type="file" placeholder="" name="image" value="{{friars.image.url}}" required>
+                        </div>
+
+                        <div class="button-container-1">
+                            <button type="submit">UPDATE DETAILS</button>
+                        </div>
+
+                        <div class="button-container-1">
+                            <button type="button" onclick="window.history.back();">Back</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+    </section> -->
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">UPDATE FRIARS</h4>
+                <!-- <p class="card-description">
+                  Basic form layout
+                </p> -->
+                <form class="forms-sample" method="POST" enctype="multipart/form-data"> {% csrf_token %}
+                  <div class="form-group">
+                    <label for="exampleInputUsername1"> Name</label>
+                    <input type="text" class="form-control" id="exampleInputUsername1" name="name" placeholder="Event Name" value="{{friars.name}}">
+                  </div>
+                  
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email" value="{{friars.email}}">
+                </div>
+
+                <div class="form-group">
+                    <label>Current Image</label><br>
+                    {% if friars.image %}
+                        <img src="{{ friars.image.url }}" alt="Current Image" style="width: 150px; height: 150px;">
+                        <br>
+                        
+                    {% else %}
+                        <p>No image available</p>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                  <label for="imageFile">Upload Images</label>
+                  <input type="file" class="form-control-file" id="imageFile" name="image" value="{{friars.image.url}}">
+                </div>
+
+                  <div class="form-check form-check-flat form-check-primary">
+                    <label class="form-check-label">
+                      <!-- <input type="checkbox" class="form-check-input">
+                      Remember me -->
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary me-2">Submit</button>
+                  <!-- <button class="btn btn-light">Cancel</button> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

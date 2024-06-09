@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendar 2024</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  #calendar {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  #calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+  }
+  #calendar-header button {
+    background-color: #0056b3;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #calendar-header button:hover {
+    background-color: #003d80;
+  }
+  #calendar-month-year {
+    font-size: 1.5em;
+  }
+  #calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  #calendar-table th, #calendar-table td {
+    width: 14.28%;
+    text-align: center;
+    padding: 10px;
+    vertical-align: top;
+    position: relative;
+  }
+  #calendar-table th {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  #calendar-table td {
+    cursor: pointer;
+    height: 100px;
+  }
+  #calendar-table td:hover {
+    background-color: #f0f0f0;
+  }
+  .today {
+    background-color: #ffd700;
+  }
+  .note {
+    font-size: 0.8em;
+    color: #333;
+    margin-top: 5px;
+    display: block;
+    text-align: left;
+  }
+  .note-input {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+  .note-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  .note-input button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .note-input button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+  
+  <div id="calendar">
+    <div id="calendar-header">
+      <button id="prev-month">Previous Month</button>
+      <span id="calendar-month-year"></span>
+      <button id="next-month">Next Month</button>
+    </div>
+    <table id="calendar-table">
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody id="calendar-body">
+        <!-- Calendar dates will be injected here by JavaScript -->
+      </tbody>
+    </table>
+  </div>
+  <div class="note-input">
+    <input type="text" id="note-text" placeholder="Add a note or reminder...">
+    <button id="add-note">Add Note</button>
+  </div>
+
+  <script>
+    const state = {
+      today: new Date(),
+      todayYear: 2024,
+      todayMonth: new Date().getMonth(),
+      todayDate: new Date().getDate(),
+      notes: JSON.parse(localStorage.getItem('notes') || '{}')
+    };
+
+    const monthsStr = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const daysStr = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const monthsIndex = { "Jan": 0, "Feb": 1, "Mar": 2, "Apr": 3, "May": 4, "Jun": 5, "Jul": 6, "Aug": 7, "Sep": 8, "Oct": 9, "Nov": 10, "Dec": 11 };
+    const daysIndex = { "Sun": 0, "Mon": 1, "Tue": 2, "Wed": 3, "Thu": 4, "Fri": 5, "Sat": 6 };
+
+    function analyizYear(year) {
+      const currentYear = { year, is_leap: false, months: {} };
+      for (let month in monthsStr) {
+        currentYear.months[monthsStr[month]] = analyizMonth(monthsStr[month], year);
+      }
+      if (currentYear.months["Feb"].days_length === 29) {
+        currentYear.is_leap = true;
+      }
+      return currentYear;
+    }
+
+    function analyizMonth(month, year) {
+      const monthObj = {
+        year,
+        month,
+        month_idx: monthsIndex[month],
+        first_day: "",
+        first_day_index: null,
+        days_length: 0,
+        last_day: "",
+        last_day_index: null
+      };
+
+      const testDays = new Date(year, monthsIndex[month] + 1, 0).getDate();
+      for (let day = 1; day <= testDays; day++) {
+        const date = new Date(year, monthsIndex[month], day);
+        const dayStr = daysStr[date.getDay()];
+        if (day === 1) {
+          monthObj.first_day = dayStr;
+          monthObj.first_day_index = daysIndex[dayStr];
+        }
+        monthObj.days_length = day;
+        monthObj.last_day = dayStr;
+        monthObj.last_day_index = daysIndex[dayStr];
+      }
+      return monthObj;
+    }
+
+    function makePrevMonthArr(firstDayIndex) {
+      const prevMonthIdx = state.todayMonth === 0 ? 11 : state.todayMonth - 1;
+      const prevMonthDays = analyizMonth(monthsStr[prevMonthIdx], state.todayYear).days_length;
+      return Array.from({ length: firstDayIndex }, (_, i) => prevMonthDays - firstDayIndex + i + 1);
+    }
+
+    function calcMonthCalendar() {
+      const currentMonth = analyizMonth(monthsStr[state.todayMonth], state.todayYear);
+      const currMonth = Array.from({ length: currentMonth.days_length }, (_, i) => i + 1);
+      const prevMonthArr = makePrevMonthArr(currentMonth.first_day_index);
+      const nextMonthArr = Array.from({ length: 42 - (currMonth.length + prevMonthArr.length) }, (_, i) => i + 1);
+      return [...prevMonthArr, ...currMonth, ...nextMonthArr];
+    }
+
+    function printMonthCalendarInDOM() {
+      const monthArr = calcMonthCalendar();
+      const weeks = [];
+      while (monthArr.length) {
+        weeks.push(monthArr.splice(0, 7));
+      }
+
+      const calendarBody = document.getElementById("calendar-body");
+      calendarBody.innerHTML = "";
+      const currentMonth = analyizMonth(monthsStr[state.todayMonth], state.todayYear);
+      weeks.forEach(week => {
+        const row = document.createElement("tr");
+        week.forEach(day => {
+          const cell = document.createElement("td");
+          cell.innerText = day;
+          if (day === state.todayDate && state.todayMonth === state.today.getMonth() && state.todayYear === state.today.getFullYear()) {
+            cell.classList.add("today");
+          }
+          const noteKey = `${state.todayYear}-${state.todayMonth + 1}-${day}`;
+          if (state.notes[noteKey]) {
+            const note = document.createElement("span");
+            note.classList.add("note");
+            note.innerText = state.notes[noteKey];
+            cell.appendChild(note);
+          }
+          cell.addEventListener("click", () => {
+            document.getElementById("note-text").dataset.date = noteKey;
+            document.getElementById("note-text").value = state.notes[noteKey] || '';
+          });
+          row.appendChild(cell);
+        });
+        calendarBody.appendChild(row);
+      });
+
+      document.getElementById("calendar-month-year").innerText = `${monthsStr[state.todayMonth]} ${state.todayYear}`;
+    }
+
+    function nextMonth() {
+      state.todayMonth += 1;
+      if (state.todayMonth === 12) {
+        state.todayYear += 1;
+        state.todayMonth = 0;
+      }
+      printMonthCalendarInDOM();
+    }
+
+    function prevMonth() {
+      state.todayMonth -= 1;
+      if (state.todayMonth < 0) {
+        state.todayYear -= 1;
+        state.todayMonth = 11;
+      }
+      printMonthCalendarInDOM();
+    }
+
+    document.getElementById("next-month").addEventListener("click", nextMonth);
+    document.getElementById("prev-month").addEventListener("click", prevMonth);
+
+    document.getElementById("add-note").addEventListener("click", () => {
+      const noteText = document.getElementById("note-text").value;
+      const noteDate = document.getElementById("note-text").dataset.date;
+      if (noteDate) {
+        state.notes[noteDate] = noteText;
+        localStorage.setItem('notes', JSON.stringify(state.notes)); // Save notes to localStorage
+        printMonthCalendarInDOM();
+        document.getElementById("note-text").value = ''; // Clear the input after adding the note
+      }
+    });
+
+    printMonthCalendarInDOM();
+  </script>
+</body>
+</html>
+

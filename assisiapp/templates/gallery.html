@@ -1,0 +1,114 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+		
+		<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+			<div class="sub_slider">
+					  <div class="banner_slide">
+						  <img src="{% static 'image/common-img.jpg' %}" alt="">
+					  </div>
+					  
+				  </div>
+				  <div class="container">
+			  <div class="sab_banner_text">
+				<h3>{% trans 'Our Gallery' %}</h3>
+				
+				<div class="banner_dots">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		<!--sab banner end-->
+		
+		<div class="content">
+
+			<!-- <section>
+				<div class="container">
+					<div class="row">{% for images in gallery %}
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="church_ministry_cols">
+								<figure>
+									<img src="{{images.gallery_image.url}}" alt="">
+								</figure>
+								
+							</div>
+						</div>	{% endfor %}
+						
+					</div>
+				</div>
+			</section> -->
+
+			<div class="content-wrapper pad-none">
+                <div class="content-inner">
+					<!-- Portfolio Section -->
+                    <section class="portfolio-section pad-top-120 pad-bottom-70">
+                        <div class="container">
+                            <div class="row">
+								
+								<!-- Col -->
+                                <div class="col-md-12">
+                                    <div class="portfolio-wrap portfolio-default popup-gallery">
+                                        <div class="isotope-grid zoom-gallery" data-gutter="30" data-cols="4">
+											{% for images in gallery %}
+                                            <!-- .portfolio-item -->
+                                            <div class="isotope-item">
+												<div class="portfolio-item portfolio-overlay-wrap">
+													<!-- .portfolio-thumb -->
+													<div class="portfolio-thumb relative b-radius-6 o-hide">
+														<img src="{{images.gallery_image.url}}" class="img-fluid" width="700" height="466" alt="" title="Invest Advices" />
+														<!-- .portfolio-wrap -->
+														<div class="portfolio-wrap">
+															<div class="portfolio-details-overlay">
+																<div class="portfolio-icons">
+																    <a href="{{images.gallery_image.url}}" class="popup-img" title="Gallery 1">
+																        <i class="ti-zoom-in"></i>
+																    </a>
+																</div>
+															</div>
+														</div>
+														<!-- .portfolio-wrap -->
+													</div>
+													<!-- .portfolio-thumb -->													
+												</div>												
+                                            </div>{% endfor %}											
+                                        </div>
+                                        <!-- .isotope-grid -->                                    	
+                                    </div>
+                                    <!-- .portfolio-wrap -->
+                                </div>
+                                <!-- col -->
+                            </div>
+                            <!-- row -->
+                        </div>
+                        <!-- .container -->
+                    </section>
+                    <!-- Portfolio Section End -->                    
+                </div>
+            </div>
+
+            <div class="church_prayer_block height padding-0">
+    			<div class="container">
+    				<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'Above all the grace and the gifts that Christ gives to his beloved is that of overcoming self..' %}</p>
+						<P style="font-family: 'Monotype Corsiva';">{% trans 'SAINT FRANCIS OF ASSISI' %}</P>
+						
+    					<a href="{% url 'friends_of_smk' %}" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+    				<div class="pull-right">
+    					<figure>
+    						<img src="{% static 'image/WhatsApp Image 2024-05-21 at 10.44.38.jpeg' %}" alt="">
+    					</figure>
+    				</div>
+    			</div>
+    		</div>
+		</div>
+
+		
+
+{% endblock %}

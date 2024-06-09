@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="title" content="">
+
+        <meta name="description" content="Assisi - ">
+
+        <meta name="keywords" content="Assisi - ">
+
+        <title>Home</title>
+        <link href="./template_assets/css/bootstrap.css" rel="stylesheet">
+        <link href="./template_assets/css/main.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+		  <script src="./template_assets/js/html5shiv.min.js"></script>
+		  <script src="./template_assets/js/respond.min.js"></script>
+		<![endif]-->
+
+        <link rel="stylesheet" href="./template_assets/css/bootstrap.min.css">
+        <script src="./template_assets/js/jquery.min.js"></script>
+        <script src="./template_assets/js/bootstrap.min.js"></script>
+
+		
+	</head>
+
+<body>
+
+
+	 <script type="text/javascript">
+function getNews(month) {
+    
+	year = document.getElementById("newsYear").value; 
+
+	document.location.href="axUserNews.php?newsMonth="+month+"&newsYear="+year;
+	           
+}
+</script>
+<div class="container">
+	  <div class="header">
+		  <div class="row logo">
+	     <div class="col-md-12 col-sm-12">
+		     <img src="./template_assets/images/conventuals-india.png" class="img-responsive center-block">
+		  </div>
+			</div>
+			 <div class="wrap"> 
+             
+	    <div class="row main-content">
+		  	<div class="col-lg-3 col-md-3 col-sm-12 ">
+		  		  	
+    		  		<ul class="list-unstyled link">
+			<li class="link_forli"><a href="./index.php"><b>HOME </b></a></li>
+          <li class="link_forli"><a href="./axAbout.php"><b>WHO WE ARE</b></a></li>
+          <li class="link_forli"><a href="./axUserAdministration.php?categoryId=1"><b>ADMINISTRATION</b></a></li>
+          <li class="link_forli"> <a href="./axUserFriaries.php"><b>FRIARIES</b> </a></li>
+          <li class="link_forli"><a href="./axUserMinistries.php"><b>MINISTRIES</b></a></li>
+          <li class="link_forli"><a href="./axUserGallery.php"><b>VOCATION</b></a></li>
+          <li class="link_forli"><a href="./axUserContact.php"><b>FRIENDS OF SMK</b></a></li>
+          
+            <!--<a href=""></a>-->
+          <li class="link_forli"><a href="./axSetUpOfTheProvince.php"><b>SET UP OF THE PROVINCE</b></a></li>
+		</ul>
+		  	  	
+		  	
+		  </div>
+		  	
+			  <div class="col-lg-4 col-md-4 col-sm-12 col-md-offset-1">
+			  	
+			  <img src="./template_assets/images/st.franscis.png" class="img-responsive center-block" alt="st.francis" style="margin-top:1px; width:90%"/>
+	
+			  	
+		    </div>
+			  
+			  <div class="col-lg-4 col-md-4 col-sm-12  ">
+				  <div class="right ">
+                  
+                  <div style="margin-top:20px;"></div>
+          <div class="" >
+            <ul class="nav nav-tabs table-link"   >
+              <li class="active" style="width:30%"><a data-toggle="tab" href="#home">NEWS</a></li>
+              <li style="width:40%"><a data-toggle="tab" href="#menu1">CALENDER</a></li>
+              <li style="width:30%"><a data-toggle="tab" href="#menu2">PHOTOS</a></li>
+            </ul>
+            <div class="tab-content table-link-new">
+              <div id="home" class="tab-pane fade in active">
+              
+                              <table class="table table-date">
+                  <tr>
+                    <td style="padding-left:10px ">10.05.2023</td>
+                  </tr>
+                </table>
+                <table class="table-content">
+                  <tr style="border-bottom:1px solid #b2a18e">
+                    <td style="padding-left:10px">
+                    <a href="./axNewsDetails.php?newsId=61&newsMonth=05&newsYear=2023">
+					Class on Rule of 1223                    </a>
+                    </td>
+                    <td style="float: right">
+                    
+                                        	<a class="example-image-link" href="./uploads/news/AXE168413657461.jpg" rel="prettyPhoto[img-2]" >
+                         <img src="./uploads/news/AXE168413657461.jpg" height="58px" width="93px" /> 
+                        </a>
+                                        <!--<img src="template_assets/images/test-img.jpg" alt=""/>--></td>
+                  </tr>
+                </table>
+                               <table class="table table-date">
+                  <tr>
+                    <td style="padding-left:10px ">05.05.2023</td>
+                  </tr>
+                </table>
+                <table class="table-content">
+                  <tr style="border-bottom:1px solid #b2a18e">
+                    <td style="padding-left:10px">
+                    <a href="./axNewsDetails.php?newsId=58&newsMonth=05&newsYear=2023">
+					New Priests                    </a>
+                    </td>
+                    <td style="float: right">
+                    
+                                        	<a class="example-image-link" href="./uploads/news/AXE168326911258.jpg" rel="prettyPhoto[img-2]" >
+                         <img src="./uploads/news/AXE168326911258.jpg" height="58px" width="93px" /> 
+                        </a>
+                                        <!--<img src="template_assets/images/test-img.jpg" alt=""/>--></td>
+                  </tr>
+                </table>
+                               <table class="table table-date">
+                  <tr>
+                    <td style="padding-left:10px ">05.05.2023</td>
+                  </tr>
+                </table>
+                <table class="table-content">
+                  <tr style="border-bottom:1px solid #b2a18e">
+                    <td style="padding-left:10px">
+                    <a href="./axNewsDetails.php?newsId=59&newsMonth=05&newsYear=2023">
+					First Profession 2023                    </a>
+                    </td>
+                    <td style="float: right">
+                    
+                                        	<a class="example-image-link" href="./uploads/news/AXE168379920159.jpg" rel="prettyPhoto[img-2]" >
+                         <img src="./uploads/news/AXE168379920159.jpg" height="58px" width="93px" /> 
+                        </a>
+                                        <!--<img src="template_assets/images/test-img.jpg" alt=""/>--></td>
+                  </tr>
+                </table>
+                               <table class="table table-date">
+                  <tr>
+                    <td style="padding-left:10px ">05.05.2023</td>
+                  </tr>
+                </table>
+                <table class="table-content">
+                  <tr style="border-bottom:1px solid #b2a18e">
+                    <td style="padding-left:10px">
+                    <a href="./axNewsDetails.php?newsId=60&newsMonth=05&newsYear=2023">
+					Solemn Profession                    </a>
+                    </td>
+                    <td style="float: right">
+                    
+                                        	<a class="example-image-link" href="./uploads/news/AXE168379790960.jpg" rel="prettyPhoto[img-2]" >
+                         <img src="./uploads/news/AXE168379790960.jpg" height="58px" width="93px" /> 
+                        </a>
+                                        <!--<img src="template_assets/images/test-img.jpg" alt=""/>--></td>
+                  </tr>
+                </table>
+                               <table class="table table-date">
+                  <tr>
+                    <td style="padding-left:10px ">04.10.2022</td>
+                  </tr>
+                </table>
+                <table class="table-content">
+                  <tr style="border-bottom:1px solid #b2a18e">
+                    <td style="padding-left:10px">
+                    <a href="./axNewsDetails.php?newsId=57&newsMonth=10&newsYear=2022">
+					Holy week celebrations…..                    </a>
+                    </td>
+                    <td style="float: right">
+                    
+                                        	<a class="example-image-link" href="./uploads/news/AXE165606541557.jpg" rel="prettyPhoto[img-2]" >
+                         <img src="./uploads/news/AXE165606541557.jpg" height="58px" width="93px" /> 
+                        </a>
+                                        <!--<img src="template_assets/images/test-img.jpg" alt=""/>--></td>
+                  </tr>
+                </table>
+                
+                
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <table class="table table-date">
+                  <tr>
+                    <td align="center">
+					<select name="newsYear" id="newsYear">
+                    <option value='2019'>2019</option><option value='2020'>2020</option><option value='2021'>2021</option><option value='2022'>2022</option><option value='2023'>2023</option>                    
+                    </select>
+					</td>
+                  </tr>
+                </table>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(1);" href="#">January</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(2);" href="#">February</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(3);" href="#">March</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(4);" href="#">April</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(5);" href="#">May</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(6);" href="#">June</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(7);" href="#">July</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(8);" href="#">August</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(9);" href="#">September</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(10);" href="#">October</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(11);" href="#">November</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                <div class="col-md-4" align="center">
+                  <table class="table table-date-cal" >
+                    <tr>
+                      <td align="center"><a onclick="getNews(12);" href="#">December</a></td>
+                    </tr>
+                  </table>
+                </div>
+                                
+              </div>
+              <div id="menu2" class="tab-pane fade">
+                <div class="col-md-12 gal-area" align="center">
+                
+                                <div class="col-md-12">
+                                  <div class="col-md-6" align="center"> 
+                      <a class="example-image-link" href="./uploads/gallery/GAL_2_8J5Y.jpg" rel="prettyPhoto[img-1]" > 
+                      	<img src="./uploads/gallery/GAL_2_8J5Y.jpg" class="img-responsive center-block gal-img"  /> 
+                      </a> 
+                  </div>
+                                    <div class="col-md-6" align="center"> 
+                      <a class="example-image-link" href="./uploads/gallery/GAL_2_JDAS.jpg" rel="prettyPhoto[img-1]" > 
+                      	<img src="./uploads/gallery/GAL_2_JDAS.jpg" class="img-responsive center-block gal-img"  /> 
+                      </a> 
+                  </div>
+                                      </div>
+                                <div class="col-md-12">
+                                  <div class="col-md-6" align="center"> 
+                      <a class="example-image-link" href="./uploads/gallery/GAL_2_710ZF.jpg" rel="prettyPhoto[img-1]" > 
+                      	<img src="./uploads/gallery/GAL_2_710ZF.jpg" class="img-responsive center-block gal-img"  /> 
+                      </a> 
+                  </div>
+                                    <div class="col-md-6" align="center"> 
+                      <a class="example-image-link" href="./uploads/gallery/GAL_3_Q49I.jpg" rel="prettyPhoto[img-1]" > 
+                      	<img src="./uploads/gallery/GAL_3_Q49I.jpg" class="img-responsive center-block gal-img"  /> 
+                      </a> 
+                  </div>
+                                      </div>
+                                <div class="col-md-12">
+                                  <div class="col-md-6" align="center"> 
+                      <a class="example-image-link" href="./uploads/gallery/GAL_3_210M9.jpg" rel="prettyPhoto[img-1]" > 
+                      	<img src="./uploads/gallery/GAL_3_210M9.jpg" class="img-responsive center-block gal-img"  /> 
+                      </a> 
+                  </div>
+                                    <div class="col-md-6" align="center"> 
+                      <a class="example-image-link" href="./uploads/gallery/GAL_3_ZKB8.jpg" rel="prettyPhoto[img-1]" > 
+                      	<img src="./uploads/gallery/GAL_3_ZKB8.jpg" class="img-responsive center-block gal-img"  /> 
+                      </a> 
+                  </div>
+                                      </div>
+                                  
+               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+			  
+		  	
+		  </div>
+	  	
+	  	
+	  	
+	  </div>
+	  
+  		
+  		  </div>
+  	
+ 
+  	<div class="col-md-12 footer" >
+  		<div class="col-md-3 col-sm-3 col-md-offset-1" >
+        
+        
+         
+				<a href="./axUserFratres.php" />
+						FRATERS
+				</a>
+                
+          			<br>
+            
+         
+				<a href="./axUserAmalothbhava.php" />
+						AMALOTHBHAVA
+				</a>
+
+		   			
+  			
+	  </div>
+  		
+  		<div class="col-md-3 col-sm-3 col-md-offset-1" >
+        <a href="https://www.youtube.com/channel/UCvLgPzOC2ZmjKSpOzKXoBMQ/videos" target="_blank">
+	      <img src="./template_assets/images/klobe.jpg" alt=""/> 
+        </a>
+          
+          </div>
+ 		
+  		<div class="col-md-3 col-sm-3 col-md-offset-1" >
+  		
+        <a href="http://fcpd.in/" target="_blank">	
+  		FCPD	
+        </a>
+		</div>
+	
+	
+	</div>
+	  
+  	
+  	
+	
+  	
+  	
+	  </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="./template_assets/js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="./template_assets/js/bootstrap.js"></script>
+    
+    
+    <link rel="stylesheet" href="./js/pretty-photos/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+
+	<script src="./js/pretty-photos/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+    
+      $(document).ready(function(){
+    
+        $("a[rel^='prettyPhoto']").prettyPhoto();
+    
+      });
+    
+     </script>
+
+</body>
+
+</html>
+
+

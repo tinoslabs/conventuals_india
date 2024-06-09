@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+		<!--sab banner start-->
+		<!-- <div class="sab_banner_wrap" style="margin-top: -45px">
+			<div class="sub_slider">
+                <div class="banner_slide">
+					<img src="{% static 'image/IMG_69788888.JPG' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans "PADRE PIO SHRINE" %}</h3>
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans "PADRE PIO SHRINE" %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		
+		<div class="content">
+			<section class="ministry_detail padding-bottom">
+				<div class="container">
+					<div class="ministry_column">
+						<div class="left_side-content">
+							<figure>
+								<img src="{% static 'images/srilanka-1.jpg' %}" alt="">
+							</figure>
+							<div class="ministry_content">
+								<h4 class="custom-font-30px" style="color: #c62641;">{% trans "Padre Pio Shrine" %}</h4>
+								<p style="font-family: 'Open Sans';color: black;">{% trans "Padre Pio Shrine" %}<br>
+                                    {% trans "Sethsirigama" %}<br>
+                                    {% trans "Athurugiriya" %}<br>
+                                    Colombo<br>
+                                    Sri Lanka<br>
+                                    Tel: (0094) 0011 2771781</p>
+							</div>
+						</div>
+						<!-- <p>Quisque sollicitudin urna mollis, cursus est et, porta velit. Morbi dictum neque pretium fringilla luctus. Aliquam nulla odio, fermentum vehicula justo a, ullamcorper hendrerit arcu. Nam lacus tortor, vestibulum vulputate velit eu, sollicitudin dapibus tellus. Pellentesque sed finibus arcu, non hendrerit lacus. Ut pulvinar mi sit amet erat ornare pellentesque. Nam hendrerit aliquam malesuada. Aenean scelerisque nisl vitae risus eleifend, non faucibus massa vulputate. Nullam a diam condimentum, gravida arcu sed, feugiat sem. Nullam ullamcorper massa eget orci tristique, at semper neque venenatis. Fusce sed viverra turpis.</p> -->
+						<div class="divider_30"></div>
+						<h4 class="custom-font-30px"><u>{% trans "HISTORY" %}</u></h4>
+						<p style="text-align: justify;font-family: 'Open Sans';color: black;">{% trans "padre pio discription" %}
+                             </p>
+						<div class="divider_30"></div>
+						
+						
+					</div>
+				</div>
+			</section>
+			<div class="church_prayer_block height padding-0">
+				<div class="container">
+					<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'We must not be wise and prudent according to the flesh,rather,we must be simple,humble and pure' %}..</p>
+						<P>{% trans 'SAINT FRANCIS OF ASSISI' %}</P>
+    					<a href="{% url 'friends_of_smk' %}" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+					<div class="pull-right">
+						<figure>
+							<img src="{% static 'image/assisi3.jpg' %}" alt="">
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		{% endblock %}

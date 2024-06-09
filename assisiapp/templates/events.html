@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+         
+            <!-- <div class="sab_banner_wrap overlay" style="margin-top: -45px">
+                <div class="sub_slider">
+                    <div class="banner_slide">
+                        <img src="{% static 'image/IMG_69788888.JPG' %}" alt="">
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="sab_banner_text">
+                        <h3>Our Events</h3>
+                        
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+                <div class="sub_slider">
+                    <div class="banner_slide">
+                        <img src="{% static 'image/common-img.jpg' %}" alt="">
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="sab_banner_text">
+                        <h3>{% trans 'Our Events' %}</h3>
+                        
+                        <div class="banner_dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- page-header -->
+            <!-- Page Content -->
+            <div class="content-wrapper pad-none">
+                <div class="content-inner">
+                    <section id="events-section" class="events-section pad-top-120 pad-bottom-65">
+                        <h2 class="screen-reader-text">Events</h2>
+                        <div class="container">
+                            
+                            <div class="row">
+                                <!-- Col -->
+                                <div class="col-md-12">
+                                    <!--events Main wrap-->
+                                    <div class="events-main-wrapper events-grid events-style-3">
+                                        <div class="row">
+                                            {% for event in events %}
+                                            <!-- Col-md -->
+                                            <div class="col-lg-4 col-md-6">
+                                                <!--events Inner-->
+                                                <div class="events-inner margin-bottom-35">
+                                                    <!--events Thumb-->
+                                                    <a href="{% url 'event_details' event.id %}">
+                                                        <div class="events-thumb margin-bottom-30 relative">
+                                                            {% if event.event_image %}
+                                                                <img src="{{ event.event_image.url }}" class="img-fluid thumb w-100" alt="events-img" />
+                                                            {% else %}
+                                                                <img src="path/to/default/image.jpg" class="img-fluid thumb w-100" alt="Default Image" />
+                                                            {% endif %}
+                                                        </div>
+                                                    </a>
+                                                    <!--events details-->
+                                                    <div class="events-details pad-none">
+														<div class="event-date mb-2">{{event.start_date}}<span class="event-time">{{event.start_time}}</span>
+														</div>
+                                                        <div class="event-title pt-1 mb-3">
+															<h5><a href="{% url 'event_details' event.id %}">{{event.event_name}}</a></h5>
+														</div>
+														<div class="read-more">
+															<a href="{% url 'event_details' event.id %}">Read More</a>
+														</div>                                                        
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            {% endfor %}                                                                  
+                                        </div>
+                                       
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- .page-wrapper-inner -->
+    </div>
+    <!--page-wrapper-->  
+    <style>
+        .events-thumb {
+            /* Set the height of the container */
+            height: 300px; /* Adjust as needed */
+            overflow: hidden; /* Hide any overflow content */
+        }
+
+        .events-thumb img {
+            /* Set the image to cover the container */
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>  
+
+    {% endblock %}

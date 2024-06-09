@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Conventuals India</title>
+
+    <!-- Bootstrap -->
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <!-- Font-awesome -->
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+    <!-- Slick Slider -->
+    <link href="{% static 'css/slick.css' %}" rel="stylesheet">
+    <link href="{% static 'css/fancy_slider.css' %}" rel="stylesheet">
+    <!-- audio.css -->
+    <link href="{% static 'css/audio.css' %}" rel="stylesheet">
+    <!-- Typography -->
+    <link href="{% static 'css/typography.css' %}" rel="stylesheet">
+    <!-- widget.css -->
+    <link href="{% static 'css/widget.css' %}" rel="stylesheet">
+    <!-- selectric.css -->
+    <link href="{% static 'css/selectric.css' %}" rel="stylesheet">
+    <!-- svg-icons.css -->
+    <link href="{% static 'css/svg-icons.css' %}" rel="stylesheet">
+    <!-- component-responsive.css -->
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+    <!-- shortcodes.css -->
+    <link href="{% static 'css/shortcodes.css' %}" rel="stylesheet">
+    <!-- colors.css -->
+    <link href="{% static 'css/colors.css' %}" rel="stylesheet">
+    <!-- style.css -->
+    <link href="{% static 'style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="{% static 'sub-style/css/bootstrap.min.css' %}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'sub-style/css/font-awesome.min.css' %}">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="{% static 'sub-style/css/simple-line-icons.min.css' %}">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="{% static 'sub-style/css/themify-icons.css' %}">
+    <!-- Owl Slider -->
+    <link rel="stylesheet" href="{% static 'sub-style/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'sub-style/css/owl.theme.default.min.css' %}">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="{% static 'sub-style/css/magnific-popup.css' %}">
+	 <!-- Revolution Slider -->
+	 <link rel="stylesheet" type="text/css" href="rs-plugin/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+	 <!-- REVOLUTION STYLE SHEETS -->
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css">
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/home-3/rs6.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="{% static 'sub-style/css/color-schemes/red.css' %}">
+    <link rel="stylesheet" href="{% static 'sub-style/css/style.css' %}" class="main-style">
+    <style>	#rev_slider_6_1_wrapper .tp-loader.spinner1{ background-color: #FFFFFF !important; } </style>
+	<style>.rs-layer.Concept-Content a,.rs-layer.Concept-Content a:visited{color:#fff !important; border-bottom:1px solid #fff !important; font-weight:700 !important}.rs-layer.Concept-Content a:hover{border-bottom:1px solid transparent !important}.rs-layer.Concept-Content-Dark a,.rs-layer.Concept-Content-Dark a:visited{color:#000 !important; border-bottom:1px solid #000 !important; font-weight:700 !important}.rs-layer.Concept-Content-Dark a:hover{border-bottom:1px solid transparent !important}@media only screen and (max-width:575px){rs-layer.res-slide-btn{padding:7px 16px !important;  font-size:13px !important}}</style>
+
+    
+
+    <link rel="stylesheet" type="text/css" href="{% static 'sub_menu/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="shortcut icon" href="{% static 'image/Asset_4300_400x107.png' %}" style="height: 50%;" />
+    
+
+    
+    <style>
+        #header-carousel .carousel-caption {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0, 0, 0, .5);
+            z-index: 1;
+        }
+
+        #header-carousel .carousel-control-prev,
+        #header-carousel .carousel-control-next {
+            width: 10%;
+        }
+
+        #header-carousel .carousel-control-prev-icon,
+        #header-carousel .carousel-control-next-icon {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            #header-carousel .carousel-item {
+                position: relative;
+                min-height: 500px;
+            }
+            
+            #header-carousel .carousel-item img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        #header-carousel .carousel-indicators [data-bs-target] {
+            width: 60px;
+            height: 60px;
+            text-indent: 0;
+            margin-bottom: 15px;
+            border: 2px solid #FFFFFF;
+            border-radius: 60px;
+            overflow: hidden;
+        }
+
+        #header-carousel .carousel-indicators [data-bs-target] img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .shake {
+        animation: shake 0.2s infinite alternate;
+        }
+
+        @keyframes shake {
+            from {
+                transform: rotate(-3deg);
+            }
+            to {
+                transform: rotate(3deg);
+            }
+        }
+        .header_version_3 {
+        /* position: fixed; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; 
+        background-color: #fff; 
+       
+        }
+        
+        /* .wrapper {
+        margin-top: 300px; 
+        } */
+        
+    .wrapper {
+        margin-top: 150px; 
+    }
+        
+    /* position fixed navbar start */
+
+    .church_navigation_block {
+        position: relative;
+    }
+    /* Add transition for smooth effect */
+    .church_navigation_block {
+        position: relative;
+        transition: all 0.3s ease;
+    }
+    /* Add fixed position when the 'fixed' class is applied */
+    .church_navigation_block.fixed {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #bf0a30;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    /* Ensure space is reserved when the navbar becomes fixed */
+    .church_container_version2.placeholder {
+        height: 70px; /* Adjust as needed */
+    }
+
+    .ch_testimonial_item.active {
+    border-color: #dc3545; /* Highlight the active item with a gold border */
+    }
+
+    
+    
+    </style>
+    <style>
+        @media screen and (max-width: 300px){
+            .church_testimonial_nav {
+                display: flex;
+                flex-direction: column; /* Adjust direction for smaller screens */
+                align-items: center; /* Center align items */
+            }
+
+            .church_testimonial_slider .testimonial_item {
+                padding: 50px;
+            }
+
+            .church_testimonial_nav .ch_testimonial_item {
+                width: 100%; /* Ensure the testimonial item takes full width */
+                max-width: 100%; /* Ensure responsiveness */
+                margin: 20px 0; /* Adjust margin for better spacing */
+                border: 5px solid transparent;
+            }
+
+            /* .church_testimonial_nav .ch_testimonial_item img {
+                height: 30%; 
+                width: 100%; 
+                max-width: 150px; 
+                display: block; 
+            } */
+            .church_testimonial_nav .ch_testimonial_item img {
+                width: 100%; /* Set the width of the image */
+                max-width: 100%; /* Ensure responsiveness */
+                max-height: 50px;
+                height: 50px; /* Maintain aspect ratio */
+                display: block; /* Ensure the image is displayed as a block element */
+                margin: 0 auto;
+                align-items: center;
+                 /* Center the image horizontally */
+            }
+            .ch_testimonial_item.active {
+                border-color: #dc3545; /* Highlight the active item with a gold border */
+            }
+        }
+
+        @media screen and (min-width: 300px) and (max-width: 400px) {
+            .church_testimonial_nav {
+                display: flex;
+                flex-direction: column; /* Adjust direction for smaller screens */
+                align-items: center; /* Center align items */
+            }
+
+            .church_testimonial_slider .testimonial_item {
+                padding: 50px;
+            }
+
+            .church_testimonial_nav .ch_testimonial_item {
+                width: 100%; /* Ensure the testimonial item takes full width */
+                max-width: 100%; /* Ensure responsiveness */
+                margin: 20px 0; /* Adjust margin for better spacing */
+                border: 5px solid transparent;
+            }
+
+            /* .church_testimonial_nav .ch_testimonial_item img {
+                height: 30%; 
+                width: 100%; 
+                max-width: 150px; 
+                display: block; 
+            } */
+            .church_testimonial_nav .ch_testimonial_item img {
+                width: 100%; /* Set the width of the image */
+                max-width: 100%; /* Ensure responsiveness */
+                max-height: 50px;
+                height: 50px; /* Maintain aspect ratio */
+                display: block; /* Ensure the image is displayed as a block element */
+                margin: 0 auto; /* Center the image horizontally */
+            }
+            .ch_testimonial_item.active {
+                border-color: #dc3545; /* Highlight the active item with a gold border */
+            }
+        }
+        @media screen and (min-width: 400px) and (max-width: 500px) {
+            .church_testimonial_nav {
+                display: flex;
+                flex-direction: column; /* Adjust direction for smaller screens */
+                align-items: center; /* Center align items */
+            }
+
+            .church_testimonial_slider .testimonial_item {
+                padding: 50px;
+            }
+
+            .church_testimonial_nav .ch_testimonial_item {
+                width: 100%; /* Ensure the testimonial item takes full width */
+                max-width: 100%; /* Ensure responsiveness */
+                margin: 20px 0; /* Adjust margin for better spacing */
+                border: 5px solid transparent;
+            }
+
+            /* .church_testimonial_nav .ch_testimonial_item img {
+                height: 30%; 
+                width: 100%; 
+                max-width: 150px; 
+                display: block; 
+            } */
+            .church_testimonial_nav .ch_testimonial_item img {
+                width: 100%; /* Set the width of the image */
+                max-width: 100px; /* Ensure responsiveness */
+                max-height: 60px;
+                height: 50px; /* Maintain aspect ratio */
+                display: block; /* Ensure the image is displayed as a block element */
+                margin: 0 auto; /* Center the image horizontally */
+            }
+            .ch_testimonial_item.active {
+                border-color: #dc3545; /* Highlight the active item with a gold border */
+            }
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 600px) {
+            .church_testimonial_nav {
+                display: flex;
+                flex-direction: column; /* Adjust direction for smaller screens */
+                align-items: center; /* Center align items */
+            }
+
+            .church_testimonial_slider .testimonial_item {
+                padding: 50px;
+            }
+
+            .church_testimonial_nav .ch_testimonial_item {
+                width: 100%; /* Ensure the testimonial item takes full width */
+                max-width: 100%; /* Ensure responsiveness */
+                margin: 20px 0; /* Adjust margin for better spacing */
+                border: 5px solid transparent;
+            }
+
+            /* .church_testimonial_nav .ch_testimonial_item img {
+                height: 30%; 
+                width: 100%; 
+                max-width: 150px; 
+                display: block; 
+            } */
+            .church_testimonial_nav .ch_testimonial_item img {
+                width: 100%; /* Set the width of the image */
+                max-width: 100px; /* Ensure responsiveness */
+                max-height: 70px;
+                height: 50px; /* Maintain aspect ratio */
+                display: block; /* Ensure the image is displayed as a block element */
+                margin: 0 auto; /* Center the image horizontally */
+            }
+            .ch_testimonial_item.active {
+                border-color: #dc3545; /* Highlight the active item with a gold border */
+            }
+        }
+        @media screen and (min-width: 600px) and (max-width: 700px) {
+            .church_testimonial_nav {
+                display: flex;
+                flex-direction: column; /* Adjust direction for smaller screens */
+                align-items: center; /* Center align items */
+            }
+
+            .church_testimonial_slider .testimonial_item {
+                padding: 50px;
+            }
+
+            .church_testimonial_nav .ch_testimonial_item {
+                width: 100%; /* Ensure the testimonial item takes full width */
+                max-width: 100%; /* Ensure responsiveness */
+                margin: 20px 0; /* Adjust margin for better spacing */
+                border: 10px solid transparent;
+            }
+
+            /* .church_testimonial_nav .ch_testimonial_item img {
+                height: 30%; 
+                width: 100%; 
+                max-width: 150px; 
+                display: block; 
+            } */
+            .church_testimonial_nav .ch_testimonial_item img {
+                width: 100%; /* Set the width of the image */
+                max-width: 100px; /* Ensure responsiveness */
+                max-height: 100px;
+                height: 50px; /* Maintain aspect ratio */
+                display: block; /* Ensure the image is displayed as a block element */
+                margin: 0 auto; /* Center the image horizontally */
+            }
+            .ch_testimonial_item.active {
+                border-color: #dc3545; /* Highlight the active item with a gold border */
+            }
+        }
+        
+        @media screen and (min-width: 700px) and (max-width: 800px) {
+            .church_testimonial_nav {
+                display: flex;
+                flex-direction: column; /* Adjust direction for smaller screens */
+                align-items: center; /* Center align items */
+            }
+
+            .church_testimonial_slider .testimonial_item {
+                padding: 50px;
+            }
+
+            .church_testimonial_nav .ch_testimonial_item {
+                width: 100%; /* Ensure the testimonial item takes full width */
+                max-width: 100%; /* Ensure responsiveness */
+                margin: 20px 0; /* Adjust margin for better spacing */
+                border: 10px solid transparent;
+            }
+
+           
+            .church_testimonial_nav .ch_testimonial_item img {
+                width: 100%; /* Set the width of the image */
+                max-width: 100px; /* Ensure responsiveness */
+                max-height: 100px;
+                height: 50px; /* Maintain aspect ratio */
+                display: block; /* Ensure the image is displayed as a block element */
+                margin: 0 auto; /* Center the image horizontally */
+            }
+            .ch_testimonial_item.active {
+                border-color: #dc3545; /* Highlight the active item with a gold border */
+            }
+        }
+
+        @media screen and (min-width: 863px) and (max-width: 864px) {
+            .church_testimonial_nav {
+                display: flex;
+                flex-direction: column; /* Adjust direction for smaller screens */
+                align-items: center; /* Center align items */
+            }
+
+            .church_testimonial_slider .testimonial_item {
+                padding: 50px;
+            }
+
+            .church_testimonial_nav .ch_testimonial_item {
+                width: 100%; /* Ensure the testimonial item takes full width */
+                max-width: 100%; /* Ensure responsiveness */
+                margin: 30px 0; /* Adjust margin for better spacing */
+                border: 10px solid transparent;
+            }
+
+            
+            .church_testimonial_nav .ch_testimonial_item img {
+                width: 100%; /* Set the width of the image */
+                max-width: 100px; /* Ensure responsiveness */
+                max-height: 100px;
+                height: 50px; /* Maintain aspect ratio */
+                display: block; /* Ensure the image is displayed as a block element */
+                margin: 0 auto; /* Center the image horizontally */
+            }
+            
+            .ch_testimonial_item.active {
+                border-color: #dc3545; /* Highlight the active item with a gold border */
+            }
+        }
+        
+        @media screen and (min-width: 900px) and (max-width: 965px) {
+            .church_testimonial_nav {
+                display: flex;
+                flex-direction: column; /* Adjust direction for smaller screens */
+                align-items: center; /* Center align items */
+            }
+
+            .church_testimonial_nav .ch_testimonial_item img {
+                width: 100%; /* Set the width of the image */
+                max-width: 100px; /* Ensure responsiveness */
+                max-height: 100px;
+                height: 50px; /* Maintain aspect ratio */
+                display: block; /* Ensure the image is displayed as a block element */
+                margin: 0 auto; /* Center the image horizontally */
+            }
+        
+        }
+
+
+    </style>
+    <style>
+        /* @media screen and (max-width: 400px) {
+            .carousel-caption h1 {
+                font-size: 24px;
+                font-family: 'Monotype Corsiva';
+                margin-top: -50px;
+                
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .carousel-caption h1 {
+                font-size: 30px;
+                font-family: 'Monotype Corsiva';
+                margin-top: -160px;
+                 
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .carousel-caption h1 {
+                font-size: 40px;
+                font-family: 'Monotype Corsiva';
+                margin-top: -140px;
+                
+            }
+            
+        }
+        
+        @media screen and (min-width: 770px) and (max-width: 863px) {
+            .carousel-caption h1 {
+                font-size: 40px;
+                font-family: 'Monotype Corsiva';
+                margin-top: -220px;
+             
+            }
+        } */
+
+        @media screen and (max-width: 964px) {
+            .carousel-caption h1 {
+                font-size: 40px;
+                font-family: 'Motoya Maru Std-W6';
+                padding-top: -100px;
+                 
+             
+            }
+            .carousel-item{
+                margin-top: 130px;
+            }
+            
+        }
+
+        
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            }
+
+            #calendar {
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px; /* Adjusted width */
+            height: 400px; /* Adjusted height */
+            }
+
+            #calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px; /* Adjusted padding */
+            background-color: #007BFF;
+            color: #fff;
+            }
+
+            #calendar-month-year {
+                font-size: 1.2em; /* Adjusted font size */
+                color: #dc3545; /* Changed color */
+                }
+
+            #calendar-header button {
+            background-color: #0056b3;
+            border: none;
+            color: #fff;
+            padding: 5px 10px; /* Adjusted padding */
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.8em; /* Adjusted font size */
+            }
+
+            #calendar-header button:hover {
+            background-color: #003d80;
+            }
+
+            #calendar-month-year {
+            font-size: 1.2em; /* Adjusted font size */
+            }
+
+            #calendar-table {
+            width: 100%;
+            border-collapse: collapse;
+            }
+
+            #calendar-table th, #calendar-table td {
+            width: 14.28%;
+            text-align: center;
+            padding: 5px; /* Adjusted padding */
+            }
+
+            #calendar-table th {
+            background-color: #007BFF;
+            color: #fff;
+            }
+
+            #calendar-table td {
+            cursor: pointer;
+            color: black;
+            }
+
+            #calendar-table td:hover {
+            background-color: #f0f0f0;
+            }
+
+            .today {
+            background-color: #ffd700;
+            }
+
+      </style>
+      <!-- <style>
+        
+
+            .church_map iframe {
+                width: 100%;
+                height: calc(100% - 15rem); 
+                border: 0;
+                display: block;
+            }
+      </style> -->
+    
+
+  </head>
+  <body>
+
+    <!--church wrapper-->
+    <div class="wrapper">
+        <!--church header-->
+        <header class="header_version_3">
+            <div class="header_top_row">
+                <div class="container">
+                    <ul class="church_accounts_language">
+                        
+                        
+                        
+                        <li class="">
+                            <div class="language_changer">
+                                {% get_current_language as CURRENT_LANGUAGE %}
+                                {% get_available_languages as AVAILABLE_LANGUAGES %}
+                                {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
+                                <select class="location-select" onchange="changeLanguage(this)">
+                                    {% for language in languages %}
+                                    <option value="{% if language.code == 'en' %}/{% else %}/{{ language.code }}/{% endif %}" {% if language.code == CURRENT_LANGUAGE %}selected{% endif %}>{{ language.name_local }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </li>
+                    
+                    </ul>
+                    
+                    
+                    <div class="pull-right">
+                        <!--church social icons-->
+                        <div class="social-icons">
+                            <ul class="social-icons_list">
+                                <li><a href="https://www.facebook.com/people/Order-of-Friars-Minor-Conventual-India/61556787410909/?mibextid=ZbWKwL"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCvLgPzOC2ZmjKSpOzKXoBMQ/videos"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                <li><a href="https://whatsapp.com/channel/0029VaK8iJf7T8bV7FxDP423"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/conventual_franciscans_india/?igsh=MW9oMmdyYms2ajM0Mw%3D%3D"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FOFMCONV_India"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <!--church social icons ends-->
+                    </div>
+                </div>
+            </div>
+            <!--church header container-->
+            <div class="church_container_version2" id="church-container">
+                <!--church container-->
+                <div class="container">
+                    <!--church logo-->
+                    <div class="church_logo">
+                        
+                        <!-- <h1><a href="{% url 'index' %}"><img src="{% static 'image/Asset_4300_400x107.png' %}" alt="church logo"></a></h1> -->
+                        <h1><a href="{% url 'index' %}"><img src="{% static 'image/Asset 103000.png' %}" alt="church logo"></a></h1>
+                        
+                    </div>
+                    
+                    
+                    <a href="#" class="event-link">    
+                        <div class="pull-right" id="events">
+                            {% if active_events %}
+                                {% with latest_event=active_events|first %}
+                                    <div class="church_countdown_timer">
+                                        <a href="{% url 'event_details' latest_event.id %}"><small>Next Upcoming Event : {{ latest_event.event_name }}</small></a>
+                                        <ul class="countdown">
+                                            <li><h7 style="color: black;"><b>Date:</b></h7><span>{{ latest_event.start_date }} | {{ latest_event.start_time }}</span></li>
+                                        </ul>
+                                        <button class="ch_add_events"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                       
+                                    </div>
+                                    
+                                {% endwith %}
+                            {% else %}
+
+                            
+                            
+                            <div class="church_countdown_timer">
+                                <a href=""><small>Next Upcoming Event : Coming Soon</small></a>
+                                <ul class="countdown">
+                                    <!-- <li><h7 style="color: black;"><b>Date:</b></h7><span>{{ latest_event.start_date }} | {{ latest_event.start_time }}</span></li> -->
+                                    <li><h7 style="color: black;"><b>Date : </b></h7><span>dd/mm/yy | 00.00-am/pm</span>
+                                        
+    
+                                </ul>
+                                <button class="ch_add_events"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                               
+                            </div>
+                            {% endif %}
+                            
+                        </div>
+                        
+                    </a>  
+                </div>    
+            </div>    
+            <div class="church_navigation_block" id="sticky-navbar">
+                <div class="container">
+                    <div id="kode-responsive-navigation" class="dl-menuwrapper" style="color: white; height: inherit;">
+                        <button class="dl-trigger">Menu</button>
+                        <ul class="dl-menu">
+                            <li class="active"><a class="active" href="{% url 'index' %}">{% trans "Home" %}</a>
+                                
+                            </li>
+                            <li class="menu-item"><a href="">{% trans "About Us" %}</a>
+                                <ul class="dl-submenu">
+                                    <li><a href="{% url 'st_francis_of_assisi' %}">{% trans "St. Francis of Assisi" %}</a></li>
+                                    <!-- <li><a href="{% url 'st_francis_of_assisi' %}">{% trans "St. Francis of Assisi" %}</a></li> -->
+                                    <li><a href="{% url 'history_of_the_order' %}">{% trans "History of the Order" %}</a></li>
+                                    <li><a href="{% url 'conventuals_in_india' %}">{% trans "Conventuals in India" %}</a></li>
+                                    <li><a href="{% url 'conventual_charism' %}">{% trans "Conventual Charism" %}</a></li>
+                                    
+                                    <li><a href="{% url 'st_maximilian_kolbe' %}">{% trans "St. Maximilian Kolbe" %}</a></li>
+                                    <li><a href="{% url 'franciscan_saints' %}">{% trans "Franciscan Saints" %}</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="">{% trans "Administration" %}</a>
+                                <ul class="dl-submenu">
+                                    <li><a href="{% url 'provinical_administration' %}">{% trans "Provinical Administration" %}</a></li>
+                                    <li><a href="{% url 'ap_telengana_delegation' %}">{% trans "AP/Telengana Delegation" %}</a></li>
+                                    <li><a href="{% url 'kolkata_mission' %}">{% trans "Kolkata Mission" %}</a></li>
+                                    <li><a href="{% url 'sri_lankan_mission' %}">{% trans "Sri Lankan Mission" %}</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="">{% trans "Friaries" %}</a>
+                                <ul class="dl-submenu" style="max-height: 350px; 
+                                overflow-y: auto; ">
+                                    <h5 style="color:white;">{% trans "KERALA" %}</h5>
+                                    <li><a href="{% url 'Assisi_shanthi_kendra' %}">{% trans "Provinical Administration" %}</a></li>
+                                    <li><a href="{% url 'ap_telengana_delegation' %}">{% trans "AP/Telengana Delegation" %}</a></li>
+                                    <li><a href="{% url 'kolkata_mission' %}">{% trans "Kolkata Mission" %}</a></li>
+                                    <li><a href="{% url 'sri_lankan_mission' %}">{% trans "Sri Lankan Mission" %}</a></li>
+                                    <h5 style="color:white;">{% trans "ANDRA" %}</h5>
+                                    <li><a href="{% url 'St_Maximilian_Franciscan_Ashram' %}">{% trans "St. Maximilian Franciscan Ashram" %}</a></li>
+                                    <li><a href="{% url 'Bala_Yesu_Franciscan_Ashram' %}">{% trans "Bala Yesu Franciscan Ashram" %}</a></li>
+                                    <li><a href="{% url 'San_Cupertino_Franciscan_Ashram' %}">{% trans "San Cupertino Franciscan Ashram" %}</a></li>
+                                    <h5 style="color:white;">{% trans "KOLKATTA" %}</h5>
+                                    <li><a href="{% url 'St_Francis_Friary' %}">{% trans "St. Francis Friary" %}</a></li>
+                                    <h5 style="color:white;">{% trans "TELEGANA" %}</h5>
+                                    <li><a href="{% url 'St_Peter_Franciscan_Ashram' %}">{% trans "St. Peter Franciscan Ashram" %}</a></li>
+                                    <li><a href="{% url 'Assisi_FranciscanAshram' %}">{% trans "Assisi Franciscan Ashram" %}</a></li>
+                                    <li><a href="{% url 'St_Anthony_Franciscan_Ashram' %}">{% trans "St.Anthony Franciscan Ashram" %}</a></li>
+                                    <h5 style="color:white;">{% trans "TAMIL NADU" %}</h5>
+                                    <li><a href="{% url 'Assisi_Snehalaya' %}">{% trans "Assisi Snehalaya" %}</a></li>
+                                    <li><a href="{% url 'Belvedere_Franciscan_Ashram' %}">{% trans "Belvedere Franciscan Ashram" %}</a></li>
+                                    <h5 style="color:white;">{% trans "SRI LANKA" %}</h5>
+                                    <li><a href="{% url 'Padre_Pio_Shrine' %}">{% trans "Padre Pio Shrine" %}</a></li>
+                                    <li><a href="{% url 'Ave_Maria_Franciscan_Friary' %}">{% trans "Ave Maria Franciscan Friary" %}</a></li>
+                                    <li><a href="{% url 'St_Joseph_Vaz_Friary' %}">{% trans "St. Joseph Vaz Friary" %}</a></li>
+                                    <li><a href="{% url 'St_Anthony_Friary' %}">{% trans "St. Anthony Friary" %}</a></li>
+                                    <li><a href="{% url 'St_FrancisFriary' %}">{% trans "St. Francis Friary" %}</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="">{% trans "Ministries" %}</a>
+                                <ul class="dl-submenu" style="max-height: 350px; 
+                                overflow-y: auto; ">
+                                    <h5 style="color:white;"><b>{% trans "Vocation And Formation Apostolate" %}</b></h5>
+                                    <li><a href="{% url 'Vocation_And_Formation_Apostolate' %}">{% trans "Vocation And Formation Apotolate" %}</a></li>
+                                    <h5 style="color:white;"><b>{% trans "Franciscan Spiritual Apostolate" %}</b></h5>
+                                    <li><a href="{% url 'OFS' %}">{% trans "OFS" %}</a></li>
+                                    <li><a href="{% url 'Militia_Of_The_Immaculata' %}">{% trans "MI" %}</a></li>
+                                    <li><a href="{% url 'FCPD' %}">{% trans "FCPD" %}</a></li>
+                                    <li><a href="{% url 'Franciscan_Centre' %}">{% trans "Franciscan Centre" %}</a></li>
+                                    <h5 style="color:white;"><b>{% trans "Media And Communication Apostolate" %}</b></h5>
+                                    <li><a href="{% url 'Gray_Friars_Publications' %}">{% trans "Gray Friars Publications" %}</a></li>
+                                    <li><a href="{% url 'Kolbe_Communications' %}">{% trans "Kolbe Communications" %}</a></li>   
+                                    <h5 style="color:white;"><b>{% trans "Preaching And Reconciling Apostolate" %}</b></h5>
+                                    <li><a href="{% url 'Franiscan_Reconciliation_Retreat' %}">{% trans "FRR" %}</a></li>
+                                    <li><a href="{% url 'Retreat_Centers' %}">{% trans "Retreat Centers" %}</a></li>
+                                    <li><a href="{% url 'Tuesday_Devotions' %}">{% trans "Tuesday Devotions" %}</a></li>
+                                    <h5 style="color:white;"><b>{% trans "Social Apostolate" %}</b></h5>
+                                    <li><a href="{% url 'Social_Apostolate' %}">{% trans "Social Apostolate" %}</a></li>
+                                    <h5 style="color:white;"><b>{% trans "Education Apostalate" %}</b></h5>
+                                    <li><a href="{% url 'Greyfriars_Degree_College' %}">{% trans "Greyfriars Degree College" %}</a></li>
+                                    <li><a href="{% url 'Greyfriars_Junior_College' %}">{% trans "Greyfriars Junior College" %}</a></li>
+                                    <li><a href="{% url 'Oxford_Creativity_School' %}">{% trans "Oxford Creativity School" %}</a></li>
+                                    <li><a href="{% url 'St_Anthony_School' %}">{% trans "St. Anthony School" %}</a></li>
+                                    <li><a href="{% url 'St_Peter_School' %}">{% trans "St.Peter School" %}</a></li>
+                                    <li><a href="{% url 'Vidyaniketan_Junior_College' %}">{% trans "Vidyaniketan Junior College" %}</a></li>
+                                    <h5 style="color:white;"><b>{% trans "Pastoral Apostolate" %}</b></h5>
+                                    <li><a href="{% url 'St_Padre_Pio_Shrine' %}">{% trans "St. Padre Pio Shrine, Athurugiriya" %}</a></li>
+                                    <li><a href="{% url 'St_Maximilian_Kolbe_Church' %}">{% trans "St. Maximilian Kolbe Church, Christianpet" %}</a></li>
+                                    <li><a href="{% url 'Bala_Yesu_Shrine' %}">{% trans "Bala Yesu Shrine, Dondapudi" %}</a></li>
+                                    <li><a href="{% url 'Green_Park_Pastoral_Community' %}">{% trans "Green Park Pastoral Community, Kolkatta" %}</a></li>
+                                    <li><a href="{% url 'St_Francis_Of_Assisi_Church' %}">{% trans "St. Francis Of Assisi Church, Nattakal" %}</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="menu-item"><a href="">{% trans "Vocation" %}</a>
+                                <ul class="dl-submenu">
+                                    <li><a href="{% url 'vocation_1' %}">{% trans "Orientation Year" %}</a></li>
+                                    <li><a href="{% url 'vocation_2' %}">{% trans "Novitiate" %}</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="friends_of_smk">{% trans "Friends Of SMK" %}</a>
+                            </li>
+                            <li>
+                                <a href="Friars">{% trans "Set Up Of The Province" %}</a>
+                            </li>
+                            <li>
+                                <a href="gallery">{% trans "Gallery" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <!--Responsive Menu END-->
+                    
+                    <!--church social navigation menu-->
+                    <header class="header">
+                        <div class="container">
+                            <div class="row v-center">
+
+                                
+                                <div class="header-item">
+                                    <div class="menu-overlay">
+                                    </div>
+                                    <nav class="menu">
+                                        <div class="mobile-menu-head">
+                                            <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                                            <div class="current-menu-title"></div>
+                                            <div class="mobile-menu-close">&times;</div>
+                                        </div>
+                                        <ul class="menu-main">
+                                            <li>
+                                                <a href="{% url 'index' %}">{% trans "Home" %}</a>
+                                            </li>
+                                            
+                                            <li class="menu-item-has-children">
+                                                <a href="#">{% trans "About Us" %}<i class="fa fa-angle-down"></i></a>
+                                                <div class="sub-menu single-column-menu">
+                                                    <ul>
+                                                        <li><a href="{% url 'st_francis_of_assisi' %}">{% trans "St Francis Of Assisi" %}</a></li>
+                                                        <li><a href="{% url 'history_of_the_order' %}">{% trans "History Of The Order" %}</a></li>
+                                                        <li><a href="{% url 'conventuals_in_india' %}">{% trans "Conventuals In India" %}</a></li>
+                                                        <li><a href="{% url 'conventual_charism' %}">{% trans "Conventual Charism" %}</a></li> 
+                                                        <li><a href="{% url 'st_maximilian_kolbe' %}">{% trans "St Maximilian Kolbe" %}</a></li>
+                                                        <li><a href="{% url 'franciscan_saints' %}">{% trans "Franciscan Saints" %}</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            
+                                            <li class="menu-item-has-children">
+                                                <a href="#">{% trans "Administration" %}<i class="fa fa-angle-down"></i></a>
+                                                <div class="sub-menu single-column-menu">
+                                                    <ul>
+                                                        <li><a href="{% url 'provinical_administration' %}">{% trans "Provinical Administration" %}</a></li>
+                                                        <li><a href="{% url 'ap_telengana_delegation' %}">{% trans "AP/Telengana Delegation" %}</a></li>
+                                                        <li><a href="{% url 'kolkata_mission' %}">{% trans "Kolkata Mission" %}</a></li>
+                                                        <li><a href="{% url 'sri_lankan_mission' %}">{% trans "Sri Lankan Mission" %}</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#">{% trans "Friaries" %}<i class="fa fa-angle-down"></i></a>
+                                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                                  <div class="list-item">
+                                                        <!-- <h4 class="title">Kerala</h4> -->
+                                                        <ul>
+                                                             <h6 style="color:red;">{% trans "KERALA" %}</h6>
+                                                    
+                                                             <li><a href="{% url 'Assisi_shanthi_kendra' %}">{% trans "Assisi Shanthi Kendra" %}</a></li>
+                                                             <li><a href="{% url 'Kolbe_Franciscan_Ashram' %}">{% trans "Kolbe Franciscan Ashram" %}</a></li>
+                                                             <li><a href="{% url 'Nirmalaram_Franciscan_Ashram' %}">{% trans "Nirmalaram Franciscan Ashram" %}</a></li>
+                                                             <li><a href="{% url 'Padua_Franciscan_Ashram' %}">{% trans "Padua Franciscan Ashram" %}</a></li>
+                                                             <li><a href="{% url 'Franciscan_Ashram' %}">{% trans "Franciscan Ashram" %}</a></li>
+                                                             <li><a href="{% url 'St_Paul_Franciscan_Ashram' %}">{% trans "ST. Paul Franciscan Ashram" %}</a></li>
+                                                             <!-- <li><a href="#">FRANCISCAN ASHRAM</a></li> -->
+                                                        </ul>
+                                                       
+                                                  </div>
+                                                  <div class="list-item">
+                                                      <!-- <h4 class="title">Women's Fashion</h4> -->
+                                                      <ul>      
+                                                             <h6 style="color:red;">ANDRA</h6>
+                                                             <li><a href="{% url 'St_Maximilian_Franciscan_Ashram' %}">{% trans "St. Maximilian Franciscan Ashram" %}</a></li>
+                                                             <li><a href="{% url 'Bala_Yesu_Franciscan_Ashram' %}">{% trans "Bala Yesu Franciscan Ashram" %}</a></li>
+                                                             <li><a href="{% url 'San_Cupertino_Franciscan_Ashram' %}">{% trans "San Cupertino Franciscan Ashram" %}</a></li>
+                                                    
+                                                             <h6 style="color:red;">{% trans "KOLKATTA" %}</h6>
+                                                             <li><a href="{% url 'St_Francis_Friary' %}">{% trans "St. Francis Friary" %}</a></li>
+                                                        </ul>
+                                                        
+                                                  </div>
+                                                  <div class="list-item">
+                                                        
+                                                      <ul>  
+                                                             <h6 style="color:red;">{% trans "TELEGANA" %}</h6>
+                                                             <li><a href="{% url 'St_Peter_Franciscan_Ashram' %}">{% trans "St. Peter Franciscan Ashram" %}</a></li>
+                                                             <li><a href="{% url 'Assisi_FranciscanAshram' %}">{% trans "Assisi Franciscan Ashram" %}</a></li>
+                                                             <li><a href="{% url 'St_Anthony_Franciscan_Ashram' %}">{% trans "St.Anthony Franciscan Ashram" %}</a></li>
+                                                             
+                                                             <h6 style="color:red;">{% trans "TAMIL NADU" %}</h6>
+                                                             <li><a href="{% url 'Assisi_Snehalaya' %}">{% trans "Assisi Snehalaya" %}</a></li>
+                                                             <li><a href="{% url 'Belvedere_Franciscan_Ashram' %}">{% trans "Belvedere Franciscan Ashram" %}</a></li>
+                                                             
+                                                             
+                                                        </ul>
+                                                  </div>
+                                                  <div class="list-item">
+                                                    <ul>
+                                                            <h6 style="color:red;">{% trans "SRI LANKA" %}</h6>
+                                                           <li><a href="{% url 'Padre_Pio_Shrine' %}">{% trans "Padre Pio Shrine" %}</a></li>
+                                                           <li><a href="{% url 'Ave_Maria_Franciscan_Friary' %}">{% trans "Ave Maria Franciscan Friary" %}</a></li>
+                                                           <li><a href="{% url 'St_Joseph_Vaz_Friary' %}">{% trans "St. Joseph Vaz Friary" %}</a></li>
+                                                           <li><a href="{% url 'St_Anthony_Friary' %}">{% trans "St. Anthony Friary" %}</a></li>
+                                                           <li><a href="{% url 'St_FrancisFriary' %}">{% trans "St. Francis Friary" %}</a></li>
+                                                      </ul>
+                                                </div>
+                                               
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#">{% trans "Ministries" %}<i class="fa fa-angle-down"></i></a>
+                                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                                  <div class="list-item">
+                                                        <!-- <h4 class="title">Kerala</h4> -->
+                                                        <ul>
+                                                             <h6 style="color:red;">{% trans "VOCATION AND FORMATION APOSTOLATE" %}</h6>
+                                                             <li><a href="{% url 'Vocation_And_Formation_Apostolate' %}">{% trans "Vocation And Formation Apotolate" %}</a></li>
+                                                             <h6 style="color:red;">{% trans "FRANCISCAN SPIRITUAL APOSTOLATE" %}</h6>
+                                                             <li><a href="{% url 'OFS' %}">{% trans "OFS" %}</a></li>
+                                                             <li><a href="{% url 'Militia_Of_The_Immaculata' %}">{% trans "MI" %}</a></li>
+                                                             <li><a href="{% url 'FCPD' %}">{% trans "FCPD" %}</a></li>
+                                                             <li><a href="{% url 'Franciscan_Centre' %}">{% trans "Franciscan Centre" %}</a></li>
+    
+                                                        </ul>
+                                                        
+                                                  </div>
+                                                  <div class="list-item">
+                                                      <!-- <h4 class="title">Women's Fashion</h4> -->
+                                                      <ul>
+                                                             <h6 style="color:red;">{% trans "MEDIA AND COMMUNICATION APOSTOLATE" %}</h6>
+                                        
+                                                             <li><a href="{% url 'Gray_Friars_Publications' %}">{% trans "Gray Friars Publications" %}</a></li>
+                                                             <li><a href="{% url 'Kolbe_Communications' %}">{% trans "Kolbe Communications" %}</a></li>
+                                                             
+                                                             <h6 style="color:red;">{% trans "PREACHING AND RECONCILING APOSTOLATE" %}</h6>
+                                
+                                                             <li><a href="{% url 'Franiscan_Reconciliation_Retreat' %}">{% trans "FRR" %}</a></li>
+                                                             <li><a href="{% url 'Retreat_Centers' %}">{% trans "Retreat Centers" %}</a></li>
+                                                             <li><a href="{% url 'Tuesday_Devotions' %}">{% trans "Tuesday Devotions" %}</a></li>
+                                                        </ul>
+                                                        
+                                                  </div>
+                                                  <div class="list-item">
+                                                        
+                                                      <ul>
+                                                             <h6 style="color:red;">{% trans "SOCIAL APOSTOLATE" %}</h6>
+                                                             <li><a href="{% url 'Social_Apostolate' %}">{% trans "Social Apostolate" %}</a></li>
+                                                             
+
+                                                             <h6 style="color:red;">{% trans "EDUCATION APOSTOLATE" %}</h6>
+                                                             <li><a href="{% url 'Greyfriars_Degree_College' %}">{% trans "Greyfriars Degree College" %}</a></li>
+                                                             <li><a href="{% url 'Greyfriars_Junior_College' %}">{% trans "Greyfriars Junior College" %}</a></li>
+                                                             <li><a href="{% url 'Oxford_Creativity_School' %}">{% trans "Oxford Creativity School" %}</a></li>
+                                                             <li><a href="{% url 'St_Anthony_School' %}">{% trans "St. Anthony School" %}</a></li>
+                                                             <li><a href="{% url 'St_Peter_School' %}">{% trans "St.Peter School" %}</a></li>
+                                                             <li><a href="{% url 'Vidyaniketan_Junior_College' %}">{% trans "Vidyaniketan Junior College" %}</a></li>
+                                                            
+                                                             
+                                                             
+                                                        </ul>
+                                                  </div>
+                                                  <div class="list-item">
+
+                                                    <ul>
+                                                            <!-- <li><a href="">Vidhyanikethan Junior College</a></li> -->
+
+                                                           <h6 style="color:red;">{% trans "PASTORAL APOSTOLATE" %}</h6>
+                                                           <li><a href="{% url 'St_Padre_Pio_Shrine' %}">{% trans "St. Padre Pio Shrine, Athurugiriya" %}</a></li>
+                                                           <li><a href="{% url 'St_Maximilian_Kolbe_Church' %}">{% trans "St. Maximilian Kolbe Church, Christianpet" %}</a></li>
+                                                           <li><a href="{% url 'Bala_Yesu_Shrine' %}">{% trans "Bala Yesu Shrine, Dondapudi" %}</a></li>
+                                                           <li><a href="{% url 'Green_Park_Pastoral_Community' %}">{% trans "Green Park Pastoral Community,Kolkatta" %}</a></li>
+                                                           <li><a href="{% url 'St_Francis_Of_Assisi_Church' %}">{% trans "St. Francis Of Assisi Church, Nattakal" %}</a></li>
+                                                      </ul>
+                                                </div>
+                                               
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#">{% trans "Vocation" %}<i class="fa fa-angle-down"></i></a>
+                                                <div class="sub-menu single-column-menu">
+                                                    <ul>
+                                                        <li><a href="{% url 'vocation_1' %}">{% trans "Orientation Year" %}</a></li>
+                                                        <li><a href="{% url 'vocation_2' %}">{% trans "Novitiate" %}</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'friends_of_smk' %}">{% trans "Friends Of SMK" %}</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'Friars' %}">{% trans "Set Up Of The Province" %}</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'gallery' %}">{% trans "Gallery" %}</a>
+                                            </li>
+                                            
+                                        
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+            <!-- {{ msg }} -->
+            <!--church header container end-->
+        </header>
+        
+        <section>
+            <!-- <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s"> -->
+            <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s"></div>
+                <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img class="w-100" src="{% static 'image/header-10.jpg' %}" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <!-- <h4 class="text-white text-uppercase mb-4 animated zoomIn" style="font-family: 'Monotype Corsiva';">Start by doing what's necessary</h4> -->
+                                    <h1 class="display-1 text-white mb-0 animated zoomIn" style="font-family: 'Motoya Maru Std-W6';"><b>{% trans 'We Should See Not So Much To Pray But Not To Become Prayer' %}</b></h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img class="w-100" src="{% static 'image/IMG_696666.JPG' %}" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <!-- <h4 class="text-white text-uppercase mb-4 animated zoomIn">jsfhefuhfiu</h4> -->
+                                    <h1 class="display-1 text-white mb-0 animated zoomIn" style="font-family: 'Motoya Maru Std-W6';">{% trans 'For It Is In Giving That We Receive' %}</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <!-- <img class="w-100" src="{% static 'image/IMG_6979899.jpg' %}" alt="Image"> -->
+                            <img class="w-100" src="{% static 'image/IMAGE121214.jpg' %}" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <!-- <h4 class="text-white text-uppercase mb-4 animated zoomIn">Where there is charity and wisdom,</h4> -->
+                                    <h1 class="display-1 text-white mb-0 animated zoomIn" style="font-family: 'Motoya Maru Std-W6';">{% trans 'Preach The Gospel At All Times And When Necessary Use Words' %}</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- &nbsp; -->
+
+        <div class="content">
+            
+            <section id="feature-section" class="feature-section pad-none pad-bottom-400 broken-top-300 pad-bottom-md-none" style="color:  #FFA4AA;">
+                <div class="container" style="color:  #FFA4AA;">
+                    <!-- Row -->
+                    <div class="row" style="color:  #FFA4AA;">
+                        <!-- Col -->
+                        <div class="col-lg-4 mb-4 mb-lg-0" style="color:  #FFA4AA;">
+                            <a href="{% url 'Events' %}" class="card-link">
+                                <div class="f-box-style-2 text-center" >
+                                    <div class="f-box-inner div-bg-img b-radius-20" data-bg="{% static 'images/bg/ft-bg1.jpg' %}">
+                                        <div class="feature-icon margin-bottom-15 shake" style="color:  #FFA4AA;">
+                                            <i class="ti-announcement theme-color"></i>
+                                        </div>
+                                        <div class="feature-content mb-3">
+                                            <div class="feature-title">
+                                                <h5 class="margin-bottom-15">{% trans "Our Events" %}</h5>
+                                            </div>
+                                            <!-- <p class="mb-0">{% trans "event content one" %} <br>{% trans "event content two" %}<br> {% trans "event content three" %}.</p> -->
+                                            <p class="mb-0" style="height: 140px; text-align: justify;"> {% trans "event content one" %}<br></p>
+                                        </div>
+                                        <!-- <div class="feature-box-btn">
+                                            <a href="{% url 'Events' %}" class="btn btn-link">Read More</a>
+                                        </div> -->
+                                    </div>	
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Col -->
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <a href="{% url 'notice' %}" class="card-link">
+                                <div class="f-box-style-2 text-center">
+                                    <div class="f-box-inner div-bg-img b-radius-20" data-bg="images/bg/ft-bg2.jpg">
+                                        <div class="feature-icon margin-bottom-15 shake">
+                                            <i class="ti-bell theme-color"></i>
+                                        </div>
+                                        <div class="feature-content mb-3">
+                                            <div class="feature-title">
+                                                <h5 class="margin-bottom-15">{% trans "Notice Borad" %}</h5>
+                                            </div>
+                                            <p class="mb-0" style="height: 140px; text-align: justify;">{% trans 'notice description' %}</p>
+                                        </div>
+                                        <!-- <div class="feature-box-btn">
+                                            <a href="{% url 'Obituary' %}" class="btn btn-link">Read More</a>
+                                        </div> -->
+                                    </div>											
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Col -->
+                        <div class="col-lg-4">
+                            
+                            <a href="{% url 'wishes' %}" class="card-link">
+                                <div class="f-box-style-2 text-center">
+                                    <div class="f-box-inner div-bg-img b-radius-20" data-bg="images/bg/ft-bg3.jpg">
+                                        <div class="feature-icon margin-bottom-15 shake">
+                                            <i class="ti-gift theme-color"></i>
+                                        </div>
+                                        <div class="feature-content mb-3">
+                                            <div class="feature-title">
+                                                <h5 class="margin-bottom-15">{% trans "Wishes" %}</h5>
+                                            </div>
+                                            <!-- <p class="mb-0">{% trans "Wishes one" %}<br> {% trans "wishes two" %}<br>{% trans "wishes content three" %}</p> -->
+                                            <p class="mb-0" style="height: 140px; text-align: justify;">{% trans "Wishes one" %}</p>
+                                        </div>
+                                        <!-- <div class="feature-box-btn">
+                                            <a href="events.html" class="btn btn-link">Read More</a>
+                                        </div> -->
+                                    </div>									
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- Container -->
+            </section>
+        
+            
+             
+            <section id="section-about" class="section-about">
+                <div class="container">
+                    <!-- Row -->
+                    <div class="row d-flex align-items-center">                                
+                        <!-- Col -->
+                        <div class="col-lg-6">
+                            <div class="title-wrap margin-bottom-25">
+                                <div class="section-title">
+                                    <span class="sub-title theme-color text-uppercase">{% trans 'Who We Are' %}</span>
+                                    <br><br>
+                                    <h2 class="section-title margin-top-5 theme-color">{% trans 'We Are Taking Small Steps To Make Earth Better Planet' %}</h2>
+                                    
+                                    <span class="border-bottom"></span>
+                                </div>
+                                <div class="pad-top-15">
+                                    
+                                    <p class="margin-bottom-20" style="color:black;font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;text-align: justify;">{% trans 'about dis' %}</p>
+                                   
+                                </div>
+                            </div>
+                            
+                            <div class="button-section margin-top-35">
+                                <a class="btn btn-default" href="{% url 'video_gallery' %}" title="Learn More">{% trans 'View More' %}</a>
+                            </div>									
+                        </div>
+                        <!-- Col -->
+                        <!-- Col -->
+                        <div class="col-lg-6 ps-lg-5">
+                            <!-- about wrap -->
+                            <div class="about-wrap relative">
+                                <div class="about-wrap-inner">
+                                    <!-- about details -->
+                                    <div class="about-wrap-details overlap-icon">
+                                        <!-- about button -->
+                                        <div class="text-center">
+                                            <div class="about-img">
+                                                <img src="{% static 'image/asset-6.jpeg' %}" class="b-radius-10" alt="about-img">
+                                            </div>
+                                            <!-- .col -->
+                                        </div>
+                                        <!-- video wrap -->
+                                        <div class="video-wrap wrap-stretch relative"><!-- video details -->
+                                            <div class="video-wrap-details">
+                                                <!-- video button -->
+                                                <div class="video-play-btn text-center">			
+                                                    <div class="video-icon">
+                                                        
+                                                        {% if about %}
+                                                        <a class="popup-youtube box-shadow1" href="{{about.About_video}}">
+                                                            <i class="ti-control-play"></i>
+                                                        </a>
+                                                        
+                                                        {% endif %}
+                                                       
+                                                    </div>														
+                                                </div>
+                                            </div>
+                                            <!-- video details End-->
+                                        </div>
+                                        <!-- video wrap end -->
+                                    </div>
+                                    <!-- about details End-->
+                                </div>
+                            </div>
+                            <!-- about wrap end -->
+                        </div>
+                        <!-- .col -->
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- Container -->
+            </section>
+            <!-- &nbsp;&nbsp; -->
+
+            
+            
+            <section id="ministries-section" class="ministries-section pad-top-50 pad-bottom-none">
+                <div class="container">
+                    <!-- Row -->
+                    <div class="row">
+                        <div class="offset-md-2 col-md-8">
+                            <div class="title-wrap text-center">
+                                <div class="section-title">
+                                    <span class="sub-title theme-color text-uppercase">{% trans "News" %}</span>
+                                    <h2 class="section-title margin-top-5">{% trans "Our Latest News" %}</h2>
+                                    <span class="border-bottom center"></span>											
+                                </div>
+                            </div>
+                        </div>
+                        <!--Ministries Main Slider-->
+                        <div class="owl-carousel ministries-main-wrapper" data-loop="1" data-nav="1" data-dots="0" data-autoplay="0" data-autoplaypause="1" data-autoplaytime="5000" data-smartspeed="1000" data-margin="30" data-items="3" data-items-tab="2" data-items-mob="1">
+                            <!-- Each news detail item as a whole block link -->
+                            {% for news_details in news %}
+                            <a href="{% url 'news_details' news_details.news_heading %}" target="_blank" class="item-link">
+                                <div class="item">
+                                    <div class="ministries-box-style-2">
+                                        <!-- Ministries Inner -->
+                                        <div class="ministries-inner">
+                                            <div class="ministries-thumb">
+                                                <img class="img-fluid squared w-100" src="{{news_details.main_image.url}}" alt="{{ news_details.news_heading }}" style="height:300px ;">
+                                            </div>
+                                            <!-- Ministries Content -->
+                                            <div class="ministries-content pad-30">
+                                                <div class="ministries-title margin-bottom-15">                                                    
+                                                    <h4>{{ news_details.news_heading }}</h4>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <!-- Ministries Inner Ends -->
+                                    </div>
+                                </div>
+                            </a>
+                            {% endfor %}
+                        </div>
+                        <!--Ministries Owl Slider-->
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- Container -->
+            </section>
+            
+            <section class="church_testimonial_02" style="background-image: url('/static/images/testimonial_bg_02.jpg'); background-size: cover; background-repeat: no-repeat; padding: 82px 0 10px;">
+                <div class="container">
+                    <div class="church_heading align_center white-color">
+                        <h3>{% trans 'Saints of the day' %}</h3>
+                        <span><sup class="icon-cross"></sup></span>
+                    </div>
+                    <div class="church_testimonial_nav">
+                        {% for saint in saints %}
+                        <div class="ch_testimonial_item {% if forloop.first %}active{% endif %}">
+                            <img src="{{saint.saint_image.url}}" alt="" class="saint-image" data-id="{{ saint.id }}" style="height: 130px;">
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="church_testimonial_slider">
+                        {% for saint in saints %}
+                        <div class="testimonial_item">
+                            <p>{{saint.quotes}}</p>
+                            <span>{{saint.name}}</span>
+                            <p>{{ saint.date|date:"Y-m-d" }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio-section" class="portfolio-section pad-top-120">
+                <div class="container">
+                    <!-- Row -->
+                    <div class="row">
+                        <div class="offset-md-2 col-md-8">
+                            <div class="title-wrap text-center">
+                                <div class="section-title">
+                                    <span class="sub-title theme-color text-uppercase">{% trans "Gallery" %}</span>
+                                    <h2 class="section-title margin-top-5">{% trans "Our Gallery" %}</h2>
+                                    <span class="border-bottom center"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Portfolio Main Slider-->
+                        <div class="owl-carousel portfolio-default popup-gallery" data-loop="1" data-nav="0" data-dots="1" data-autoplay="1" data-autoplaypause="1" data-autoplaytime="5000" data-smartspeed="1000" data-margin="30" data-items="3" data-items-tab="2" data-items-mob="1">
+                            <!--Item-->
+                            {% for images in gallery %}
+                            <div class="item">
+                                
+                                <!--Portfolio Item-->										
+                                <div class="portfolio-item portfolio-overlay-wrap">
+                                    <!-- .portfolio-thumb -->
+                                    <div class="portfolio-thumb relative b-radius-6 o-hide">
+                                        <img src="{{images.gallery_image.url}}"  width="700" height="466" alt="" title="Invest Advices"  />
+                                        <!-- .portfolio-wrap -->
+                                        <div class="portfolio-wrap">
+                                            <div class="portfolio-details-overlay">
+                                                <div class="portfolio-icons">
+                                                    <a href="{{images.gallery_image.url}}" class="popup-img" title="Gallery 1">
+                                                        <i class="ti-zoom-in"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- .portfolio-wrap -->
+                                    </div>
+                                    <!-- .portfolio-thumb -->													
+                                </div>
+                                
+                                <!--Portfolio Item Ends-->
+                            </div>
+                            {% endfor %}
+                            
+                            
+                            <!--Item Ends-->
+                        </div>
+                        <!--Portfolio Owl Slider-->
+                    </div>
+                    <!-- Row -->
+                </div>
+                <!-- Container -->
+            </section>
+
+            
+            <div class="church_prayer_block height padding-0">
+    			<div class="container">
+    				<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'The most deadly poison of our times is indifference. And this happens, although the praise of God should know no limits. Let us strive, therefore, to praise Him to the greatest extent of our powers.' %}</p>
+    					<a href="friends_of_smk" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+    				<div class="pull-right">
+    					<figure>
+    						<img src="{% static 'image/WhatsApp Image 2024-05-21 at 10.44.38.jpeg' %}" alt="">
+    					</figure>
+    				</div>
+    			</div>
+    		</div>
+       
+		
+		
+		
+
+        <footer>
+            
+            <div class="slider_images">
+                
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-1.jpg' %}" alt="">
+                        
+                    </a>
+                </div>
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-4.jpg' %}" alt="">
+                        
+                    </a>
+                </div>
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-3.jpg' %}" alt="">
+                       
+                    </a>
+                </div>
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-2.jpg' %}" alt="">
+                    </a>
+                </div>
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-5.jpg' %}" alt="">
+                    </a>
+                </div>
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-6.jpg' %}" alt="">
+                    </a>
+                </div>
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-1.jpg' %}" alt="">
+                    </a>
+                </div>
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-3.jpg' %}" alt="">
+                    </a>
+                </div>
+                <div class="item_images">
+                    <a href="{% url 'gallery' %}">
+                        <img src="{% static 'image/gallery-5.jpg' %}" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer_board">
+                <div class="container">
+                    <div class="logos">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="footer_detail" >
+                                    <br>
+                                    <h4 class="footer_title">{% trans "Google Map" %}</h4>
+                                    <div class="church_map" id="church_map" style="width: 100%;height: 100%;">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.123131261071!2d76.38093549999999!3d10.222613000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0806bc15b53279%3A0xae34213624a94c0!2sSD%20Convent%20Rd%2C%20Angamaly%2C%20Karukutty%2C%20Kerala%20683576!5e0!3m2!1sen!2sin!4v1647707003644!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="footer_blog">
+                                    <br>
+                                    <h4 class="footer_title">{% trans "About Us" %}</h4>
+                                    
+                                    <div class="footer_blog_post padding-top-0">
+                                        <!-- <figure>
+                                            <img src="{% static 'extra-images/footer_post_img_01.jpg' %}" alt="">
+                                        </figure> -->
+                                        <div class="footer-post-content">
+                                            
+                                            <p style="text-align: justify;">{% trans "footer about" %}</p>
+                                        </div>    
+                                    </div>   
+                                </div>
+                                
+                            </div> 
+                            <div class="col-md-4">
+                                <div class="footer_blog" >
+                                    <br>
+                                    <h4 class="footer_title">{% trans "Our Address" %}</h4>
+                                    <p>{% trans "Assisi Shanthi Kendra" %}</p>
+                                    <p>{% trans "Conventual Franciscan Provincialate" %}</p>
+                                    <span><i class="fa fa-envelope" aria-hidden="true"></i>{% trans "smksecoffice@gmail.com" %}</span>
+                                    <span><i class="fa fa-location-arrow" aria-hidden="true"></i>{% trans "Assisi Shanthi Kendra" %}</span>
+                                    <span><i class="fa fa-location-arrow" aria-hidden="true"></i>{% trans "Ernakulam Dt., Kerala, India" %}</span>
+                                    <span><i class="fa fa-phone" aria-hidden="true"></i>{% trans "Tel.: (0091 484) 2613449 - Friary" %}</span>
+                                </div>
+                                <div class="footer_blog" >
+                                    <br>
+                                    <h4 class="footer_title">{% trans "Useful Links" %}</h4>
+                                   
+                                    <p><a href="{% url 'Events' %}">{% trans "Events" %}</a></p>
+                                    <p><a href="{% url 'gallery' %}">{% trans "Gallery" %}</a></p>
+                                    <p><a href="{% url 'video_gallery' %}">{% trans "Video Gallery" %}</a></p>
+                                    
+                                </div>
+                            </div>   
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <div class="footer_twitter">
+                        <span><i class="fa fa-youtube" aria-hidden="true"></i></span>
+                        <div class="footer_twitter_caption">
+                            <p>{% trans "Conventuals Indid,Order Of Friars Minor Conventual" %}..,<a href="https://www.youtube.com/channel/UCvLgPzOC2ZmjKSpOzKXoBMQ/videos">{% trans "Kolbe Communication" %}</a></p>
+                        </div>
+                        <div class="pull-right"><a href="https://www.youtube.com/channel/UCvLgPzOC2ZmjKSpOzKXoBMQ/videos" class="default_btn black-bg_btn">Follow us</a></div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </footer>
+        
+        <div class="copyright-content center">
+          <div class="container">
+            <p><a href="http://tinos.co.in/">Copyright © 2024 Powered by Tinos Software And Security Solutions LLP </a></p>
+          </div>
+        </div>
+    
+    
+           
+        <!--church wrapper ends-->
+    
+    
+        <!-- jquery javascript-->
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <!-- Bootstrap script-->
+        <script src="{% static 'js/bootstrap.js' %}"></script>
+        <!-- modernizr script-->
+        <script src="{% static 'js/modernizr.js' %}"></script>
+        <!-- responsive-jquery script-->
+        <script src="{% static 'js/responsive-jquery.js' %}"></script>
+        <!-- Audio script-->
+        <script src="{% static 'js/audio.js' %}"></script>
+        <!-- Slick Slider script-->
+        <script src="{% static 'js/slick.js' %}"></script>
+        <script src="{% static 'js/slider_fancy.js' %}"></script>
+        <script src="{% static 'js/accordian.js' %}"></script>
+        <script src="{% static 'js/selectric.js' %}"></script>
+        <script src="{% static 'js/imgslider.min.js' %}"></script>
+        <script src="{% static 'js/calendar.js' %}"></script>
+        <!-- Custom scripts-->
+        <script src="{% static 'js/custom.js' %}"></script>
+    
+        <script src="{% static 'sub_menu/js/script.js' %}"></script>
+
+
+        <script src="{% static 'sub-style/js/jquery.min.js' %}"></script>
+            <!-- Bootstrap Js -->
+        <script src="{% static 'sub-style/js/bootstrap.bundle.min.js' %}"></script>
+            <!-- Easing Js -->
+        <script src="{% static 'sub-style/js/jquery.easing.min.js' %}"></script>
+            <!-- Carousel Js Code -->
+        <script src="{% static 'sub-style/js/owl.carousel.min.js' %}"></script>
+            <!-- Isotope Js -->
+        <script src="{% static 'sub-style/js/isotope.pkgd.min.js' %}"></script>
+            <!-- Magnific Popup Js -->
+        <script src="{% static 'sub-style/js/jquery.magnific-popup.min.js' %}"></script>
+            <!-- Day Counter Js -->
+        <script src="{% static 'sub-style/js/jquery.countdown.min.js' %}"></script>
+            <!-- Circle Progress Js -->
+        <script src="{% static 'sub-style/js/jquery.circle.progress.min.js' %}"></script>
+            <!-- Validator Js -->
+        <script src="{% static 'sub-style/js/validator.min.js' %}"></script>
+            <!-- Smart Resize Js -->
+        <script src="{% static 'sub-style/js/smartresize.min.js' %}"></script>
+            <!-- Appear Js -->
+        <script src="{% static 'sub-style/js/jquery.appear.min.js' %}"></script>
+            <!-- Theme Custom Js -->
+        <script src="{% static 'sub-style/js/custom.js' %}"></script>
+            
+            
+        <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+        <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+           
+
+        <script src="{% static 'js/stickyNavbarOnScroll.js' %}"></script>
+        <script src="{% static 'js/languageSelector.js' %}"></script>
+        <script src="{% static 'js/slickTestimonialSlider.js' %}"></script>
+        <script src="{% static 'js/testimonialItemHighlighter.js' %}"></script>
+    
+        
+      </body>
+      
+
+</body>
+</html>
+
+    

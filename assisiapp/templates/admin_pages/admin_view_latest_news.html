@@ -1,0 +1,102 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+{% block content %}
+
+    <div class="col-lg-10 grid-margin stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">News Details</h4>
+            <a href="{% url 'admin_add_latest_news' %}">
+              <button class="btn btn-primary">Add News Details</button>
+          </a>
+         
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>
+                        Category Name
+                    </th>
+                    <th>
+                        Heading
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                   <th>
+                        Date
+                   </th>
+                    <th>
+                        News Related Images
+                    </th>
+                 
+                    <th>
+                      Update
+                    </th>
+                    <th>
+                      Delete
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                    {% for details in news %}
+                  <tr>
+                    <td style="width: 150px; ">
+                        {{details.category}}
+                    </td>
+
+                    {% if details.heading %}
+                    <td style="width: 150px; ">
+                        {{details.heading}}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.description %}
+                    <td style="width: 600px; height: 200px;  white-space: inherit; word-wrap: break-word;">
+                        {{details.description}}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.date %}
+                    <td style="width: 150px; ">
+                        {{details.date}}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+                  
+                    <td style="width: 150px; ">
+                      {% if details.news_images %}
+                      <img src="{{details.news_images.url}}" alt="Current Image" style="width: 80px; height: 80px;">
+                      <br>
+                      
+                  {% else %}
+                      <p>No image available</p>
+                  {% endif %}
+                  </td>
+
+                 
+
+                    <td style="width: 150px; ">
+                      <a href="{% url 'admin_update_latest_news' details.id  %}"><button><i class="mdi mdi-cloud-upload" aria-hidden="true"></i> </button></a>
+                    </td>
+                    <td style="width: 150px; ">
+                      <a href="{% url 'admin_delete_latest_news' details.id  %}"><button><i class="mdi mdi-delete" aria-hidden="true"></i> </button></a>
+                     
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

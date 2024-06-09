@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+		<!--sab banner start-->
+		<!-- <div class="sab_banner_wrap overlay" style="margin-top: -45px">
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/image-2.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans 'contact us' %}</h3>
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans 'contact us' %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		
+		
+		<div class="contact_us">
+			<!-- <div class="church_map" id="church_map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.123131261071!2d76.38093549999999!3d10.222613000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0806bc15b53279%3A0xae34213624a94c0!2sSD%20Convent%20Rd%2C%20Angamaly%2C%20Karukutty%2C%20Kerala%20683576!5e0!3m2!1sen!2sin!4v1647707003644!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div> -->
+	        <section>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							
+							<div class="church_location">
+								<span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+								<div>
+									<h6><a href="https://www.google.com/maps/place/SD+Convent+Rd,+Angamaly,+Karukutty,+Kerala+683576/@10.222613,76.380935,16z/data=!4m6!3m5!1s0x3b0806bc15b53279:0xae34213624a94c0!8m2!3d10.222613!4d76.3809355!16s%2Fg%2F12h_csj5w?hl=en&entry=ttu">{% trans 'Office Address' %}</a></h6>
+									<p>Assisi Shanthi Kendra
+										Ernakulam Dt., Kerala, India</p>
+								</div>
+							</div>		
+							
+						</div>
+						<div class="col-md-4">
+							<div class="church_location active">
+								<span><i class="fa fa-phone" aria-hidden="true"></i></span>
+								<div>
+									<h6><a href="tel:(0091 484) 2613449">{% trans 'Phone Number' %}</a></h6>
+									<p>Local: (0091 484) 2613449<br></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="church_location">
+								<span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+								<div>
+									<h6><a href="mailto:smksecoffice@gmail.com">{% trans 'Email Address' %}</a></h6>
+									<p>smksecoffice@gmail.com<br>www.conventualsindia.org</p>
+								</div>
+							</div>
+						</div>
+					
+						<div class="content_contact_us">
+							<h4 class="custom-font-30px">{% trans 'FRIENDS OF SMK (ST. MAXIMILAN KOLBE PROVINCE , INDIA)' %}</h4><br>
+							<p style="color: black;">{% trans 'Friends of SMK discription' %}</p>
+							<form method="post">{% csrf_token %}
+								{% if messages %}
+                                    {% for message in messages %}
+                                        <div class="alert alert-success" role="alert">
+                                            {{ message }}
+                                        </div>
+                                    {% endfor %}
+									<script>
+                                        
+                                        setTimeout(function() {
+                                            window.location.href = '/friends_of_smk'; 
+                                        }, 3000); 
+                                    </script>
+                                {% endif %}
+								<div class="kode-left-comment-sec">
+									<div class="col-md-4">
+										<div class="kf_commet_field">
+											<input placeholder="{% trans 'Full Name' %}" name="name" value="" data-default="Name*" size="30" required="" type="text">
+										</div>
+										<div class="kf_commet_field">
+												<input placeholder="{% trans 'Your Email' %}" name="email" size="30" required="" type="email" required>
+										</div>
+										<div class="kf_commet_field">
+											<input placeholder="{% trans 'Subject' %}" name="subject" value="" size="30" required="" type="text">
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="ch_textarea">
+											<textarea placeholder="{% trans 'Type here message' %}" name="comment"></textarea>
+										</div>
+									</div>
+									<p class="form_submit"><input name="submit" class="default_small_btn btn_2" value="{% trans 'Post comment' %}" type="submit"></p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="church_map" id="church_map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.123131261071!2d76.38093549999999!3d10.222613000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0806bc15b53279%3A0xae34213624a94c0!2sSD%20Convent%20Rd%2C%20Angamaly%2C%20Karukutty%2C%20Kerala%20683576!5e0!3m2!1sen!2sin!4v1647707003644!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+
+            <!--church prayer block start-->
+            <div class="church_prayer_block height padding-0">
+    			<div class="container">
+    				<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'Above all the grace and the gifts that Christ gives to his beloved is that of overcoming self..' %}</p>
+						<P >{% trans 'SAINT FRANCIS OF ASSISI' %}</P>
+						
+    					<a href="{% url 'friends_of_smk' %}" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+    				<div class="pull-right">
+    					<figure>
+    						<img src="{% static 'image/WhatsApp Image 2024-05-21 at 10.44.38.jpeg' %}" alt="">
+    					</figure>
+    				</div>
+    			</div>
+    		</div>
+            <!--church prayer block end-->
+		</div>
+{% endblock %}

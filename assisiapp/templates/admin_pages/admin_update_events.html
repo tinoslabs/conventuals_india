@@ -1,0 +1,100 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+{% block content %}
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Update Events</h4>
+                <!-- <p class="card-description">
+                  Basic form layout
+                </p> -->
+                <form class="forms-sample" method="POST" enctype="multipart/form-data"> {% csrf_token %}
+                  <div class="form-group">
+                    <label for="exampleInputUsername1">Event Name</label>
+                    <input type="text" class="form-control" id="exampleInputUsername1" name="event_name" placeholder="Event Name" value="{{events.event_name}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="organizer">Organizer</label>
+                    <input type="text" class="form-control" id="organizer" name="organizer" placeholder="Organizer" value="{{events.organizer}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Description">Event Description</label>
+                    <textarea class="form-control" name="event_description" id="Description" rows="3" style="height: 150px;" placeholder="Enter your Description">{{events.event_description}}</textarea>
+                </div>
+                <div class="form-group">
+                  <label for="date">Start Date</label>
+                  <input type="date" class="form-control" id="date" name="start_date" placeholder="Start Date" value="{{events.start_date|date:'Y-m-d'}}">
+                </div>
+                
+                <div class="form-group">
+                  <label for="startTime">Start Time</label>
+                  <input type="time" class="form-control-file" id="startTime" name="start_time" value="{{events.start_time|time:'H:i'}}">
+                </div>
+
+                <div class="form-group">
+                  <label for="endDate">End Date</label>
+                  <input type="datetime-local" class="form-control-file" id="endDate" name="end_date" value="{{ events.end_date|date:'Y-m-d\\TH:i' }}">
+                </div>
+
+                <div class="form-group">
+                  <label for="endTime">End Time</label>
+                  <input type="time" class="form-control-file" id="endTime" name="end_time" value="{{events.end_time|time:'H:i'}}">
+                </div>
+
+                <div class="form-group">
+                  <label for="eventVenue">Event Venue</label>
+                  <input type="text" class="form-control" id="eventVenue" name="event_venue" placeholder="Event Venue" value="{{events.event_venue}}">
+                </div>
+                <div class="form-group">
+                  <label for="address">Address</label>
+                  <input type="text" class="form-control" id="address" name="address" placeholder="Address" value="{{events.address}}">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Email" value="{{events.email}}">
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" value="{{events.phone}}">
+                </div>
+
+                <div class="form-group">
+                  <label for="websiteLink">Website Link</label>
+                  <input type="text" class="form-control" id="websiteLink" name="website_link" placeholder="Website Link" value="{{events.website_link}}">
+                </div>
+
+                <div class="form-group">
+                  <label>Current Image</label><br>
+                  {% if events.event_image %}
+                      <img src="{{ events.event_image.url }}" alt="Current Image" style="width: 150px; height: 150px;">
+                      <br>
+                      
+                  {% else %}
+                      <p>No image available</p>
+                  {% endif %}
+                </div>
+                <div class="form-group">
+                  <label for="imageFile">Event Image</label>
+                  <input type="file" class="form-control-file" id="imageFile" name="event_image" value="{{events.event_image}}">
+                </div>
+
+                  <div class="form-check form-check-flat form-check-primary">
+                    <label class="form-check-label">
+                      <!-- <input type="checkbox" class="form-check-input">
+                      Remember me -->
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary me-2">Submit</button>
+                  <!-- <button class="btn btn-light">Cancel</button> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

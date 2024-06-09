@@ -1,0 +1,76 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+
+{% block content %}
+ 
+            <div class="col-lg-10 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Wishes</h4>
+                  <a href="{% url 'add_wishes' %}">
+                    <button class="btn btn-primary">Add Wishes</button>
+                  </a>
+                  <!-- <p class="card-description">
+                    Add class <code>.table-striped</code>
+                  </p> -->
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Date Of Birth</th>
+                          <th>Heading</th>
+                          <th>Wish Message</th>
+                          <th>Image
+                          <th>Address</th>
+                          <th>Update</th>
+                          <th>Delete</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for wishes in wishes %}
+                        <tr>
+                          <td style="width: 150px; ">
+                            {{ wishes.name }}
+                          </td>
+                          <td style="width: 150px; ">
+                            {{ wishes.DOB }}
+                          </td>
+                          <td style="width: 150px; ">
+                            {{ wishes.heading }}
+                          </td>
+                          <td style="width: 800px; word-wrap: break-word; white-space: inherit; height: 200px; overflow: auto;">
+                            {{ wishes.wishes }}
+                          </td>
+                        
+                          <td style="width: 150px; ">
+                            {% if wishes.image %}
+                            <img src="{{ wishes.image.url }}" alt="Current Image" style="width: 80px; height: 80px;">
+                            <br>
+                            <!-- <input type="checkbox" name="remove_image"> Remove Current Image -->
+                        {% else %}
+                            <p>No image available</p>
+                        {% endif %}
+                          </td>
+                          <td style="width: 600px; word-wrap: break-word; white-space: inherit; height: 200px; overflow: auto;">
+                            {{ wishes.address }}
+                        </td>
+                        <td style="width: 150px;">
+                            <a href="{% url 'update_wishes' wishes.id  %}"><button><i class="mdi mdi-cloud-upload" aria-hidden="true"></i> </button></a>
+                        </td>
+                        <td style="width: 150px;">
+                            <a href="{% url 'delete_wishes' wishes.id  %}"><button><i class="mdi mdi-delete" aria-hidden="true"></i> </button></a>
+                        </td>
+                          
+                        </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {% endblock %}

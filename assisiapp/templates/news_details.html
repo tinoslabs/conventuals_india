@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+		
+		<!--sab banner start-->
+		<!-- <div class="sab_banner_wrap overlay"  style="margin-top: -45px">
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/IMG_69788888.JPG' %}" alt="">
+                </div>
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>Latest News</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="sab_banner_wrap" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans "Latest News" %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		
+        <div class="content">
+    		<!--church blog detail wrap start-->
+    		<div class="church_blog_detail_wrap wrap_2">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-9">
+    						
+
+    						
+    						<div class="ch_blog_detail_row post-margin">
+								{% for details in news_details %}
+    							<div class="church_blog_detail_text">
+									{% if details.heading %}
+									<h3 class="custom-font-30px">{{details.heading}}</h3>
+									{% endif %}
+    								<ul class="church_meta_date meta_2 meta_3">
+    									<!-- <li><a href="#">By Admin</a></li> -->
+										{% if details.date %}
+    									<li><a href="#">{{details.date}}</a></li>
+										{% endif %}
+    									
+    								</ul>
+									
+									{% if details.news_images %}
+									{% if details.image %}
+    								<div class="blog_slider_posts arrows_redios">
+    									<div class="blog_item">
+											
+    										<img src="{{details.news_images.url}}" alt="" >
+    										<div class="box_span">
+												
+    											<a href="#" class="date"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+    										</div>
+    									</div>
+										
+    								</div>
+									{% endif %}	
+
+									{% if details.description %}
+    								<p style="text-align: justify;color: black;font-family: 'Open Sans';">{{details.description}}</p>
+									{% endif %}
+    								
+    
+    							</div>{% endfor %}
+								
+    						</div>
+    						
+    						
+    					</div>
+    					<div class="col-md-3">
+    						<div class="widget_sidebar">
+    							
+    							<div class="widget_recents_posts">
+    								<h5 class="widget_tittle">Recent News</h5>
+    								<div class="footer_blog_post">
+                                        <figure>
+                                        </figure>
+                                        <div class="footer-post-content">
+                                            <a href="#">Recent News Included in Theme</a>
+                                            
+                                        </div>
+                                    </div>
+									{% for details in news_details %}
+									{% for data in news %}
+                                    <div class="footer_blog_post">
+                                        <figure>
+												{% if details.heading %}
+											 <a href="">
+                                             	<img src="{{data.main_image.url}}" alt="">
+											 </a>
+											 	
+												{% endif %}
+                                        </figure>
+                                        <!-- <div class="footer-post-content">
+                                            <a href="#">{{data.news_heading}}</a>
+                                            <span>Dec 12 - 2017</span>
+                                        </div> -->
+                                    </div>{% endfor %}
+									{% endfor %}
+                                    
+    							</div>
+								
+    						</div>
+    							
+    					</div>
+						
+    				</div>
+    			</div>
+    		</div>
+    		<!--church blog detail wrap end-->
+
+    		<!--church prayer block start-->
+    		<div class="church_prayer_block height padding-0">
+    			<div class="container">
+    				<div class="church_prayer_detail padding">
+    					<h3><I>God Dwells In Our Midst,<br>In The Blessed Sacrament<br>Of The Altar.</I></h3><br><br>
+						<p>The most deadly poison of our times is indifference. And this happens, although the praise of God should know no limits. Let us strive, therefore, to praise Him to the greatest extent of our powers.</p>
+    					<a href="#" class="default_btn black-bg_btn">Join Us Now</a>
+    				</div>
+    				<div class="pull-right">
+    					<figure>
+    						<img src="{% static 'image/assisi3.jpg' %}" alt="">
+    					</figure>
+    				</div>
+    			</div>
+    		</div>
+    		<!--church prayer block end-->
+		</div>
+
+		
+		
+		{% endblock %}

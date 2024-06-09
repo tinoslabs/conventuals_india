@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+       
+		<div class="sab_banner_wrap" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans 'Event Details' %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		<div class="content">
+    		<!--church blog detail wrap start-->
+    		<div class="church_blog_detail_wrap wrap_3">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-9">
+    						
+    						<div class="ch_blog_detail_row">
+    							
+    							<div class="church_blog_detail_text">
+									<h3 class="custom-font-30px">{{events.event_name}}</h3>
+									
+    								<figure>
+										{% if events.event_image %}
+    									<img src="{{events.event_image.url}}" alt="">
+										{% endif %}
+    								</figure>
+									
+									<ul class="church_meta_date meta_2 meta_3">
+										{% if events.end_date %}
+    									<li><a href="#">{{events.end_date}}</a></li>
+										{% endif %}
+									</ul>
+									{% if events.event_description %}
+									<p style="text-align: justify;color: black;font-family: 'Open Sans';">{{events.event_description}}</p>
+									{% endif %}
+    							</div>
+								
+								
+    							
+    							<div class="ch_comment_form">
+    								<h4 class="comment_title custom-font-30px">Post A Comment</h4>
+    								<form method="post" id="commentform" class="comment_form">{% csrf_token %}
+    									<div class="kode-left-comment-sec">
+    										<div class="kf_commet_field">
+    											<input placeholder="Full Name" name="name" type="text" value="" data-default="Name*" size="30" required>
+    										</div>
+    										<div class="kf_commet_field">
+    											<input placeholder="Email Address" name="email" type="text" value="" data-default="Email*" size="30" required>
+    										</div>
+    										<div class="kf_commet_field full-width-kode">
+    											<input placeholder="Subject" name="subject" type="text" value=""  size="30">
+    										</div>
+    									</div>
+    									<div class="ch_textarea">
+    										<textarea placeholder="Type here message" name="comment"></textarea>
+    									</div>
+    									<p class="form_submit"><input name="submit" type="submit" class="default_small_btn btn_2" value="Post comment"></p>
+    								</form>
+    							</div>
+    							
+    						</div>
+    						
+    					</div>
+    					<div class="col-md-3">
+    						<div class="widget_sidebar">
+    							<div class="widget_categories">
+    								<h5 class="widget_tittle">Event Details</h5>
+    								<ul style="color: black;">
+    									<li>VENUE :{{events.event_venue}}</li>
+    									<li>ADDRESS :{{events.address}}</li>
+    									<li>EMAIL :{{events.email}}</li>
+    									<li>PHONE :{{events.phone}}</li>
+    									<!-- <li><a href="">WEBSITE LINK :{{events.website_link}}</a></li> -->
+    									
+    								</ul>
+    							</div>
+    
+    							<div class="widget_recents_posts">
+    								<h5 class="widget_tittle">Recent Event</h5>
+    								<div class="footer_blog_post">
+                                        <figure>
+                                            <img src="{{events.event_image.url}}" alt="">
+                                        </figure>
+                                        <div class="footer-post-content">
+                                            <!-- <a href="#">Click More</a> -->
+                                        </div>
+                                    </div>
+									
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		
+    		<div class="church_prayer_block height padding-0">
+    			<div class="container">
+    				<div class="church_prayer_detail padding">
+    					<h3><I>God Dwells In Our Midst,<br>In The Blessed Sacrament<br>Of The Altar.</I></h3><br><br>
+						<p>The most deadly poison of our times is indifference. And this happens, although the praise of God should know no limits. Let us strive, therefore, to praise Him to the greatest extent of our powers.</p>
+    					<a href="#" class="default_btn black-bg_btn">Join Us Now</a>
+    				</div>
+    				<div class="pull-right">
+    					<figure>
+    						<img src="{% static 'image/assisi3.jpg' %}" alt="">
+    					</figure>
+    				</div>
+    			</div>
+    		</div>
+    		
+		</div>
+		{% endblock %}

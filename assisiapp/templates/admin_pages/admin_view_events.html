@@ -1,0 +1,318 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+{% block content %}
+
+  
+ 
+            <div class="col-lg-10 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Events</h4>
+                  <a href="{% url 'admin_add_events' %}">
+                    <button class="btn btn-primary">Add Events</button>
+                </a>
+                
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Event Name</th>
+                          <th>Organizer</th>
+                          <th>Event Description</th>
+                          <th>Start Date</th>
+                          <th>Start Time</th>
+                          <th>End Date</th>
+                          <!-- <th>End Time</th> -->
+                          <th>Event Venue</th>
+                          <th>Address</th>
+                          <th>Email</th>
+                          <th>Phone</th>
+                          <th>Website Link</th>
+                            
+                          <th>Event Image</th>
+                          <th>Update</th>
+                          <th>Delete</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for details in event %}
+                        <tr>
+                          
+                          <td style="width: 150px; ">
+                            {{ details.event_name }}
+                          </td>
+
+                          {% if details.organizer %}
+                          <td style="width: 150px; ">
+                            {{ details.organizer }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+                          {% if details.event_description %}
+                          <td style="width: 800px; height: 400px;  white-space: inherit; word-wrap: break-word;">
+                            {{ details.event_description }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+                          {% if details.start_date %} 
+                          <td style="width: 150px; ">
+                            {{ details.start_date }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+                          {% if details.start_time %} 
+                          <td style="width: 150px; ">
+                            {{ details.start_time }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+                          {% if details.end_date %}
+                          <td style="width: 150px; ">
+                            {{ details.end_date }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+
+                          {% if details.event_venue %}
+                          <td>
+                            {{ details.event_venue }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+                          {% if details.address %}
+                          <td>
+                            {{ details.address }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+                          {% if details.email %}
+                          <td>
+                            {{ details.email }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+                          {% if details.phone %}
+                          <td>
+                            {{ details.phone }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+
+                          {% if details.website_link %}
+                          <td style="width: 150px; ">
+                            {{ details.website_link }}
+                          </td>
+                          {% else %}
+                          <td>Data Not Found</td>
+                          {% endif %}
+                        
+                          <td style="width: 150px; ">
+                            {% if details.event_image %}
+                            <img src="{{ details.event_image.url }}" alt="Current Image" style="width: 80px; height: 80px;">
+                            {% else %}
+                            <td>Data Not Found</td>
+                            {% endif %}
+                          </td>
+                          
+                          <td style="width: 150px; ">
+                            <a href="{% url 'admin_update_events' details.id  %}"><button><i class="mdi mdi-cloud-upload" aria-hidden="true"></i> </button></a>
+                          </td>
+                          <td style="width: 150px; ">
+                            <a href="{% url 'admin_delete_events' details.id  %}"><button><i class="mdi mdi-delete" aria-hidden="true"></i> </button></a>
+                          </td>
+                        </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+    
+
+{% endblock %}
+
+
+    <!-- <div class="col-lg-10 grid-margin stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Events</h4>
+            <a href="{% url 'admin_add_events' %}">
+              <button class="btn btn-primary">Add Events</button>
+          </a>
+         
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Event Name</th>
+                    <th>Organizer</th>
+                    <th>Event Description</th>
+                    <th>Start Date</th>
+                    <th>Start Time</th>
+                    <th>End Date</th>
+                    <th>End Time</th>
+                    <th>Event Venue</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Website Link</th>
+                            
+                    <th>Event Image</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for details in event_name %}
+                  <tr>
+                    <td style="width: 150px; ">
+                      {{ details.event_name }}
+                    </td>
+
+                    {% if details.organizer %}
+                    <td style="width: 150px; ">
+                      {{ details.organizer }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.event_description %}
+                    <td style="width: 600px; height: 200px;  white-space: inherit; word-wrap: break-word;">
+                      {{ details.event_description }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.start_date %}
+                    <td style="width: 150px; ">
+                      {{ details.start_date }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.start_time %}
+                    <td style="width: 150px; ">
+                      {{ details.start_time }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.end_date %}
+                    <td style="width: 150px; ">
+                      {{ details.end_date }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.end_time %}
+                    <td style="width: 150px; ">
+                      {{ details.end_time }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.event_venue %}
+                    <td style="width: 150px; ">
+                      {{ details.event_venue }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.address %}
+                    <td style="width: 150px; ">
+                      {{ details.address }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.email %}
+                    <td style="width: 150px; ">
+                      {{ details.email }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.phone %}
+                    <td style="width: 150px; ">
+                      {{ details.phone }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.website_link %}
+                    <td style="width: 150px; ">
+                      {{ details.website_link }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+
+                    {% if details.event_image %}
+                    <td style="width: 150px; ">
+                      {{ details.event_image }}
+                    </td>
+                    {% else %}
+                    <td>Data Not Found</td>
+                    {% endif %}
+                  
+                    <td style="width: 150px; ">
+                      {% if details.news_images %}
+                      <img src="{{details.news_images.url}}" alt="Current Image" style="width: 80px; height: 80px;">
+                      <br>
+                      
+                  {% else %}
+                      <p>No image available</p>
+                  {% endif %}
+                  </td>
+
+                  <td style="width: 150px; ">
+                    <a href="{% url 'admin_update_events' details.id  %}"><button><i class="mdi mdi-cloud-upload" aria-hidden="true"></i> </button></a>
+                  </td>
+                  <td style="width: 150px; ">
+                    <a href="{% url 'admin_delete_events' details.id  %}"><button><i class="mdi mdi-delete" aria-hidden="true"></i> </button></a>
+                  </td>
+                  
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+

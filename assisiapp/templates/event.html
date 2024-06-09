@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+        <!--church banner-->
+        <div class="sab_banner_wrap overlay">
+			<div class="sub_slider">
+				<div class="banner_slide">
+					<img src="{% static 'image/IMG_69788888.JPG' %}" alt="">
+				</div>
+				
+			</div>
+			<div class="container">
+				<div class="sab_banner_text">
+					<h3>Our Events</h3>
+					
+				</div>
+			</div>
+		</div>
+        <!--church banner ends-->
+
+        <div class="content">
+
+            
+
+            <section class="padding">
+                <div class="church_lastest_events">
+                    <div class="container">
+                       <div class="church_heading align_center">
+                            <h3>Our Events</h3>
+                            <span><sup class="icon-cross"></sup></span>
+                        </div>
+                        <div class="row">{% for details in data %}
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="church_event_blog">
+                                    <div class="church_listing_block">
+                                        <figure>
+                                            {% if details.event_image %}
+                                            <img src="{{details.event_image.url}}" alt="">
+                                            {% endif %}
+                                            <div class="church_date" style="height: 100px;">
+                                                <span>{{details.start_date}}</span>
+                                            </div>      
+                                        </figure>
+                                        <div class="church_listing_caption">
+                                            <div><h4><a href="#">{{details.event_name}} </a></h4>
+                                            <p>{{details.event_description}}</p></div>
+                                            <ul class="meta_address">
+                                                <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>{{details.address}}</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>{% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            
+            <div class="church_prayer_block height padding-0">
+    			<div class="container">
+    				<div class="church_prayer_detail padding">
+    					<h3><I>God Dwells In Our Midst,<br>In The Blessed Sacrament<br>Of The Altar.</I></h3><br><br>
+						<p>The most deadly poison of our times is indifference. And this happens, although the praise of God should know no limits. Let us strive, therefore, to praise Him to the greatest extent of our powers.</p>
+    					<a href="friends_of_smk" class="default_btn black-bg_btn">Join Us Now</a>
+    				</div>
+    				<div class="pull-right">
+    					<figure>
+    						<img src="{% static 'image/assisi3.jpg' %}" alt="">
+    					</figure>
+    				</div>
+    			</div>
+    		</div>
+            
+        </div>
+        
+{% endblock %}

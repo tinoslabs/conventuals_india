@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+		
+		<!--sab banner start-->
+		<!-- <div class="sab_banner_wrap" style="margin-top: -45px">
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/assisi-11.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans 'GRAY FRIARS PUBLICATIONS' %}</h3>
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans 'GRAY FRIARS PUBLICATIONS' %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		
+		<div class="content">
+			<section class="ministry_detail padding-bottom">
+				<div class="container">
+					<div class="ministry_column">
+						<div class="left_side-content">
+							<figure>
+								<img src="{% static 'images/media-1.jpg' %}" alt="">
+							</figure>
+							<div class="ministry_content">
+								<h4 class="custom-font-30px" style="color: #c62641;font-family: 'Open Sans';color: black;">{% trans 'Greyfriars Publications' %}</h4>
+								<p style="text-align: justify;font-family: 'Open Sans';color: black;">{% trans 'gray friars one' %}</p>
+							</div>
+						</div>
+						<p style="text-align: justify;font-family: 'Open Sans';color: black;">{% trans 'gray friars two' %}<br><br>
+                            
+                            {% trans 'gray friars three' %}<br><br>
+                            
+                            {% trans 'gray friars four' %}<br><br>
+                            
+							{% trans 'gray friars five' %}<br><br>
+                            
+                            {% trans 'gray friars six' %}<br><br>
+                            
+                            {% trans 'gray friars seven' %}<br><br>
+                            
+                            {% trans 'gray friars eight' %}<br><br>
+
+                            {% trans 'gray friars nine' %}<br><br>
+
+							{% trans 'gray friars ten' %}
+                            
+                            
+                        </p>
+						
+				</div>
+			</section>
+			<div class="church_prayer_block height padding-0">
+				<div class="container">
+					<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'It Would be considered a theft on our part' %}</p>
+						
+						<P>{% trans 'SAINT FRANCIS OF ASSISI' %}</P>
+    					<a href="{% url 'friends_of_smk' %}" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+					<div class="pull-right">
+						<figure>
+							<img src="{% static 'image/assisi3.jpg' %}" alt="">
+						</figure>
+					</div>
+				</div>
+			</div>
+
+            <!--church prayer block start-->
+            
+            <!--church prayer block end-->
+		</div>
+		
+		{% endblock %}

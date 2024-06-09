@@ -1,0 +1,67 @@
+{% extends "updation_base.html" %}
+{% load static %}
+{% block content %}
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+    <section class="home">
+        <div class="toggle-sidebar">
+            <i class='bx bx-menu'></i>
+            <div class="text">Toggle</div>
+        </div>
+
+        <div class="container-1">
+                <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+
+                    <h2>UPDATE LATEST NEWS</h2>
+                    <div class="content-1">
+
+                        <div class="input-box">
+                            <label for="news_heading">News Heading</label>
+                            <input type="text" placeholder="" name="news_heading" value="{{news.news_heading}}" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="description">Description</label>
+                            <input type="text" placeholder="" name="description" value="{{news.description}}">
+                        </div>
+
+                        <div class="input-box">
+                            <label for="date">Date</label>
+                            <input type="date" placeholder="" name="date" value="{{news.date|date:'Y-m-d'}}" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="main_image">Main Image</label>
+                            <input type="file" placeholder="" name="main_image" required>
+                            {% if news.main_image %}
+                            <p style="font-size: small;">{{ news.main_image.name }} </p>
+                                {% else %}
+                                <p style="font-size: small;">>No file selected</p>
+                            {% endif %}
+                        </div>
+
+                        <div class="input-box">
+                            <label for="description_image">Description Image</label>
+                            <input type="file" placeholder="" name="description_image">
+                            {% if news.description_image %}
+                            <p style="font-size: small;">{{ news.description_image.name }} </p>
+                                {% else %}
+                                <p style="font-size: small;">>No file selected</p>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="button-container-1">
+                            <button type="submit">Update News</button>
+                        </div>
+
+                        <div class="button-container-1">
+                            <button type="button" onclick="window.history.back();">Back</button>
+                        </div>
+                        
+                    </div>
+                </form>
+        </div>
+    </section>
+{% endblock %}

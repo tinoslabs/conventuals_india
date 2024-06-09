@@ -1,0 +1,87 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+{% block content %}
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Add Wishes</h4>
+                <!-- <p class="card-description">
+                  Basic form layout
+                </p> -->
+                <form class="forms-sample" method="POST" enctype="multipart/form-data"> {% csrf_token %}
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" class="form-control" id="date" name="DOB" placeholder="DOB">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="heading">Heading</label>
+                    
+                    <input type="text" class="form-control" id="heading" name="heading" placeholder="eg:Happy Birthday/Happy Annivensary">
+                </div>
+                  <div class="form-group">
+                    <label for="wishMessage">Whish Message</label>
+                    <textarea class="form-control" name="wishes" id="wishMessage" rows="3" style="height: 150px;" placeholder="wish message"></textarea>
+                </div>
+                
+                
+                
+                <div class="form-group">
+                  <label for="address">Address</label>
+                  <input type="text" class="form-control" id="address" name="address" placeholder="Optional">
+                </div>
+
+                
+
+                <div class="form-group">
+                  <label for="imageFile">Image</label>
+                  <input type="file" class="form-control-file" id="imageFile" name="image" required>
+                </div>
+
+                  <div class="form-check form-check-flat form-check-primary">
+                    <label class="form-check-label">
+                      <!-- <input type="checkbox" class="form-check-input">
+                      Remember me -->
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary me-2">Submit</button>
+                  <!-- <button class="btn btn-light">Cancel</button> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var dateInput = document.getElementById('date');
+            
+            function getCurrentDate() {
+                var now = new Date();
+                var year = now.getFullYear();
+                var month = ('0' + (now.getMonth() + 1)).slice(-2);
+                var day = ('0' + now.getDate()).slice(-2);
+                return year + '-' + month + '-' + day;
+            }
+
+            var today = getCurrentDate();
+            dateInput.setAttribute('min', today);
+            
+            dateInput.addEventListener('change', function() {
+                var selectedDate = dateInput.value;
+                if (new Date(selectedDate) < new Date(today)) {
+                    dateInput.value = today;
+                    alert('Please enter a valid value: date cannot be in the past.');
+                }
+            });
+        });
+    </script>
+    
+{% endblock %}

@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<style>
+	
+	/* Basic styling for the carousel items */
+	.team-style-1 .team-inner {
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		border-radius: 10px;
+		overflow: hidden; /* Ensure children are clipped if they overflow */
+	}
+
+	/* Hover effect for the entire card */
+	.team-style-1 .team-inner:hover {
+		transform: scale(1.05);
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+	}
+
+	/* Ensure images have rounded corners */
+	.team-style-1 .relative img {
+		border-radius: 10px;
+	}
+
+	/* Optional: Styling to ensure smooth visual consistency */
+	.team-details {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+
+</style>
+		<!--sab banner start-->
+		<!-- <div class="sab_banner_wrap" style="margin-top: -45px">
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/WhatsApp Image 2024-05-21 at 10.44.40.jpeg' %}" alt="">
+                </div>
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans "KOLKATA MISSION" %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans "KOLKATA MISSION" %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		
+		<div class="content">
+
+			<!-- <section>
+				
+				<div class="container">
+					
+					<div class="row">
+						<div class="offset-md-2 col-md-8">
+							<div class="title-wrap text-center">
+								<div class="section-title">
+									<span class="sub-title theme-color text-uppercase">{% trans "Our Team" %}</span>
+									<h2 class="section-title margin-top-5"><b>{% trans "KOLKATA MISSION" %}</b></h2>
+									<span class="border-bottom center"></span>
+								</div>
+							</div>
+						</div>
+						{% for kolkata in kolkata %}
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="church_ministry_cols">
+								<figure>
+									<center><img class="ministry-image" src="{{kolkata.image.url}}" alt=""  ></center>
+								</figure>
+								<center><h4 style="color:#c82444;">{{kolkata.name}}</h4></center>
+								<center><h6>{{kolkata.designation}}</h6></center>
+							</div>
+						</div>	
+						{% endfor %}	
+					</div>
+				</div>
+			</section> -->
+			<section id="team-section" class="team-section pad-top-120">
+				<div class="container">
+					
+					<div class="row">
+						<div class="offset-md-2 col-md-8">
+							<div class="title-wrap text-center">
+								<div class="section-title">
+									<span class="sub-title theme-color text-uppercase">{% trans "Our Team" %}</span>
+									<h2 class="section-title margin-top-5"><b>{% trans "KOLKATA MISSION" %}</b></h2>
+									<span class="border-bottom center"></span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="owl-carousel team-main-wrapper" data-loop="1" data-nav="0" data-dots="1" data-autoplay="1" data-autoplaypause="1" data-autoplaytime="5000" data-smartspeed="1000" data-margin="30" data-items="4" data-items-tab="2" data-items-mob="1">
+							{% for kolkata in kolkata %}
+							<div class="item">
+								<div class="team-style-1">
+																
+									<div class="team-inner box-shadow margin-bottom-20">												
+										<div class="mb-0 relative">
+											<img src="{{kolkata.image.url}}" class="img-fluid thumb w-100" width="480" height="485" alt="team-img"  />														
+										</div>												
+										<div class="team-details bg-white text-center pad-lr-30 pad-top-30 pad-bottom-20">
+											<div class="team-name">
+												<h3 class="mb-0"><a href="#" class="client-name">{{kolkata.name}}</a></h3>
+											</div>
+											<div class="team-designation mb-3"><p class="mb-0">{{kolkata.designation}}</p></div>
+											
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</section>
+            <!-- <section id="team-section" class="team-section pad-top-120">
+				<div class="container">
+					
+					<div class="row">
+						<div class="offset-md-2 col-md-8">
+							<div class="title-wrap text-center">
+								<div class="section-title">
+									<span class="sub-title theme-color text-uppercase">{% trans "Our Team" %}</span>
+									<h2 class="section-title margin-top-5"><b>{% trans "KOLKATA MISSION" %}</b></h2>
+									<span class="border-bottom center"></span>
+								</div>
+							</div>
+						</div>
+						
+						{% if kolkata|length > 3 %}
+						<div class="owl-carousel team-main-wrapper" data-loop="1" data-nav="0" data-dots="1" data-autoplay="1" data-autoplaypause="1" data-autoplaytime="5000" data-smartspeed="1000" data-margin="30" data-items="4" data-items-tab="2" data-items-mob="1">
+						{% else %}
+						<div class="owl-carousel team-main-wrapper" data-loop="0" data-nav="0" data-dots="1" data-autoplay="0" data-autoplaypause="0" data-autoplaytime="5000" data-smartspeed="1000" data-margin="30" data-items="{{ kolkata|length }}" data-items-tab="{{ kolkata|length }}" data-items-mob="{{ kolkata|length }}">
+						{% endif %}
+							{% for kolkata in kolkata %}
+							<div class="item">
+								<div class="team-style-1">
+									<div class="team-inner box-shadow margin-bottom-20">
+										<div class="mb-0 relative">
+											<img src="{{kolkata.image.url}}" class="img-fluid thumb w-100" width="480" height="485" alt="team-img" />
+										</div>
+										<div class="team-details bg-white text-center pad-lr-30 pad-top-30 pad-bottom-20">
+											<div class="team-name">
+												<h3 class="mb-0"><a href="#" class="client-name">{{kolkata.name}}</a></h3>
+											</div>
+											<div class="team-designation mb-3"><p class="mb-0">{{kolkata.designation}}</p></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</section> -->
+            
+              
+            <div class="church_prayer_block height padding-0">
+    			<div class="container">
+    				<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'Above all the grace and the gifts that Christ gives to his beloved is that of overcoming self..' %}</p>
+						<P>{% trans 'SAINT FRANCIS OF ASSISI' %}</P>
+						
+    					<a href="{% url 'friends_of_smk' %}" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+    				<div class="pull-right">
+    					<figure>
+    						<img src="{% static 'image/WhatsApp Image 2024-05-23 at 18.18.59.jpeg' %}" alt="">
+    					</figure>
+    				</div>
+    			</div>
+    		</div>
+		</div>
+        
+		<style>
+			.ministry-image {
+				height: 450px; /* Adjust this value as needed */
+				width: auto; /* Maintain aspect ratio */
+			}
+			
+		</style>
+          
+
+        {% endblock %}

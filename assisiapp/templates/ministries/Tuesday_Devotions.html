@@ -1,0 +1,184 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+		
+		<!--sab banner start-->
+		<!-- <div class="sab_banner_wrap" style="margin-top: -45px">
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/WhatsApp Image 2024-05-21 at 10.44.40.jpeg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans 'TUESDAY DEVOTIONS' %}</h3>
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans 'TUESDAY DEVOTIONS' %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		
+		<div class="content">
+			<section class="ministry_detail padding-bottom">
+				<div class="container">
+					<div class="ministry_column">
+						<div class="left_side-content">
+							<figure>
+								<img src="{% static 'images/thursday.jpg' %}" alt="">
+							</figure>
+							<div class="ministry_content">
+								<h4 class="custom-font-30px" style="color: #c62641;">{% trans 'Tuesday Devotions' %}
+                                </h4>
+                                    
+								<p style="text-align: justify;font-family: 'Open Sans';color: black;">{% trans 'tuesday one' %}
+                                </p>
+							</div>
+						</div>
+						
+						<div class="container-1">
+							<input type="checkbox" id="check">
+                            <h4>1) {% trans 'Franciscan Ashram, Nattakkal' %}</h4>
+                            <p style="font-family: 'Open Sans';color: black;">{% trans 'tuesday two' %}<br><br>
+                            </p>
+                            <h4>2) {% trans 'St. Paul Franciscan Ashram, Kattappana' %}</h4>
+                            <p style="font-family: 'Open Sans';color: black;">{% trans 'tuesday three' %}<br><br></p>
+                            <h4>3){% trans 'Padua Franciscan Ashram, Puthenchira' %}</h4>
+                            <p style="font-family: 'Open Sans';color: black;">{% trans 'tuesday four' %}<br><br></p>
+							<h4>4) {% trans 'Assisi Shanthi Kendra, Karukutty' %}</h4>
+                            <p style="font-family: 'Open Sans';color: black;">{% trans 'tuesday five' %}</p>	
+						</div>
+						
+				</div>
+			</section>
+			<div class="church_prayer_block height padding-0">
+				<div class="container">
+					<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'It Would be considered a theft on our part' %}</p>
+						
+						<P>{% trans 'SAINT FRANCIS OF ASSISI' %}</P>
+    					<a href="{% url 'friends_of_smk' %}" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+					<div class="pull-right">
+						<figure>
+							<img src="{% static 'image/assisi3.jpg' %}" alt="">
+						</figure>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<style>
+			.container-1{
+			width: 1150px;
+			background: ffff;
+			padding: 20px;
+			margin : 0 auto;
+		}
+		
+		.container-1 h2{
+			margin-bottom: 10px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		
+		.container-1 p{
+			line-height: 1.4;
+			text-align: justify;
+		}
+		#check{
+			display: none;
+		}
+		.content-1{
+			display: none;
+			transition: 0.5s linear;
+		}
+		label{
+			display: inline-block;
+			margin-top: 15px;
+			color: red;
+			text-decoration: underline;
+			cursor: pointer;
+			font-weight: 800;
+		}
+		#check:checked ~ .content-1{
+			display: block;
+		}
+		#check:checked ~ label{
+			/* display: none; */
+			visibility: hidden;
+		}
+		#check:checked ~ label::after{
+			content: 'show less';
+			display: block;
+			visibility: visible;
+			color:red;
+		}
+		@media (max-width: 767px) {
+        .container-1 {
+            display: block; /* Show content by default on mobile */
+        }
+
+		.ministry_column .container-1{
+		float: left;
+		width: 100%;
+		padding: 0px;
+		}
+
+        /* label::after {
+            content: 'show more';
+        } */
+
+    	#check:checked~label::after {
+            content: 'show less';
+        }
+		div.right_side-content div.container-1,
+		div.ministry_column div.left_side-content figure img{
+		width: 100%;
+		}.
+	}
+	@media screen and (min-width: 992px) and (max-width: 1199px) {
+		.ministry_column .container-1{
+		float: left;
+		width: 100%;
+		padding: 0px;
+		}
+	}
+	@media (max-width: 991px) {	
+		.ministry_column .container-1{
+		float: left;
+		width: 100%;
+		padding: 0px;
+		}
+		
+	}
+		</style>
+		
+		{% endblock %}

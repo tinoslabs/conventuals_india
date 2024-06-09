@@ -1,0 +1,67 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+
+{% block content %}
+ 
+<div class="col-lg-11 grid-margin stretch-card">
+  <div class="card">
+      <div class="card-body">
+          <h4 class="card-title">Kolkata Mission</h4>
+          <a href="{% url 'add_kolkata_mission' %}">
+            <button class="btn btn-primary">Add Kolkata Mission</button>
+          </a>
+          <div class="table-responsive">
+              <div style="overflow-x:auto;">
+                  <table class="table table-striped" id="kolkataTable">
+                      <thead>
+                          <tr>
+                              <th>Name</th>
+                              <th>Designation</th>
+                              <th>Image</th>
+                              <th>Update</th>
+                              <th>Delete</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          {% for details in kolkata_mission %}
+                          <tr>
+                              <td style="width: 150px;">{{ details.name }}</td>
+                              <td style="width: 150px;">{{ details.designation }}</td>
+                              <td style="width: 150px;">
+                                  {% if details.image %}
+                                  <img src="{{ details.image.url }}" alt="Current Image" style="width: 80px; height: 80px;">
+                                  <br>
+                                  {% else %}
+                                  <p>No image available</p>
+                                  {% endif %}
+                              </td>
+                              <td style="width: 150px;">
+                                  <a href="{% url 'update_kolkata_mission' details.id  %}">
+                                      <button><i class="mdi mdi-cloud-upload" aria-hidden="true"></i></button>
+                                  </a>
+                              </td>
+                              <td style="width: 150px;">
+                                  <a href="{% url 'delete_kolkata_mission' details.id  %}">
+                                      <button><i class="mdi mdi-delete" aria-hidden="true"></i></button>
+                                  </a>
+                              </td>
+                          </tr>
+                          {% endfor %}
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+</div>
+<style>
+  @media only screen and (min-width: 200px) and (max-width: 249px) {
+    .table-image {
+      max-width: 160px; /* Adjust the image size as needed */
+      max-height: 160px;
+      margin-left: -15px;
+    }
+  }
+</style>
+        {% endblock %}

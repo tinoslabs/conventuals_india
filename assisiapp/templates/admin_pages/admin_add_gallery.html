@@ -1,0 +1,41 @@
+
+{% extends "admin_pages/base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Add Gallery</h4>
+                
+                <form class="forms-sample" method="POST" enctype="multipart/form-data"> {% csrf_token %} 
+                <div class="form-group">
+                  <label for="imageFile">Please upload images of the same height.</label>
+                  <!-- <small style="display:block; font-size:12px; color:#070606;">Please upload images of the same length.</small> -->
+                  <input type="file" class="form-control-file" id="imageFile" name="gallery_image" accept="image/*" required>
+                </div>
+
+                  <div class="form-check form-check-flat form-check-primary">
+                    <label class="form-check-label">
+                      <!-- <input type="checkbox" class="form-check-input">
+                      Remember me -->
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary me-2">Submit</button>
+                  <!-- <button class="btn btn-light">Cancel</button> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+{% endblock %}

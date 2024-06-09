@@ -1,0 +1,3893 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-03 22:15+0530\n"
+"PO-Revision-Date: 2024-06-07 22:31+0000\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: assisiapp/models.py:9
+msgid "product_name"
+msgstr "shoe"
+
+#: assisiapp/models.py:10
+msgid "description"
+msgstr "black color shoe"
+
+#: assisiapp/templates/about_us/conventual_charism.html:17
+#: assisiapp/templates/about_us/conventual_charism.html:36
+#: assisiapp/templates/base.html:247 assisiapp/templates/base.html:374
+#: assisiapp/templates/index.html:714 assisiapp/templates/index.html:839
+msgid "Conventual Charism"
+msgstr "Conventual Charism"
+
+#: assisiapp/templates/about_us/conventual_charism.html:54
+msgid "conventual charism one"
+msgstr "Our Founder, Saint Francis of Assisi"
+
+#: assisiapp/templates/about_us/conventual_charism.html:55
+msgid "conventual charism two"
+msgstr ""
+"In 1209, St. Francis of Assisi received formal approval for his gospel way "
+"of life from Pope Innocent III. He entitled his community the \"Friars "
+"Minor,\" (meaning Lesser Brothers). St. Francis wanted his followers to "
+"imitate the humility of Christ and to minister to the least, the neglected "
+"and the forgotten in society."
+
+#: assisiapp/templates/about_us/conventual_charism.html:57
+msgid "conventual charism three"
+msgstr ""
+"With over five thousand followers in his lifetime, St. Francis soon inspired"
+" the energetic and talented friars toward a broader task of helping to "
+"transform every level of society. No positive initiative was outside the "
+"community's gospel mandate - as long as the good work did not \"extinguish "
+"the spirit of holy prayer and devotion to which all other temporal matters "
+"must be subordinate\" (Rule, Chapter V). The friars quickly became preachers"
+" and educators, administrators of royal charities, and advocates of social "
+"justice. They spread the faith far and wide as missionaries, and they often "
+"spilled their blood as martyrs. The friars' expanding influence ultimately "
+"obliged them to even \"sacramentalize\" culture. As musicians they began to "
+"dispel the dullness of life; as architects they reached beyond ordinary "
+"shapes and forms; and, as scientists they explored the mysteries of God's "
+"creation."
+
+#: assisiapp/templates/about_us/conventual_charism.html:60
+msgid "conventual charism four"
+msgstr "The \"Conventual\" Identity"
+
+#: assisiapp/templates/about_us/conventual_charism.html:61
+msgid "conventual charism five"
+msgstr ""
+"After the death of St. Francis, the burgeoning community struggled to keep a"
+" united focus. It became increasingly clear that the charism given to "
+"Francis and his community could not possibly be contained within one "
+"singular expression of gospel life. In 1517, the Franciscan Order was "
+"divided into autonomous branches, each following a valid, yet different, "
+"observance of St. Francis' Rule."
+
+#: assisiapp/templates/about_us/conventual_charism.html:63
+msgid "conventual charism six"
+msgstr ""
+"From the 13th century onward, the friars of the \"conventual\" tradition have been ministering primarily in urban centers. They banded together in the heart of the European cities where they could touch all levels of society with the Good News of Christ Incarnate. Many of the large churches and ministry centers that were constructed in the earliest years of the Franciscan movement are still administered by the Conventual friars. Our Franciscan heritage in Italy includes everything from the humble sanctuary housing the site of the first friary at Rivo Torto to the world renowned basilica of Santa Croce in Florence.\n"
+"\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\tLarge shrines have been the hallmark of the Conventual friars. Beginning with the Assisi basilica and tomb of our founder St. Francis, our friars have built and continue to minister at Franciscan sanctuaries that include the basilica and tomb of St. Anthony in Padua, and the basilica and tomb of St. Joseph of Cupertino (in Osimo). At our international headquarters in Rome, the friars also have care of the basilica of Santi Apostoli, which houses the tomb of the apostles Philip and James. Another significant pilgrimage site where we minister in Italy is the Eucharistic Miracle Sanctuary at Lanciano."
+
+#: assisiapp/templates/about_us/conventual_charism.html:73
+#: assisiapp/templates/about_us/conventuals_in_india.html:144
+#: assisiapp/templates/about_us/franciscan_saints.html:164
+#: assisiapp/templates/about_us/history_of_the_order.html:95
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:191
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:74
+#: assisiapp/templates/administration/ap_telengana_delegation.html:124
+#: assisiapp/templates/administration/kolkata_mission.html:151
+#: assisiapp/templates/administration/provinical_administration.html:128
+#: assisiapp/templates/administration/sri_lankan_mission.html:120
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:78
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:85
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:65
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:79
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:58
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:89
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:140
+#: assisiapp/templates/friaries/Nirmalaram_Franciscan_Ashram.html:84
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:78
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:61
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:77
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:80
+#: assisiapp/templates/friaries/St_FrancisFriary.html:80
+#: assisiapp/templates/friaries/St_Francis_Friary.html:85
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:77
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:76
+#: assisiapp/templates/friends_of_smk.html:134
+#: assisiapp/templates/gallery.html:96 assisiapp/templates/index.html:1341
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:69
+#: assisiapp/templates/ministries/FCPD.html:103
+#: assisiapp/templates/ministries/Franciscan_Centre.html:81
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:89
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:86
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:70
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:65
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:69
+#: assisiapp/templates/ministries/Kolbe_Communications.html:89
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:90
+#: assisiapp/templates/ministries/OFS.html:74
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:68
+#: assisiapp/templates/ministries/Retreat_Centers.html:73
+#: assisiapp/templates/ministries/Social_Apostolate.html:117
+#: assisiapp/templates/ministries/St_Anthony_School.html:68
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:70
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:69
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:71
+#: assisiapp/templates/ministries/St_Peter_School.html:70
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:82
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:69
+#: assisiapp/templates/ministries/Vocation_And_Formation_Apostolate.html:90
+#: assisiapp/templates/set_up_of_the_province/friars.html:114
+#: assisiapp/templates/vocation/vocation-1.html:345
+#: assisiapp/templates/vocation/vocation-2.html:318
+msgid "God Dwells In Our Midst,"
+msgstr "God Dwells In Our Midst,"
+
+#: assisiapp/templates/about_us/conventual_charism.html:73
+#: assisiapp/templates/about_us/conventuals_in_india.html:144
+#: assisiapp/templates/about_us/franciscan_saints.html:164
+#: assisiapp/templates/about_us/history_of_the_order.html:95
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:191
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:74
+#: assisiapp/templates/administration/ap_telengana_delegation.html:124
+#: assisiapp/templates/administration/kolkata_mission.html:151
+#: assisiapp/templates/administration/provinical_administration.html:128
+#: assisiapp/templates/administration/sri_lankan_mission.html:120
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:78
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:85
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:65
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:79
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:58
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:89
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:140
+#: assisiapp/templates/friaries/Nirmalaram_Franciscan_Ashram.html:84
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:78
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:61
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:77
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:80
+#: assisiapp/templates/friaries/St_FrancisFriary.html:80
+#: assisiapp/templates/friaries/St_Francis_Friary.html:85
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:77
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:76
+#: assisiapp/templates/friends_of_smk.html:134
+#: assisiapp/templates/gallery.html:96 assisiapp/templates/index.html:1341
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:69
+#: assisiapp/templates/ministries/FCPD.html:103
+#: assisiapp/templates/ministries/Franciscan_Centre.html:81
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:89
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:86
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:70
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:65
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:69
+#: assisiapp/templates/ministries/Kolbe_Communications.html:89
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:90
+#: assisiapp/templates/ministries/OFS.html:74
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:68
+#: assisiapp/templates/ministries/Retreat_Centers.html:73
+#: assisiapp/templates/ministries/Social_Apostolate.html:117
+#: assisiapp/templates/ministries/St_Anthony_School.html:68
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:70
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:69
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:71
+#: assisiapp/templates/ministries/St_Peter_School.html:70
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:82
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:69
+#: assisiapp/templates/ministries/Vocation_And_Formation_Apostolate.html:90
+#: assisiapp/templates/set_up_of_the_province/friars.html:114
+#: assisiapp/templates/vocation/vocation-1.html:345
+#: assisiapp/templates/vocation/vocation-2.html:318
+msgid "In The Blessed Sacrament"
+msgstr "In The Blessed Sacrament"
+
+#: assisiapp/templates/about_us/conventual_charism.html:73
+#: assisiapp/templates/about_us/conventuals_in_india.html:144
+#: assisiapp/templates/about_us/franciscan_saints.html:164
+#: assisiapp/templates/about_us/history_of_the_order.html:95
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:191
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:74
+#: assisiapp/templates/administration/ap_telengana_delegation.html:124
+#: assisiapp/templates/administration/kolkata_mission.html:151
+#: assisiapp/templates/administration/provinical_administration.html:128
+#: assisiapp/templates/administration/sri_lankan_mission.html:120
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:78
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:85
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:65
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:79
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:58
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:89
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:140
+#: assisiapp/templates/friaries/Nirmalaram_Franciscan_Ashram.html:84
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:78
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:61
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:77
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:80
+#: assisiapp/templates/friaries/St_FrancisFriary.html:80
+#: assisiapp/templates/friaries/St_Francis_Friary.html:85
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:77
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:76
+#: assisiapp/templates/friends_of_smk.html:134
+#: assisiapp/templates/gallery.html:96 assisiapp/templates/index.html:1341
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:69
+#: assisiapp/templates/ministries/FCPD.html:103
+#: assisiapp/templates/ministries/Franciscan_Centre.html:81
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:89
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:86
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:70
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:65
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:69
+#: assisiapp/templates/ministries/Kolbe_Communications.html:89
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:90
+#: assisiapp/templates/ministries/OFS.html:74
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:68
+#: assisiapp/templates/ministries/Retreat_Centers.html:73
+#: assisiapp/templates/ministries/Social_Apostolate.html:117
+#: assisiapp/templates/ministries/St_Anthony_School.html:68
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:70
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:69
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:71
+#: assisiapp/templates/ministries/St_Peter_School.html:70
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:82
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:69
+#: assisiapp/templates/ministries/Vocation_And_Formation_Apostolate.html:90
+#: assisiapp/templates/set_up_of_the_province/friars.html:114
+#: assisiapp/templates/vocation/vocation-1.html:345
+#: assisiapp/templates/vocation/vocation-2.html:318
+msgid "Of The Altar."
+msgstr "Of The Altar."
+
+#: assisiapp/templates/about_us/conventual_charism.html:74
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:70
+#: assisiapp/templates/ministries/FCPD.html:104
+#: assisiapp/templates/ministries/Franciscan_Centre.html:82
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:90
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:87
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:71
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:66
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:70
+#: assisiapp/templates/ministries/Kolbe_Communications.html:90
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:91
+#: assisiapp/templates/ministries/OFS.html:75
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:69
+#: assisiapp/templates/ministries/Retreat_Centers.html:74
+#: assisiapp/templates/ministries/Social_Apostolate.html:118
+#: assisiapp/templates/ministries/St_Anthony_School.html:69
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:71
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:70
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:72
+#: assisiapp/templates/ministries/St_Peter_School.html:71
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:83
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:70
+#: assisiapp/templates/ministries/Vocation_And_Formation_Apostolate.html:91
+msgid "It Would be considered a theft on our part"
+msgstr ""
+"It Would be considered a theft on our part if we didn't give to someone in "
+"greater need than we are"
+
+#: assisiapp/templates/about_us/conventual_charism.html:76
+#: assisiapp/templates/about_us/conventuals_in_india.html:146
+#: assisiapp/templates/about_us/franciscan_saints.html:166
+#: assisiapp/templates/about_us/history_of_the_order.html:97
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:193
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:76
+#: assisiapp/templates/administration/ap_telengana_delegation.html:126
+#: assisiapp/templates/administration/kolkata_mission.html:153
+#: assisiapp/templates/administration/provinical_administration.html:130
+#: assisiapp/templates/administration/sri_lankan_mission.html:122
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:80
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:87
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:67
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:81
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:80
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:60
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:91
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:142
+#: assisiapp/templates/friaries/Nirmalaram_Franciscan_Ashram.html:86
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:80
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:63
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:79
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:80
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:82
+#: assisiapp/templates/friaries/St_FrancisFriary.html:82
+#: assisiapp/templates/friaries/St_Francis_Friary.html:87
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:79
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:80
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:80
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:78
+#: assisiapp/templates/friends_of_smk.html:136
+#: assisiapp/templates/gallery.html:98
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:72
+#: assisiapp/templates/ministries/FCPD.html:106
+#: assisiapp/templates/ministries/Franciscan_Centre.html:84
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:92
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:89
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:73
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:68
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:72
+#: assisiapp/templates/ministries/Kolbe_Communications.html:92
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:93
+#: assisiapp/templates/ministries/OFS.html:77
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:71
+#: assisiapp/templates/ministries/Retreat_Centers.html:76
+#: assisiapp/templates/ministries/Social_Apostolate.html:120
+#: assisiapp/templates/ministries/St_Anthony_School.html:71
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:73
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:72
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:74
+#: assisiapp/templates/ministries/St_Peter_School.html:73
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:85
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:72
+#: assisiapp/templates/ministries/Vocation_And_Formation_Apostolate.html:93
+#: assisiapp/templates/set_up_of_the_province/friars.html:116
+#: assisiapp/templates/vocation/vocation-1.html:347
+#: assisiapp/templates/vocation/vocation-2.html:320
+msgid "SAINT FRANCIS OF ASSISI"
+msgstr "SAINT FRANCIS OF ASSISI"
+
+#: assisiapp/templates/about_us/conventual_charism.html:77
+#: assisiapp/templates/about_us/conventuals_in_india.html:148
+#: assisiapp/templates/about_us/franciscan_saints.html:168
+#: assisiapp/templates/about_us/history_of_the_order.html:99
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:195
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:77
+#: assisiapp/templates/administration/ap_telengana_delegation.html:128
+#: assisiapp/templates/administration/kolkata_mission.html:155
+#: assisiapp/templates/administration/provinical_administration.html:132
+#: assisiapp/templates/administration/sri_lankan_mission.html:124
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:81
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:88
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:68
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:82
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:81
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:61
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:92
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:143
+#: assisiapp/templates/friaries/Nirmalaram_Franciscan_Ashram.html:87
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:81
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:64
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:80
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:81
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:83
+#: assisiapp/templates/friaries/St_FrancisFriary.html:83
+#: assisiapp/templates/friaries/St_Francis_Friary.html:88
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:80
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:81
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:81
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:79
+#: assisiapp/templates/friends_of_smk.html:138
+#: assisiapp/templates/gallery.html:100 assisiapp/templates/index.html:1343
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:73
+#: assisiapp/templates/ministries/FCPD.html:107
+#: assisiapp/templates/ministries/Franciscan_Centre.html:85
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:93
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:90
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:74
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:69
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:73
+#: assisiapp/templates/ministries/Kolbe_Communications.html:93
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:94
+#: assisiapp/templates/ministries/OFS.html:78
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:72
+#: assisiapp/templates/ministries/Retreat_Centers.html:77
+#: assisiapp/templates/ministries/Social_Apostolate.html:121
+#: assisiapp/templates/ministries/St_Anthony_School.html:72
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:74
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:73
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:75
+#: assisiapp/templates/ministries/St_Peter_School.html:74
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:86
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:73
+#: assisiapp/templates/ministries/Vocation_And_Formation_Apostolate.html:94
+#: assisiapp/templates/set_up_of_the_province/friars.html:118
+#: assisiapp/templates/vocation/vocation-1.html:349
+#: assisiapp/templates/vocation/vocation-2.html:322
+msgid "Join Us Now"
+msgstr "Join Us Now"
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:17
+#: assisiapp/templates/about_us/conventuals_in_india.html:35
+#: assisiapp/templates/about_us/conventuals_in_india.html:96
+#: assisiapp/templates/index.html:713
+msgid "Conventuals in India"
+msgstr "Conventuals in India"
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:56
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:71
+#: assisiapp/templates/index.html:1146
+msgid "Who We Are"
+msgstr "Who We Are"
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:58
+#: assisiapp/templates/about_us/conventuals_in_india.html:98
+msgid "conventuals one"
+msgstr ""
+"Fr. Vitale BOMMARCO aimed to establish the Order in India to honour Blessed "
+"Maximilian’s 50th anniversary in 1978."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:60
+#: assisiapp/templates/about_us/conventuals_in_india.html:99
+msgid "conventuals two"
+msgstr ""
+" Fr. Sebald REIL, General Secretary for the Missions, was tasked to prepare "
+"and visit India."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:62
+#: assisiapp/templates/about_us/conventuals_in_india.html:100
+msgid "conventuals three"
+msgstr ""
+"Fr. Sebald contacted Bishop Jacob THOOMKUZHY of Mananthavady and Bishop "
+"Joseph POWATHIL of Kanjirappally, who were willing to host the Order."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:69
+#: assisiapp/templates/about_us/conventuals_in_india.html:101
+msgid "conventuals four"
+msgstr ""
+"On October 18, 1979, the General Definitory approved Fr. Sebald’s efforts."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:69
+msgid "coventuals five"
+msgstr ""
+"From November 16 to December 15, 1979, Fr. Sebald met with various bishops, "
+"particularly Bishop POWATHIL, who invited the Order to establish itself in "
+"his diocese."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:73
+#: assisiapp/templates/about_us/conventuals_in_india.html:103
+#: assisiapp/templates/about_us/conventuals_in_india.html:126
+msgid "conventuals six"
+msgstr "The first foundation aimed at vocational activities."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:74
+#: assisiapp/templates/about_us/conventuals_in_india.html:104
+#: assisiapp/templates/about_us/conventuals_in_india.html:127
+msgid "conventuals seven"
+msgstr ""
+"The project was presented to the Maltese Province in February 1980, with Fr."
+" Albert SAMMUT and Fr. Samuel CHETCUTI chosen as the first missionaries."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:76
+#: assisiapp/templates/about_us/conventuals_in_india.html:105
+#: assisiapp/templates/about_us/conventuals_in_india.html:129
+msgid "conventuals eight"
+msgstr ""
+"In November 1980, a Convention was signed between the General Curia and the "
+"Maltese Province, formalizing the Indian Mission."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:78
+#: assisiapp/templates/about_us/conventuals_in_india.html:106
+#: assisiapp/templates/about_us/conventuals_in_india.html:131
+msgid "conventuals nine"
+msgstr ""
+"The first missionary, Fr. Samuel, arrived in India in November 1980 to find "
+"suitable land for the Franciscan Centre."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:80
+#: assisiapp/templates/about_us/conventuals_in_india.html:107
+#: assisiapp/templates/about_us/conventuals_in_india.html:133
+msgid "conventuals ten"
+msgstr ""
+"The Centre was established on January 24, 1981, providing general education "
+"and Franciscan spiritual formation."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:84
+#: assisiapp/templates/about_us/conventuals_in_india.html:137
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:99
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:183
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:80
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:132
+#: assisiapp/templates/ministries/FCPD.html:95
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:82
+msgid "Read More"
+msgstr "Read More"
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:102
+msgid "conventuals five"
+msgstr ""
+"From November 16 to December 15, 1979, Fr. Sebald met with various bishops, "
+"particularly Bishop POWATHIL, who invited the Order to establish itself in "
+"his diocese."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:108
+msgid "conventuals eleven"
+msgstr ""
+"On February 5, 1981, Fr. Samuel reported to the Maltese Definitory, which "
+"approved the mission's policy and his role as Superior."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:109
+msgid "conventuals twelve"
+msgstr ""
+"The Nirmalaram religious house and Minor Seminary were officially "
+"established on February 12, 1981 by the approval of General Definitory."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:120
+msgid "conventuals thirteen"
+msgstr ""
+"Fr. Samuel and Fr. Albert arrived in Kerala on February 16, 1981, and took possession of the property on March 30. The new friary was blessed by Bishop POWATHIL on May 10. The Maltese Province formalized Nirmalaram’s establishment on March 15. On December 8, Fr. Ferdinand MERCIECA laid the foundation stone for the new\n"
+"            construction."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:121
+msgid "conventuals fourteen"
+msgstr ""
+"Fr. Joseph CILIA was announced to replace Fr. Albert SAMMUT in March 1982."
+
+#: assisiapp/templates/about_us/conventuals_in_india.html:145
+#: assisiapp/templates/about_us/franciscan_saints.html:165
+#: assisiapp/templates/about_us/history_of_the_order.html:96
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:192
+#: assisiapp/templates/administration/ap_telengana_delegation.html:125
+#: assisiapp/templates/administration/kolkata_mission.html:152
+#: assisiapp/templates/administration/provinical_administration.html:129
+#: assisiapp/templates/administration/sri_lankan_mission.html:121
+#: assisiapp/templates/friends_of_smk.html:135
+#: assisiapp/templates/gallery.html:97
+#: assisiapp/templates/set_up_of_the_province/friars.html:115
+#: assisiapp/templates/vocation/vocation-1.html:346
+#: assisiapp/templates/vocation/vocation-2.html:319
+msgid ""
+"Above all the grace and the gifts that Christ gives to his beloved is that "
+"of overcoming self.."
+msgstr ""
+"Above all the grace and the gifts that Christ gives to his beloved is that "
+"of overcoming self.."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:17
+#: assisiapp/templates/about_us/franciscan_saints.html:36
+#: assisiapp/templates/base.html:250 assisiapp/templates/base.html:377
+#: assisiapp/templates/index.html:717 assisiapp/templates/index.html:841
+msgid "Franciscan Saints"
+msgstr "Franciscan Saints"
+
+#: assisiapp/templates/about_us/franciscan_saints.html:57
+msgid "Saint Joseph of Cupertino"
+msgstr "Saint Joseph of Cupertino"
+
+#: assisiapp/templates/about_us/franciscan_saints.html:58
+msgid "saint joseph one"
+msgstr ""
+"Joseph of Cupertino was born in 1603. Uneducated and with limited "
+"intellectual abilities, Joseph desired with all his heart to become a friar."
+" After an unsuccessful attempt to join the Capuchin Franciscans, Joseph's "
+"uncle, a Conventual Franciscan, convinced the community to give his nephew a"
+" chance. Joseph worked diligently at his studies for priesthood with little "
+"apparent academic success. However, when he faced his professors for the "
+"required examinations, he received the special grace of only being asked the"
+" few questions he could answer."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:60
+msgid "saint joseph two"
+msgstr ""
+"After ordination, the love that Joseph expressed for Christ's real presence "
+"in the Eucharist, and for the Blessed Virgin Mary, caused him to levitate in"
+" ecstasy. The fame of this \"flying friar\" quickly spread and soon he "
+"became a counselor and confessor to many humble folk and nobility."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:60
+msgid "saint joseph three"
+msgstr ""
+"Saint Joseph of Cupertino died at the age of 60 in 1663. He was canonized a "
+"saint in 1767 and was later named the \"patron of students taking exams,\" "
+"and the patron saint of aviators."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:67
+msgid "Saint Bonaventure"
+msgstr "Saint Bonaventure"
+
+#: assisiapp/templates/about_us/franciscan_saints.html:72
+msgid "Saint Bonaventure one"
+msgstr ""
+"Born in the Italian town of Bagnoregio in 1217, Bonaventure's life became "
+"entwined with St. Francis of Assisi when he was gravely ill as a small "
+"child. Bonaventure's mother pleaded insistently for St. Francis' "
+"intercession to save her son. Years after his miraculous recovery, "
+"Bonaventure joined the followers of Francis and became a Friar Minor."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:74
+msgid "Saint Bonaventure two"
+msgstr ""
+"Even before he entered the Order, Bonaventure was noted for his extraordinary intelligence and he was an eager student of the brilliant Franciscan theologian Alexander of Hales. First as a student and then as a professor, Bonaventure made a lasting contribution to the academic excellence of the University of Paris. As a spiritual master, he taught a method of contemplation that united the believer to God through the progressive stages of purgation, illumination, and union.\n"
+"\t\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\t\tAt the age of 36, Bonaventure was elected the Minister General of the Franciscan Order."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:76
+msgid "Saint Bonaventure three"
+msgstr ""
+"He was challenged with the task of re-organizing a community that had grown "
+"tremendously, and whose mission was lacking a clear focus. Over a period of "
+"seventeen years, Bonaventure instituted necessary structures and disciplines"
+" that indeed stabilized the brotherhood. At the same time, he authored "
+"several mystical treatises and Franciscan source documents that are "
+"foundational for both Franciscan spirituality and medieval theological "
+"development."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:76
+msgid "Saint Bonaventure four"
+msgstr ""
+"Saint Bonaventure died as a cardinal in 1274. He was canonized and declared "
+"a Doctor of the Church in 1482, the 300th anniversary of Saint Francis' "
+"birth."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:96
+msgid "Saint Anthony of Padua"
+msgstr "Saint Anthony of Padua"
+
+#: assisiapp/templates/about_us/franciscan_saints.html:97
+msgid "Saint Anthony one"
+msgstr ""
+"After entering religious life with the Canons Regular of St. Augustine, a "
+"keen desire for martyrdom prompted Anthony to join the Friars Minor in 1221."
+" In 1223, Saint Francis himself appointed Anthony to be the very first "
+"professor of theology for the friars. This entrustment by the founder of the"
+" community permanently placed the Franciscan Order into the heart of "
+"theological and academic development."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:99
+msgid "Saint Anthony two"
+msgstr ""
+"Beyond his illustrious academic achievements, Anthony was renowned as a "
+"popular preacher and is credited with preserving the faith of countless "
+"Christians in a time of widespread heresy. Anthony's famous sermons were "
+"accompanied by a genuine concern for the plight of the poor. He zealously "
+"fought against injustice and advocated for the needs of the helpless. "
+"Anthony's dedication to others reached a supernatural dimension through the "
+"numerous miracles attributed to his powerful intercession."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:101
+msgid "Saint Anthony three"
+msgstr ""
+"Saint Anthony of Padua died in 1231 at the age of 36 and was canonized the "
+"following year. Pope Pius XII named him Doctor of the Church in 1946."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:110
+msgid "Saint Francis Anthony Fasani"
+msgstr "Saint Francis Anthony Fasani"
+
+#: assisiapp/templates/about_us/franciscan_saints.html:115
+msgid "Anthony Fasani one"
+msgstr ""
+"Born and raised in southern Italy, Francis Anthony was a pious and reserved "
+"youth who joined the Order at age 14. During the novitiate year he "
+"befriended a gregarious novice named Antonio Lucci who told him that \"the "
+"fastest way to become a saint was through laughter.\" These two young friars"
+" remained friends and witnessed the importance of close fraternal bonds in "
+"the sanctification of self and the world."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:117
+msgid "Anthony Fasani two"
+msgstr ""
+"Francis Anthony served the community as a theology and philosophy professor,"
+" a novice master, and as a minister provincial. He was also a tireless "
+"confessor and minister of compassion among prisoners and those condemned to "
+"death. Known as \"Padre Maestro\" among the people of Lucera, Francis "
+"Anthony was especially dedicated to his work among the poor and destitute. "
+"Likewise, his friend Antonio was called the \"Father of the Poor\" when he "
+"served as the Franciscan bishop of Bovino."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:118
+msgid "Anthony Fasani three"
+msgstr ""
+"Saint Francis Anthony Fasani died in 1742 and was canonized in 1984. His "
+"friend Blessed Antonio Lucci died in 1752 and was beatified in 1989."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:138
+msgid "Saint Clare of Assisi"
+msgstr "Saint Clare of Assisi"
+
+#: assisiapp/templates/about_us/franciscan_saints.html:139
+msgid "saint clare one"
+msgstr ""
+"Clare was born in 1193 to the wealthiest and most powerful family in Assisi."
+" Yet she longed for more than earthly riches. She spent most of her youth "
+"serving the needs of others and giving food to the poor. By the age of "
+"sixteen, Clare knew that she wanted to become the bride of Christ. She "
+"shared her longing for holiness with Francis di Bernardone, who has recently"
+" given up his frivolous ways and had embraced a life of Gospel simplicity."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:141
+msgid "saint clare two"
+msgstr ""
+"For two years Clare was counseled by Francis. Then, on Palm Sunday in her "
+"eighteenth year, Clare left her family home forever and joined the poor men "
+"of Assisi. Francis greeted her at the chapel of the St. Mary of the Angels "
+"and Clare consecrated herself to the Lord."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:142
+msgid "saint clare three"
+msgstr ""
+"Soon other women came to join Clare in her desire to live the poverty of "
+"Christ. A community of sisters formed at the tiny sanctuary of San Damiano, "
+"where Clare remained in contemplation and service until her death in 1253 at"
+" the age of 60. The community continued to grow and many new monasteries of "
+"\"Poor Clares\" have been established throughout the world."
+
+#: assisiapp/templates/about_us/franciscan_saints.html:144
+msgid "saint clare four"
+msgstr ""
+"Saint Clare of Assisi was canonized two years after her death. In 1958, she "
+"was named by Pope Pius XII as the \"patroness of television\" in honor of a "
+"particular vision that she had one Christmas Eve."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:56
+#: assisiapp/templates/base.html:375 assisiapp/templates/index.html:837
+msgid "History Of The Order"
+msgstr "History Of The Order"
+
+#: assisiapp/templates/about_us/history_of_the_order.html:58
+msgid "history one"
+msgstr "The Order of Friars Minor Conventual is a religious community"
+
+#: assisiapp/templates/about_us/history_of_the_order.html:59
+msgid "history two"
+msgstr ""
+"Founded by St. Francis of Assisi, aimed at fostering a faithful and regular "
+"life."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:60
+msgid "history three"
+msgstr ""
+"From its foundation this community, by the will of our Father St. Francis, "
+"is a true fraternity. Its members, therefore, as brothers of a single "
+"family, share in the life and work of the community."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:61
+msgid "history four"
+msgstr ""
+"The Order is classified as clerical by the Church, with friars committing to"
+" the gospel life of perfect charity through public vows of obedience, "
+"poverty, and chastity."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:62
+msgid "history five"
+msgstr ""
+"The Order promotes the Franciscan spirit through various ways of promoting "
+"the Franciscan spirit, including loving God, conforming to Christ, promoting"
+" peace, brotherly love, and the kingdom of Christ among people, and serving "
+"the Lord in poverty, humility, simplicity, and gladness of heart."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:63
+msgid "history six"
+msgstr ""
+"By their profession of the vow’s friars dedicate themselves directly to God, conform to the life Christ chose for Himself, and stimulate their charity through their baptismal consecration \n"
+"                and progress in the life of pilgrims and penitents."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:64
+msgid "history seven"
+msgstr ""
+"The Rule or form of life of the Friars Minor, confirmed by Honorius III and "
+"interpreted by successive Popes, is the fundamental law of the Order."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:65
+msgid "history eight"
+msgstr ""
+"The Order is divided into provinces, with friars stationed in general and "
+"provincial custodies which is considered similar to provinces according to "
+"the norms of the Constitutions."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:71
+msgid "History and Current Status of the Friars Minor Conventual"
+msgstr "History and Current Status of the Friars Minor Conventual"
+
+#: assisiapp/templates/about_us/history_of_the_order.html:73
+msgid "history nine"
+msgstr ""
+"St. Francis of Assisi and his companions presented themselves to Pope "
+"Innocent III in 1209, allowing them to preach penance."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:74
+msgid "history ten"
+msgstr ""
+"The Fraternity expanded to become a religion of the Friars Minor, with Pope "
+"Honorius III approving the definitive Rule in 1223."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:75
+msgid "history eleven"
+msgstr ""
+"The Order grew divided between the “Friars of the Community” (Conventuals) "
+"and the “Zealots” (Spirituals) who advocated for absolute poverty and "
+"eremitical dimensions of Franciscanism."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:76
+msgid "history twelve"
+msgstr ""
+"Pope Leo X reorganized the Franciscan Orders into four Orders, each with its"
+" own Minister General: the Order of Friars Minor, the Order of Friars Minor "
+"Conventual, the Order of Friars Minor Capuchins, and the Third Order "
+"Regular."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:77
+msgid "history thirteen"
+msgstr ""
+"The Friars Minor Conventual wear a black habit in suppressed countries, "
+"returning to the original Franciscan habit of ashen grey."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:78
+msgid "history fourteen"
+msgstr ""
+"They continue to care for, among other things, the Basilica of St. Francis "
+"and the Sacred Convent of Assisi, and their principal centre of study is the"
+" Theological Faculty of St. Bonaventure in Rome. Among the centres of "
+"formation and culture, one also finds the Theological Institute of St. "
+"Anthony the Doctor, in Padua."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:79
+msgid "history fifteen"
+msgstr ""
+"The General Curia of the Order is centred in Rome at the Friary of the "
+"Twelve Holy Apostles."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:80
+msgid "history sixteen"
+msgstr ""
+"As of December 31, 2015, the Order had 4,225 religious, 631 friaries in 33 "
+"Provinces, and was present in 67 countries."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:81
+msgid "history seventeen"
+msgstr ""
+"The Order is linked to all saintly figures, including the Founder, Saint "
+"Francis of Assisi, the founders of the Second and Third Orders, and the "
+"Blesseds of the Conventual tradition."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:82
+msgid "history eighteen"
+msgstr ""
+"Among the more significant Saints of Franciscan origin, and particularly "
+"linked to the Conventual tradition, one must not forget to mention: St. "
+"Anthony of Padua, the First Martyrs of the Order, Berard and Companions, St."
+" Bonaventure of Bagnoregio, the Blesseds Egidio of Assisi, Thomas of Celano,"
+" Luke Belludi of Padua, John Duns Scotus, Andrew Conti of Anagni, Oderic of "
+"Pordenone, James of Strepa, and Angelo of Monteleone of Orvieto."
+
+#: assisiapp/templates/about_us/history_of_the_order.html:83
+msgid "history nineteen"
+msgstr ""
+"The Church canonized St. Joseph of Cupertino in the XVIII century, and St. "
+"Maximilian Kolbe and St. Francis Anthony Fasani have been elevated to the "
+"altar honours."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:19
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:38
+#: assisiapp/templates/base.html:244 assisiapp/templates/base.html:371
+#: assisiapp/templates/index.html:836
+msgid "St Francis Of Assisi"
+msgstr "St Francis Of Assisi"
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:20
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:39
+msgid "A Life of Faith and Action"
+msgstr "A Life of Faith and Action"
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:72
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:136
+msgid "assisi one"
+msgstr "Born into a wealthy merchant family in 1182."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:73
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:137
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:157
+msgid "assisi two"
+msgstr "Known for his charm, and leadership skills."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:75
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:138
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:159
+msgid "assisi three"
+msgstr "Became a noble knight during the Assisi war on Perugia in1202."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:82
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:139
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:166
+msgid "assisi four"
+msgstr ""
+"Captive in Perugia, after his release, he wandered aimlessly, seeking God’s "
+"guidance."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:88
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:143
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:172
+msgid "assisi five"
+msgstr ""
+"Converted after 25 years of waiting, dedicating more time to prayer and "
+"contemplation in 1205."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:90
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:144
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:174
+msgid "assisi six"
+msgstr "Met a leper, and saw it as a trial."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:92
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:145
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:176
+msgid "assisi seven"
+msgstr "Began preaching, urging people to return to God and obey the Church."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:94
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:146
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:178
+msgid "assisi eight"
+msgstr ""
+"Became a man of action, seeking approval for his brotherhood from Pope "
+"Innocent III in 1209."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:96
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:147
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:180
+msgid "assisi nine"
+msgstr ""
+"His brotherhood grew rapidly, reaching 5000 members in ten years and "
+"compelled to leave the hut in Rivotorto, the growing group moved to the "
+"Porziuncola in 1210."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:131
+msgid "Francis’ Early Life and Journey"
+msgstr "Francis’ Early Life and Journey"
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:141
+msgid "Francis’ Conversion and Journey"
+msgstr "Francis’ Conversion and Journey"
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:150
+msgid "Francis’ Final Years"
+msgstr "Francis’ Final Years"
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:152
+msgid "assisi ten"
+msgstr "Felt suffering and humiliation, receiving the stigmata in 1224."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:153
+msgid "assisi eleven"
+msgstr ""
+"Started to go blind due to years of poverty and wandering; during this time,"
+" he wrote the “Canticle of the Sun,” expressing his brotherhood with "
+"creation in 1225."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:154
+msgid "assisi twelve"
+msgstr "Died on October 4, 1226, at age 44."
+
+#: assisiapp/templates/about_us/st_francis_of_assisi.html:155
+msgid "assisi thirteen"
+msgstr "Founded the Franciscan Order and is the patron saint of ecology."
+
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:17
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:36
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:57
+#: assisiapp/templates/base.html:249 assisiapp/templates/index.html:716
+msgid "St. Maximilian Kolbe"
+msgstr "St. Maximilian Kolbe"
+
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:58
+msgid "maximilian one"
+msgstr ""
+"Maximilian was born in 1894 as a Pole without a nation. Two hundred years "
+"earlier Poland was divided up between Russia, Prussia, and Austria. The "
+"young son of poor weavers, Maximilian dreamed of becoming a great soldier to"
+" free his native land. However, by the age of fourteen, this idealistic "
+"youth decided to join the Conventual Franciscans instead."
+
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:59
+msgid "maximilian two"
+msgstr ""
+"During his seminary studies in Rome, Maximilian responded to the anti-"
+"clerical attacks against the Church by forming a new spiritual movement with"
+" few of his friar classmates. They called themselves the \"Knights of the "
+"Immaculata\" and consecrated themselves totally to the Virgin Mary in order "
+"to lead others to the Sacred Heart of Jesus."
+
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:61
+msgid "maximilian three"
+msgstr ""
+"This Militia of the Immaculata (M.I.) movement that began in 1917 quickly "
+"grew and a few years after his ordination, Maximilian was given permission "
+"to establish a printing apostolate to expand the evangelization efforts of "
+"the M.I. Eventually this endeavor grew so large that a new friary complex "
+"was built and named the \"City of the Immaculata.\" With over 600 friars "
+"working diligently, Maximilian's community was not only the largest "
+"religious house in the world, but it also published the most read daily "
+"newspaper in the Polish language."
+
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:63
+msgid "maximilian four"
+msgstr ""
+"With a deep love for the missionary charism of the Order, Maximilian set off"
+" for Japan with a handful of friars and set up a publishing apostolate near "
+"Nagasaki in 1930. The evangelization ministry flourished until the advent of"
+" World War II. Maximilian returned to Poland where he and his friars cared "
+"for the needs of refugees and wounded soldiers."
+
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:66
+msgid "maximilian five"
+msgstr ""
+"Highly influential among his people, Maximilian was considered a dangerous threat to the Nazis. He was arrested, jailed and finally, sent to the concentration camp called Auschwitz.\n"
+"                            There, after brutal months of forced labor, Maximilian offered his life as a martyr of charity for the life of a fellow prisoner. He was placed in a starvation bunker with 9 other men and on August 14, 1941, his life ended with a lethal injection.\n"
+"\n"
+"Saint Maximilian Kolbe was canonized in 1982, the 800th anniversary of Saint Francis' birth, and he was declared the \"patron of our difficult age.\""
+
+#: assisiapp/templates/about_us/st_maximilian_kolbe.html:75
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:79
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:86
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:66
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:80
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:79
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:59
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:90
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:141
+#: assisiapp/templates/friaries/Nirmalaram_Franciscan_Ashram.html:85
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:79
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:62
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:78
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:79
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:81
+#: assisiapp/templates/friaries/St_FrancisFriary.html:81
+#: assisiapp/templates/friaries/St_Francis_Friary.html:86
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:78
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:79
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:79
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:77
+msgid ""
+"We must not be wise and prudent according to the flesh,rather,we must be "
+"simple,humble and pure"
+msgstr ""
+"We must not be wise and prudent according to the flesh,rather,we must be "
+"simple,humble and pure"
+
+#: assisiapp/templates/administration/ap_telengana_delegation.html:43
+#: assisiapp/templates/administration/ap_telengana_delegation.html:62
+#: assisiapp/templates/administration/ap_telengana_delegation.html:86
+msgid "SAN CUPERTINO PROVINCIAL DELEGATION AP/ TELENGANA"
+msgstr "SAN CUPERTINO PROVINCIAL DELEGATION AP/ TELENGANA"
+
+#: assisiapp/templates/administration/ap_telengana_delegation.html:85
+#: assisiapp/templates/administration/kolkata_mission.html:83
+#: assisiapp/templates/administration/kolkata_mission.html:110
+#: assisiapp/templates/administration/provinical_administration.html:86
+#: assisiapp/templates/administration/sri_lankan_mission.html:82
+msgid "Our Team"
+msgstr "Our Team"
+
+#: assisiapp/templates/administration/kolkata_mission.html:42
+#: assisiapp/templates/administration/kolkata_mission.html:61
+#: assisiapp/templates/administration/kolkata_mission.html:84
+#: assisiapp/templates/administration/kolkata_mission.html:111
+msgid "KOLKATA MISSION"
+msgstr "KOLKATA MISSION"
+
+#: assisiapp/templates/administration/provinical_administration.html:44
+#: assisiapp/templates/administration/provinical_administration.html:63
+#: assisiapp/templates/administration/provinical_administration.html:87
+msgid "ST. MAXIMILIAN KOLBE PROVINCE"
+msgstr "ST. MAXIMILIAN KOLBE PROVINCE"
+
+#: assisiapp/templates/administration/sri_lankan_mission.html:43
+#: assisiapp/templates/administration/sri_lankan_mission.html:62
+#: assisiapp/templates/administration/sri_lankan_mission.html:83
+msgid "SRI LANKAN MISSION"
+msgstr "SRI LANKAN MISSION"
+
+#: assisiapp/templates/base.html:237
+msgid "Menu"
+msgstr "Menu"
+
+#: assisiapp/templates/base.html:239 assisiapp/templates/base.html:364
+#: assisiapp/templates/index.html:705 assisiapp/templates/index.html:829
+msgid "Home"
+msgstr "Home"
+
+#: assisiapp/templates/base.html:242 assisiapp/templates/base.html:368
+#: assisiapp/templates/base.html:640 assisiapp/templates/index.html:708
+#: assisiapp/templates/index.html:833 assisiapp/templates/index.html:1426
+msgid "About Us"
+msgstr "About Us"
+
+#: assisiapp/templates/base.html:245 assisiapp/templates/base.html:372
+#: assisiapp/templates/index.html:712
+msgid "History of the Order"
+msgstr "History of the Order"
+
+#: assisiapp/templates/base.html:246
+msgid "Conventuals in india"
+msgstr "Conventuals in india"
+
+#: assisiapp/templates/base.html:253 assisiapp/templates/base.html:383
+msgid "Administartion"
+msgstr "Administartion"
+
+#: assisiapp/templates/base.html:255 assisiapp/templates/base.html:386
+#: assisiapp/templates/index.html:722 assisiapp/templates/index.html:732
+#: assisiapp/templates/index.html:850
+msgid "Provinical Administration"
+msgstr "Provinical Administration"
+
+#: assisiapp/templates/base.html:256 assisiapp/templates/base.html:387
+#: assisiapp/templates/index.html:723 assisiapp/templates/index.html:733
+#: assisiapp/templates/index.html:851
+msgid "AP/Telengana Delegation"
+msgstr "AP/Telengana Delegation"
+
+#: assisiapp/templates/base.html:257 assisiapp/templates/base.html:388
+#: assisiapp/templates/index.html:724 assisiapp/templates/index.html:734
+#: assisiapp/templates/index.html:852
+msgid "Kolkata Mission"
+msgstr "Kolkata Mission"
+
+#: assisiapp/templates/base.html:258 assisiapp/templates/base.html:389
+#: assisiapp/templates/index.html:725 assisiapp/templates/index.html:735
+#: assisiapp/templates/index.html:853
+msgid "Sri Lankan Mission"
+msgstr "Sri Lankan Mission"
+
+#: assisiapp/templates/base.html:261 assisiapp/templates/base.html:394
+#: assisiapp/templates/index.html:728 assisiapp/templates/index.html:858
+msgid "Friaries"
+msgstr "Friaries"
+
+#: assisiapp/templates/base.html:264 assisiapp/templates/base.html:399
+#: assisiapp/templates/index.html:731 assisiapp/templates/index.html:863
+msgid "KERALA"
+msgstr "KERALA"
+
+#: assisiapp/templates/base.html:265 assisiapp/templates/base.html:401
+#: assisiapp/templates/base.html:658 assisiapp/templates/base.html:661
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:15
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:38
+#: assisiapp/templates/index.html:865 assisiapp/templates/index.html:1444
+#: assisiapp/templates/index.html:1447
+msgid "Assisi Shanthi Kendra"
+msgstr "Assisi Shanthi Kendra"
+
+#: assisiapp/templates/base.html:266 assisiapp/templates/base.html:402
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:56
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:94
+#: assisiapp/templates/index.html:866
+msgid "Kolbe Franciscan Ashram"
+msgstr "Kolbe Franciscan Ashram"
+
+#: assisiapp/templates/base.html:267 assisiapp/templates/base.html:403
+#: assisiapp/templates/index.html:867
+msgid "Nirmalaram Franciscan Ashram"
+msgstr "Nirmalaram Franciscan Ashram"
+
+#: assisiapp/templates/base.html:268 assisiapp/templates/base.html:404
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:36
+#: assisiapp/templates/index.html:868
+msgid "Padua Franciscan Ashram"
+msgstr "Padua Franciscan Ashram"
+
+#: assisiapp/templates/base.html:269 assisiapp/templates/base.html:405
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:55
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:56
+#: assisiapp/templates/index.html:869
+msgid "Franciscan Ashram"
+msgstr "Franciscan Ashram"
+
+#: assisiapp/templates/base.html:270 assisiapp/templates/base.html:406
+#: assisiapp/templates/index.html:870
+msgid "ST. Paul Franciscan Ashram"
+msgstr "ST. Paul Franciscan Ashram"
+
+#: assisiapp/templates/base.html:271 assisiapp/templates/base.html:414
+#: assisiapp/templates/index.html:736
+msgid "ANDRA"
+msgstr "ANDRA"
+
+#: assisiapp/templates/base.html:272 assisiapp/templates/base.html:415
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:54
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:55
+#: assisiapp/templates/index.html:737 assisiapp/templates/index.html:879
+msgid "St. Maximilian Franciscan Ashram"
+msgstr "St. Maximilian Franciscan Ashram"
+
+#: assisiapp/templates/base.html:273 assisiapp/templates/base.html:416
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:54
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:55
+#: assisiapp/templates/index.html:738 assisiapp/templates/index.html:880
+msgid "Bala Yesu Franciscan Ashram"
+msgstr "Bala Yesu Franciscan Ashram"
+
+#: assisiapp/templates/base.html:274 assisiapp/templates/base.html:417
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:54
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:55
+#: assisiapp/templates/index.html:739 assisiapp/templates/index.html:881
+msgid "San Cupertino Franciscan Ashram"
+msgstr "San Cupertino Franciscan Ashram"
+
+#: assisiapp/templates/base.html:275 assisiapp/templates/base.html:419
+#: assisiapp/templates/index.html:740 assisiapp/templates/index.html:883
+msgid "KOLKATTA"
+msgstr "KOLKATTA"
+
+#: assisiapp/templates/base.html:276 assisiapp/templates/base.html:289
+#: assisiapp/templates/base.html:420 assisiapp/templates/base.html:446
+#: assisiapp/templates/friaries/St_Francis_Friary.html:54
+#: assisiapp/templates/friaries/St_Francis_Friary.html:55
+#: assisiapp/templates/index.html:741 assisiapp/templates/index.html:754
+#: assisiapp/templates/index.html:884 assisiapp/templates/index.html:910
+msgid "St. Francis Friary"
+msgstr "St. Francis Friary"
+
+#: assisiapp/templates/base.html:277 assisiapp/templates/base.html:427
+#: assisiapp/templates/index.html:742 assisiapp/templates/index.html:891
+msgid "TELEGANA"
+msgstr "TELEGANA"
+
+#: assisiapp/templates/base.html:278 assisiapp/templates/base.html:428
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:54
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:55
+#: assisiapp/templates/index.html:743 assisiapp/templates/index.html:892
+msgid "St. Peter Franciscan Ashram"
+msgstr "St. Peter Franciscan Ashram"
+
+#: assisiapp/templates/base.html:279 assisiapp/templates/base.html:429
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:55
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:56
+#: assisiapp/templates/index.html:744 assisiapp/templates/index.html:893
+msgid "Assisi Franciscan Ashram"
+msgstr "Assisi Franciscan Ashram"
+
+#: assisiapp/templates/base.html:280 assisiapp/templates/base.html:430
+#: assisiapp/templates/index.html:745 assisiapp/templates/index.html:894
+msgid "St.Anthony Franciscan Ashram"
+msgstr "St.Anthony Franciscan Ashram"
+
+#: assisiapp/templates/base.html:281 assisiapp/templates/base.html:432
+#: assisiapp/templates/index.html:746 assisiapp/templates/index.html:896
+msgid "TAMIL NADU"
+msgstr "TAMIL NADU"
+
+#: assisiapp/templates/base.html:282 assisiapp/templates/base.html:433
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:55
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:56
+#: assisiapp/templates/index.html:747 assisiapp/templates/index.html:897
+msgid "Assisi Snehalaya"
+msgstr "Assisi Snehalaya"
+
+#: assisiapp/templates/base.html:283 assisiapp/templates/base.html:434
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:35
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:36
+#: assisiapp/templates/index.html:748 assisiapp/templates/index.html:898
+msgid "Belvedere Franciscan Ashram"
+msgstr "Belvedere Franciscan Ashram"
+
+#: assisiapp/templates/base.html:284 assisiapp/templates/base.html:441
+#: assisiapp/templates/index.html:749 assisiapp/templates/index.html:905
+msgid "SRI LANKA"
+msgstr "SRI LANKA"
+
+#: assisiapp/templates/base.html:285 assisiapp/templates/base.html:442
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:55
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:56
+#: assisiapp/templates/index.html:750 assisiapp/templates/index.html:906
+msgid "Padre Pio Shrine"
+msgstr "Padre Pio Shrine"
+
+#: assisiapp/templates/base.html:286 assisiapp/templates/base.html:443
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:57
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:58
+#: assisiapp/templates/index.html:751 assisiapp/templates/index.html:907
+msgid "Ave Maria Franciscan Friary"
+msgstr "Ave Maria Franciscan Friary"
+
+#: assisiapp/templates/base.html:287 assisiapp/templates/base.html:444
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:55
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:56
+#: assisiapp/templates/index.html:752 assisiapp/templates/index.html:908
+msgid "St. Joseph Vaz Friary"
+msgstr "St. Joseph Vaz Friary"
+
+#: assisiapp/templates/base.html:288 assisiapp/templates/base.html:445
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:54
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:55
+#: assisiapp/templates/index.html:753 assisiapp/templates/index.html:909
+msgid "St. Anthony Friary"
+msgstr "St. Anthony Friary"
+
+#: assisiapp/templates/base.html:292 assisiapp/templates/base.html:452
+#: assisiapp/templates/index.html:757 assisiapp/templates/index.html:916
+msgid "Ministries"
+msgstr "Ministries"
+
+#: assisiapp/templates/base.html:295 assisiapp/templates/index.html:760
+msgid "Vocation And Formation Apostolate"
+msgstr "Vocation And Formation Apostolate"
+
+#: assisiapp/templates/base.html:296 assisiapp/templates/base.html:458
+#: assisiapp/templates/index.html:761 assisiapp/templates/index.html:922
+msgid "Vocation And Formation Apotolate"
+msgstr "Vocation And Formation Apotolate"
+
+#: assisiapp/templates/base.html:297 assisiapp/templates/index.html:762
+msgid "Franciscan Spiritual Apostolate"
+msgstr "Franciscan Spiritual Apostolate"
+
+#: assisiapp/templates/base.html:298 assisiapp/templates/base.html:460
+#: assisiapp/templates/index.html:763 assisiapp/templates/index.html:924
+#: assisiapp/templates/ministries/OFS.html:34
+msgid "OFS"
+msgstr "OFS"
+
+#: assisiapp/templates/base.html:299 assisiapp/templates/base.html:461
+#: assisiapp/templates/index.html:764 assisiapp/templates/index.html:925
+msgid "MI"
+msgstr "MI"
+
+#: assisiapp/templates/base.html:300 assisiapp/templates/base.html:462
+#: assisiapp/templates/index.html:765 assisiapp/templates/index.html:926
+#: assisiapp/templates/ministries/FCPD.html:56
+msgid "FCPD"
+msgstr "FCPD"
+
+#: assisiapp/templates/base.html:301 assisiapp/templates/base.html:463
+#: assisiapp/templates/index.html:766 assisiapp/templates/index.html:927
+#: assisiapp/templates/ministries/Franciscan_Centre.html:56
+msgid "Franciscan Centre"
+msgstr "Franciscan Centre"
+
+#: assisiapp/templates/base.html:302 assisiapp/templates/index.html:767
+msgid "Media And Communication Apostolate"
+msgstr "Media And Communication Apostolate"
+
+#: assisiapp/templates/base.html:303 assisiapp/templates/base.html:473
+#: assisiapp/templates/index.html:768 assisiapp/templates/index.html:937
+msgid "Gray Friars Publications"
+msgstr "Gray Friars Publications"
+
+#: assisiapp/templates/base.html:304 assisiapp/templates/base.html:474
+#: assisiapp/templates/index.html:769 assisiapp/templates/index.html:938
+msgid "Kolbe Communications"
+msgstr "Kolbe Communications"
+
+#: assisiapp/templates/base.html:305 assisiapp/templates/index.html:770
+msgid "Preaching And Reconciling Apostolate"
+msgstr "Preaching And Reconciling Apostolate"
+
+#: assisiapp/templates/base.html:306 assisiapp/templates/base.html:478
+#: assisiapp/templates/index.html:771 assisiapp/templates/index.html:942
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:56
+msgid "FRR"
+msgstr "FRR"
+
+#: assisiapp/templates/base.html:307 assisiapp/templates/base.html:479
+#: assisiapp/templates/index.html:772 assisiapp/templates/index.html:943
+#: assisiapp/templates/ministries/Retreat_Centers.html:56
+msgid "Retreat Centers"
+msgstr "Retreat Centers"
+
+#: assisiapp/templates/base.html:308 assisiapp/templates/base.html:480
+#: assisiapp/templates/index.html:773 assisiapp/templates/index.html:944
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:56
+msgid "Tuesday Devotions"
+msgstr "Tuesday Devotions"
+
+#: assisiapp/templates/base.html:309 assisiapp/templates/base.html:310
+#: assisiapp/templates/base.html:488 assisiapp/templates/index.html:774
+#: assisiapp/templates/index.html:775 assisiapp/templates/index.html:952
+#: assisiapp/templates/ministries/Social_Apostolate.html:56
+msgid "Social Apostolate"
+msgstr "Social Apostolate"
+
+#: assisiapp/templates/base.html:311 assisiapp/templates/index.html:776
+msgid "Education Apostalate"
+msgstr "Education Apostalate"
+
+#: assisiapp/templates/base.html:312 assisiapp/templates/base.html:492
+#: assisiapp/templates/index.html:777 assisiapp/templates/index.html:956
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:55
+msgid "Greyfriars Degree College"
+msgstr "Greyfriars Degree College"
+
+#: assisiapp/templates/base.html:313 assisiapp/templates/base.html:493
+#: assisiapp/templates/index.html:778 assisiapp/templates/index.html:957
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:57
+msgid "Greyfriars Junior College"
+msgstr "Greyfriars Junior College"
+
+#: assisiapp/templates/base.html:314 assisiapp/templates/base.html:494
+#: assisiapp/templates/index.html:779 assisiapp/templates/index.html:958
+msgid "Oxford Creativity School"
+msgstr "Oxford Creativity School"
+
+#: assisiapp/templates/base.html:315 assisiapp/templates/base.html:495
+#: assisiapp/templates/index.html:780 assisiapp/templates/index.html:959
+msgid "St. Anthony School"
+msgstr "St. Anthony School"
+
+#: assisiapp/templates/base.html:316 assisiapp/templates/base.html:496
+#: assisiapp/templates/index.html:781 assisiapp/templates/index.html:960
+msgid "St.Peter School"
+msgstr "St.Peter School"
+
+#: assisiapp/templates/base.html:317 assisiapp/templates/base.html:497
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:56
+#: assisiapp/templates/index.html:782 assisiapp/templates/index.html:961
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:56
+msgid "Vidyaniketan Junior College"
+msgstr "Vidyaniketan Junior College"
+
+#: assisiapp/templates/base.html:318 assisiapp/templates/index.html:783
+msgid "Pastoral Apostolate"
+msgstr "Pastoral Apostolate"
+
+#: assisiapp/templates/base.html:319 assisiapp/templates/base.html:509
+#: assisiapp/templates/index.html:784 assisiapp/templates/index.html:973
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:57
+msgid "St. Padre Pio Shrine, Athurugiriya"
+msgstr "St. Padre Pio Shrine, Athurugiriya"
+
+#: assisiapp/templates/base.html:320 assisiapp/templates/base.html:510
+#: assisiapp/templates/index.html:785 assisiapp/templates/index.html:974
+msgid "St. Maximilian Kolbe Church, Christianpet"
+msgstr "St. Maximilian Kolbe Church, Christianpet"
+
+#: assisiapp/templates/base.html:321 assisiapp/templates/base.html:511
+#: assisiapp/templates/index.html:786 assisiapp/templates/index.html:975
+msgid "Bala Yesu Shrine, Dondapudi"
+msgstr "Bala Yesu Shrine, Dondapudi"
+
+#: assisiapp/templates/base.html:322 assisiapp/templates/base.html:512
+#: assisiapp/templates/index.html:976
+msgid "Green Park Pastoral Community,Kolkatta"
+msgstr "Green Park Pastoral Community,Kolkatta"
+
+#: assisiapp/templates/base.html:323 assisiapp/templates/base.html:513
+#: assisiapp/templates/index.html:788 assisiapp/templates/index.html:977
+msgid "St. Francis Of Assisi Church, Nattakal"
+msgstr "St. Francis Of Assisi Church, Nattakal"
+
+#: assisiapp/templates/base.html:327 assisiapp/templates/base.html:519
+#: assisiapp/templates/index.html:792 assisiapp/templates/index.html:983
+msgid "Vocation"
+msgstr "Vocation"
+
+#: assisiapp/templates/base.html:329 assisiapp/templates/base.html:522
+#: assisiapp/templates/index.html:794 assisiapp/templates/index.html:986
+msgid "Orientation Year"
+msgstr "Orientation Year"
+
+#: assisiapp/templates/base.html:330 assisiapp/templates/base.html:523
+#: assisiapp/templates/index.html:795 assisiapp/templates/index.html:987
+msgid "Novitiate"
+msgstr "Novitiate"
+
+#: assisiapp/templates/base.html:334 assisiapp/templates/base.html:528
+#: assisiapp/templates/index.html:799 assisiapp/templates/index.html:992
+msgid "Friends Of SMK"
+msgstr "Friends Of SMK"
+
+#: assisiapp/templates/base.html:337 assisiapp/templates/base.html:531
+#: assisiapp/templates/index.html:802 assisiapp/templates/index.html:995
+msgid "Set Up Of The Province"
+msgstr "Set Up Of The Province"
+
+#: assisiapp/templates/base.html:340 assisiapp/templates/base.html:534
+#: assisiapp/templates/base.html:670 assisiapp/templates/index.html:805
+#: assisiapp/templates/index.html:998 assisiapp/templates/index.html:1291
+#: assisiapp/templates/index.html:1456
+msgid "Gallery"
+msgstr "Gallery"
+
+#: assisiapp/templates/base.html:373 assisiapp/templates/index.html:838
+msgid "Conventuals In India"
+msgstr "Conventuals In India"
+
+#: assisiapp/templates/base.html:376 assisiapp/templates/index.html:840
+msgid "St Maximilian Kolbe"
+msgstr "St Maximilian Kolbe"
+
+#: assisiapp/templates/base.html:457 assisiapp/templates/index.html:921
+#: assisiapp/templates/ministries/Vocation_And_Formation_Apostolate.html:35
+msgid "VOCATION AND FORMATION APOSTOLATE"
+msgstr "VOCATION AND FORMATION APOSTOLATE"
+
+#: assisiapp/templates/base.html:459 assisiapp/templates/index.html:923
+msgid "FRANCISCAN SPIRITUAL APOSTOLATE"
+msgstr "FRANCISCAN SPIRITUAL APOSTOLATE"
+
+#: assisiapp/templates/base.html:471 assisiapp/templates/index.html:935
+msgid "MEDIA AND COMMUNICATION APOSTOLATE"
+msgstr "MEDIA AND COMMUNICATION APOSTOLATE"
+
+#: assisiapp/templates/base.html:476 assisiapp/templates/index.html:940
+msgid "PREACHING AND RECONCILING APOSTOLATE"
+msgstr "PREACHING AND RECONCILING APOSTOLATE"
+
+#: assisiapp/templates/base.html:487 assisiapp/templates/index.html:951
+#: assisiapp/templates/ministries/Social_Apostolate.html:16
+#: assisiapp/templates/ministries/Social_Apostolate.html:35
+msgid "SOCIAL APOSTOLATE"
+msgstr "SOCIAL APOSTOLATE"
+
+#: assisiapp/templates/base.html:491 assisiapp/templates/index.html:955
+msgid "EDUCATION APOSTOLATE"
+msgstr "EDUCATION APOSTOLATE"
+
+#: assisiapp/templates/base.html:508 assisiapp/templates/index.html:972
+msgid "PASTORAL APOSTOLATE"
+msgstr "PASTORAL APOSTOLATE"
+
+#: assisiapp/templates/base.html:631 assisiapp/templates/index.html:1417
+msgid "Google Map"
+msgstr "Google Map"
+
+#: assisiapp/templates/base.html:648 assisiapp/templates/index.html:1434
+msgid "footer about"
+msgstr ""
+"In India, the Conventual Franciscans are involved in various ministries "
+"including parishes, educational institutions, and social work aimed at "
+"aiding the poor and marginalized. They focus on fostering spiritual growth "
+"and serving the community through their religious and social initiatives. "
+"The order has several provinces and missions across India, working to spread"
+" the Franciscan charism of peace, joy, and fraternity.They also engage in "
+"interfaith dialogue and environmental conservation efforts, reflecting their"
+" commitment to holistic development.Through retreats and spiritual programs,"
+" they guide individuals on their faith journey and promote a deeper "
+"understanding of Franciscan values. "
+
+#: assisiapp/templates/base.html:657 assisiapp/templates/index.html:1443
+msgid "Our Address"
+msgstr "Our Address"
+
+#: assisiapp/templates/base.html:659
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:37
+#: assisiapp/templates/index.html:1445
+msgid "Conventual Franciscan Provincialate"
+msgstr "Conventual Franciscan Provincialate"
+
+#: assisiapp/templates/base.html:660 assisiapp/templates/index.html:1446
+msgid "smksecoffice@gmail.com"
+msgstr "smksecoffice@gmail.com"
+
+#: assisiapp/templates/base.html:662
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:40
+#: assisiapp/templates/index.html:1448
+msgid "Ernakulam Dt., Kerala, India"
+msgstr "Ernakulam Dt., Kerala, India"
+
+#: assisiapp/templates/base.html:663
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:42
+#: assisiapp/templates/index.html:1449
+msgid "Tel.: (0091 484) 2613449 - Friary"
+msgstr "Tel.: (0091 484) 2613449 - Friary"
+
+#: assisiapp/templates/base.html:667 assisiapp/templates/index.html:1453
+msgid "Useful Links"
+msgstr "Useful Links"
+
+#: assisiapp/templates/base.html:669 assisiapp/templates/index.html:1455
+msgid "Events"
+msgstr "Our Events"
+
+#: assisiapp/templates/base.html:671 assisiapp/templates/index.html:1457
+#: assisiapp/templates/video_gallery.html:14
+msgid "Video Gallery"
+msgstr "Video Gallery"
+
+#: assisiapp/templates/base.html:684 assisiapp/templates/index.html:1470
+msgid "Conventuals Indid,Order Of Friars Minor Conventual"
+msgstr "Conventuals Indid,Order Of Friars Minor Conventual"
+
+#: assisiapp/templates/base.html:684 assisiapp/templates/index.html:1470
+#: assisiapp/templates/ministries/Kolbe_Communications.html:57
+msgid "Kolbe Communication"
+msgstr "Kolbe Communication"
+
+#: assisiapp/templates/event_details.html:15
+#, fuzzy
+#| msgid "Events"
+msgid "Event Details"
+msgstr "Our Events"
+
+#: assisiapp/templates/events.html:30 assisiapp/templates/index.html:1074
+msgid "Our Events"
+msgstr "Our Events"
+
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:15
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:34
+msgid "ASSISI FRANCISCAN ASHRAM"
+msgstr "ASSISI FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:65
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:50
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:67
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:65
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:46
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:66
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:69
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:107
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:66
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:46
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:64
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:65
+#: assisiapp/templates/friaries/St_Francis_Friary.html:66
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:65
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:65
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:65
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:63
+msgid "HISTORY"
+msgstr "HISTORY"
+
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:66
+msgid "assisi franciscan ashram one"
+msgstr ""
+"Assisi Franciscan Ashram, Mancherial which was formerly known as Oxford "
+"Creativity High School is an attempt of Friars Minor Conventual at "
+"Mancherial, in the State of Telangana in Adhilabad District. And, to give a "
+"genuine and sincere education to the backward people of coal belt area. A "
+"pious religious man called Mr. Mathew ventured to give qualitative education"
+" to students deprived of good education established this school in May 1988."
+" Later Mr. Mathew handed over this school to the Friars Minor Conventuals "
+"for better education and administration. The Conventuals took up this school"
+" in January 2011."
+
+#: assisiapp/templates/friaries/Assisi_FranciscanAshram.html:68
+msgid "assisi franciscan ashram two"
+msgstr ""
+"The School is having 1365 students and 63 teaching and non-teaching staffs. "
+"We have students from 40 villages. The local people of this area are "
+"illiterate and many of them work in coalmines. Even though they are "
+"illiterate they have good concern about their children’s future. By taking "
+"up this school, it is our mission and vision to provide better education to "
+"the children who are coming from backward area. Students from 14 villages "
+"are coming to our School. Most of them live in small quarters where life "
+"situation is very poor and children do not have good atmosphere to study at "
+"home. The students remain in the School cam pus late in the evening and the "
+"staffs direct and look after them. Friars are staying in the school itself "
+"now and the construction of the Friary is nearing the completions and it "
+"will be officially established as a friary in the near future. Till then it "
+"will be the filial house of Assisi Shanthi Kendra, Karukutty."
+
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:15
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:34
+msgid "ASSISI SNEHALAYA"
+msgstr "ASSISI SNEHALAYA"
+
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:57
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:56
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:37
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:57
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:57
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:95
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:37
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:56
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:56
+msgid "Conventual Franciscan Friars"
+msgstr "Conventual Franciscan Friars"
+
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:68
+msgid "assisi snehalaya one"
+msgstr ""
+"Assisi Snehalaya at Rottikaundanur in Coimbatore District, Tamil Nadu in the"
+" diocese of Palakkad canonically erected on November 08, 2004. Fr. Ferdinand"
+" Melappilly was appointed as the first Guardian and the Director of the "
+"HIV/AIDS Centre. The Centre situates on a plot of land of 21 acres and 84 "
+"cents of land. Our Seraphic Father St. Francis of Assisi is the patron of "
+"the Centre."
+
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:70
+#, fuzzy
+#| msgid "Assisi Snehalaya"
+msgid "assisi snehalaya two"
+msgstr ""
+"The construction of the Centre began in December 2005, which included the "
+"medical department and rooms for the patients. The foundation stone was "
+"blessed by V.Rev.Fr. Marco Tasca, the Provincial of Padua on January 21, "
+"2006 during the concluding ceremony of the Silver Jubilee of Conventual "
+"Franciscan presence in India in the presence of the participants of the "
+"First Missionary Congress of the Order of Friars Minor Conventual."
+
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:72
+msgid "assisi snehalaya three"
+msgstr ""
+"On September 03, 2006 the first part of the Centre was blessed by His "
+"Excellency Mar Jacob Manathodath, Bishop of Palakkad and Mr. P. Munivelu, "
+"DIG of the Prisons, Tamil Nadu inaugurated the administrative block and Dr. "
+"K. Mahadevan, Head of the Department of STDs, Coimbatore Medical College, "
+"officially inaugurated the Medical Department in the presence of Rev.Fr. "
+"Mathew Purayidom, Vicar Custos and Rev.Fr. Joseph Cilia, Former Provincial "
+"Custos."
+
+#: assisiapp/templates/friaries/Assisi_Snehalaya.html:74
+msgid "assisi snehalaya four"
+msgstr ""
+"The inauguration and blessing of the second phase took place on Friday "
+"November 30, 2007. Ms. Supriya Sahu IAS, the Project Director of TNSACS "
+"together with Mr. Frangisku Attard, the Benefactor and the sponsor of the "
+"second phase did the inauguration. Fr. Ugolino Mary Xerri, the mission "
+"promoter of Malta officiated the blessing ceremony."
+
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:35
+msgid "ASSISI SHANTHI KENDRA"
+msgstr "ASSISI SHANTHI KENDRA"
+
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:39
+msgid "Karukutty - 683 576"
+msgstr "Karukutty - 683 576"
+
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:43
+msgid "(0091 484) 2613353 -Provincial"
+msgstr "(0091 484) 2613353 -Provincial"
+
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:44
+#, fuzzy
+#| msgid "Tel.: (0091 484) 2613449 - Friary"
+msgid "Fax: (0091 484) 2613463"
+msgstr "Fax: (0091 484) 2613463"
+
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:45
+msgid "E-Mail: conventualsindia@gmail.com"
+msgstr "E-Mail: conventualsindia@gmail.com"
+
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:51
+msgid "shanthi kendra one"
+msgstr ""
+"Assisi Shanthi Kendra at Karukutty in Ernakulam District, Kerala in the arch"
+" eparchy of Ernakulam - Angamaly was canonically established as a friary on "
+"December 16, 1998 on an area of approximately eight acres of land. Fr. "
+"Joseph Cilia was appointed the first Superior of this house, which was "
+"erected to function as the Curia of the Custody. The foundation stone of the"
+" Friary was blessed by Fr. Joseph Cilia, Provincial Custos on March 19, 1998"
+" while Mar Thomas Chakiath, Auxiliary Bishop of Ernakulam-Angamaly blessed "
+"the statue of St. Francis of Assisi as the foundation stone of the whole "
+"project on May 25, 1998 which was constructed on the plans of Architect "
+"Lalichan Sacaria from Ernakulam. The Friary was inaugurated and blessed by "
+"Archbishop Mar Varkey Vithayathil, Apostolic Administrator of the Syro-"
+"Malabar Church in the presence of Fr. Enrique Montero, General Definitor for"
+" FAAMC and Fr. Robert Agius, Minister Provincial of Malta. The first "
+"community began its presence at Karukutty on February 4, 1999. On December "
+"8, 1999 the main Church dedicated to St. Francis of Assisi was consecrated "
+"and blessed by Archbishop Mar Varkey Vithayathil, Apostolic Administrator of"
+" Ernakulam-Angamaly as a memorial of the Jubilee Year 2000."
+
+#: assisiapp/templates/friaries/Assisi_shanthi_kendra.html:53
+msgid "shanthi kendra two"
+msgstr ""
+"In various ways the friars render their service to the faithful to nourish them spiritually and to deepen their faith. Every Tuesday is dedicated for prayer and fasting. It includes the Adoration to the Blessed Sacrament, Breaking of the Word of God etc. The most important service they render is their full availability at the confessional which is made use by many.\n"
+"                            \n"
+"                            The compound of Assisi Shanthi Kendra includes also a Franciscan Centre in the spirit of Assisi. The foundation stone of the Franciscan Center was blessed by Fr. Joseph Cilia on March 19, 2000 and the first part of the building which included the Auditorium was blessed on November 8, 2000 by Fr. Enrique Montero, Definitor General for FAAMC in the presence of the Major Superiors OFM Conv of Asia and Australia. Fr. Alfred Calleja, Minister Provincial of Malta blessed the second part of the building of the Franciscan Centre on November 29, 2002."
+
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:17
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:36
+msgid "AVE MARIA FRANCISCAN FRIARY"
+msgstr "AVE MARIA FRANCISCAN FRIARY"
+
+#: assisiapp/templates/friaries/Ave_Maria_Franciscan_Friary.html:68
+msgid "ave maria discription"
+msgstr ""
+"After establishing the friaries, the friars moved to the war-torn part of "
+"the Island and started to visit the place from 2009 onwards. Fr. Ugolino M. "
+"Xerri former missionary from Malta visited and he had a passion for this "
+"place. He shared his wish with his elder sister Mary and she gave all her "
+"possession in her will for this cause when she passed away in 2015 Fr. "
+"Ugolino M. Xerri executed the will of his sister. In 2016 four friars Fr. "
+"Ferdinand Melappilly, mission animator, Frs Simon Elinjely, Kolbe "
+"Puthenpurayil and Mathew Purayidom met their bishop of Jaffna, Rt. Rev. Dr. "
+"Justin Gnanaprakasam and go the permission to establish the friary. On 16 "
+"October 2016 the land was registered in Columbuthurai, three kilometres away"
+" from Jaffna town. A house was brought for rent near to our property and Fr."
+" Mathew Purayidom started to live there. The friary is named after Our "
+"Immaculate Mother, AVE MARIA to acknowledge the intercession of our mother "
+"in establishing our order in the Island. On 26 October 2017 another friar "
+"Susan Rajapakse joined the community. The purpose of establishing this "
+"friary is for the  theological studies of the friars and for the promotion "
+"of vocation and the initial formation of students from this place. On 10 "
+"December 2017 two students joined the Order for their initial formation."
+
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:15
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:33
+msgid "BALA YESU FRANCISCAN ASHRAM"
+msgstr "BALA YESU FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:66
+msgid "yesu franciscan one"
+msgstr ""
+"The Bala Yesu Franciscan Ashram at Dondapudi in West Godavari District, "
+"Andhra Pradesh in the diocese of Eluru was canonically established as a "
+"friary on June 13, 2001 on an area of eleven acres of land donated by Bishop"
+" His Grace John Mulungada of Eluru together with the Shrine of Bala Yesu and"
+" the residence for the Friars. Fr. Joe Palukunnel was appointed the first "
+"Superior and Parish Priest. The Friary was blessed on June 28 by Fr. Joseph "
+"Cilia, Provincial Custos and on the same day Bishop John Mulungada presided "
+"over the Eucharistic celebration in which he officially handed over the "
+"parish to the Custody. This day also marked the beginning of the Andhra "
+"Mission."
+
+#: assisiapp/templates/friaries/Bala_Yesu_Franciscan_Ashram.html:68
+msgid "yesu franciscan two"
+msgstr ""
+" The foundation stone of the Bala Yesu Hostel was blessed by Fr. Ugolino "
+"Xerri, Missionary Promoter of the Maltese Province, on November 14, 2002. It"
+" was inaugurated by Fr. Joseph Cilia, Provincial Custos and blessed by "
+"Bishop John Mulungada of Eluru on August 25, 2003. Another important "
+"undertaking of the friars here is the running of Greyfriars Junior College "
+"for the surrounding villagers"
+
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:15
+msgid "BELVEDERE FRANCISCAN ASHRAM"
+msgstr "BELVEDERE FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/Belvedere_Franciscan_Ashram.html:47
+msgid "belvendere description"
+msgstr ""
+"Belvedere Franciscan Ashram is the second presence of the Conventual "
+"Franciscans in the State of Tamil Nadu and that of the 9th in India. "
+"Belvedere Franciscan Ashram was canonically established on January 7, 2005 "
+"and on 2nd February 2005 Fr. Joseph Cilia blessed the same for the use of "
+"the friars. Belvedere Franciscan Ashram, dedicated to Bl. Mother Teresa of "
+"Calcutta is situated in Kottagiri and is in the eparchy of Mananthavady. "
+"This friary which is to function as Novitiate House started to function with"
+" the arrival of Friars and Novices on January 25, 2005. Fr. Sebastian "
+"Pendanath was appointed as the first guardian and the director to the "
+"Novices. This friary is also having the privilege to be the Friary of the "
+"Silver Jubilee of the establishment of the Conventual Franciscan Friars in "
+"India in the year 1980 - 2005 and the year dedicated to the Eucharist."
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:15
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:34
+msgid "FRANCISCAN ASHRAM"
+msgstr "FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:67
+msgid "franciscan ashram one"
+msgstr ""
+"The Franciscan Ashram at Nattakkal in Kasargod District, Kerala in the "
+"eparchy of Thalassery began on November 22, 1993 with the arrival of Fr. "
+"Manuel Manicompel who stayed in the house on the twenty-one acres and sixty "
+"two cents of land purchased by the Mission. The Canonical erection was on "
+"September 17, 1994. Fr. Manuel was appointed the first Superior."
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:69
+msgid "franciscan ashram two"
+msgstr ""
+"On November 8, 1993, Bishop Mar George Valiyamattam of Tellicherry blessed "
+"the foundation stone for the future Church of St. Francis of Assisi that was"
+" laid by Fr. Alfred Calleja, Minister Provincial of Malta. The same Bishop "
+"did the blessing and consecration of the Church on September 17, 1994."
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:71
+msgid "franciscan ashram three"
+msgstr ""
+"Fr. Alfred Calleja, Minister Provincial of Malta on February 2, 1995 during "
+"the celebrations to mark the establishment of the Provincial Custody, "
+"blessed the newly constructed Ashram. The Pre-Novitiate was transferred to "
+"Franciscan Ashram from Kolbe Ashram on August 15, 1995. Fr. Mario Franchi, "
+"Minister Provincial of Tuscany, Italy, blessed the new Pre-Novitiate "
+"building on January 9, 1996. In 2005 the Pre-Novitiate was transferred to "
+"Padua Franciscan Ashram, Puthenchira and from May 2006 to May 2008 it served"
+" as the residence of one group of Orientation year students. The Church, the"
+" Friary and the Pre-Novitiate are constructed on the plans of Fr. "
+"J.M.Stevens S.J. of Bangalore."
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:72
+msgid "franciscan ashram four"
+msgstr ""
+"On January 1, 2003 the Ashram Church was declared a parish and Fr. Manuel "
+"Manicompel was appointed the first parish priest."
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:74
+msgid "franciscan ashram five"
+msgstr ""
+"The newly constructed Cemetery of the parish near the Ashram Church was "
+"blessed by Fr. Joseph Cilia, Provincial Custos on July 3, 2004. The new "
+"Sunday school building was"
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:76
+msgid "inaugurated on"
+msgstr "inaugurated on"
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:77
+msgid "Grotto"
+msgstr "Grotto"
+
+#: assisiapp/templates/friaries/Franciscan_Ashram.html:79
+msgid "Perpetual adoration chapel"
+msgstr "Perpetual adoration chapel"
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:16
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:34
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:55
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:93
+msgid "KOLBE FRANCISCAN ASHRAM"
+msgstr "KOLBE FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:69
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:109
+msgid "kolbe ashram one"
+msgstr ""
+"Established as a friary and seminary in Aluva, Ernakulam District, Kerala on"
+" November 15, 1983."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:71
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:110
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:123
+msgid "kolbe ashram two"
+msgstr "First Superior was Fr. Joseph Cilia."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:73
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:111
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:125
+msgid "kolbe ashram three"
+msgstr "Inaugurated in 1984 by Fr. Lanfranco Serrini, Minister General."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:75
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:112
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:127
+msgid "kolbe ashram four"
+msgstr "Renovated and blessed again in 1996."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:77
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:113
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:129
+msgid "kolbe ashram five"
+msgstr ""
+"Dedicated to St. Maximilian Kolbe, commemorating his 1932 visit to Aluva."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:114
+msgid "kolbe ashram six"
+msgstr ""
+"On August 14, 1985, Bishop Mar Sebastian Mankuzhikary blessed a wooden "
+"statue of Kolbe, later replaced by a larger one in 1989."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:115
+msgid "kolbe ashram seven"
+msgstr ""
+"Designed by Architect Fr. J.M. Stevens S.J. and constructed in stages, "
+"completed in 1992."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:116
+msgid "kolbe ashram eight"
+msgstr "Served as the central administration of the Mission until 1999."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:117
+msgid "kolbe ashram nine"
+msgstr "Officially inaugurated as the Provincial Custody on January 27, 1995."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:118
+msgid "kolbe ashram ten"
+msgstr ""
+"Managed various social projects, including the St. Anthony Social Centre and"
+" St. Paul’s Clinic."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:119
+msgid "kolbe ashram eleven"
+msgstr "Served as the Mission Headquarters from 1985 to 1996."
+
+#: assisiapp/templates/friaries/Kolbe_Franciscan_Ashram.html:120
+msgid "kolbe ashram twelve"
+msgstr ""
+"Currently a study house for student-friars in philosophy and theology."
+
+#: assisiapp/templates/friaries/Nirmalaram_Franciscan_Ashram.html:33
+#, fuzzy
+#| msgid "PADUA FRANCISCAN ASHRAM"
+msgid "NIRMALARAM FRANCISCAN ASHRAM"
+msgstr "PADUA FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:15
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:34
+msgid "PADRE PIO SHRINE"
+msgstr "PADRE PIO SHRINE"
+
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:57
+msgid "Sethsirigama"
+msgstr "Sethsirigama"
+
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:58
+msgid "Athurugiriya"
+msgstr "Athurugiriya"
+
+#: assisiapp/templates/friaries/Padre_Pio_Shrine.html:67
+msgid "padre pio discription"
+msgstr ""
+"His Grace Oswald Gomes, the Archbishop of Colombo gave us the Shrine of "
+"Padre Pio at Athurugiriya in the outskirts of the city of Colombo. Our "
+"Friars promote the devotion to Padre Pio by daily Eucharistic celebration, "
+"Novena, Adoration and other Para-liturgical functions. The Archbishop of "
+"Colombo entrusted us the shrine of Padre Pio for 10 years by signing a solid"
+" agreement on April 30, 2008."
+
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:15
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:35
+msgid "PADUA FRANCISCAN ASHRAM"
+msgstr "PADUA FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:47
+msgid "padua ashram one"
+msgstr ""
+"The Padua Franciscan Ashram at Puthenchira East in Thrissur District, Kerala"
+" in the eparchy of Irinjalakuda began on May 12, 1995 with the arrival of "
+"Fr. Manilal Cristin and the blessing of the Friary by Fr. Joseph Cilia, "
+"Provincial Custos. It was canonically erected on January 27, 1996. Fr. "
+"Manilal was appointed the first Superior. The Ashram is on a plot of land of"
+" approximately four and a half acres. The Ashram was named after St. Anthony"
+" of Padua to commemorate the eighth centenary of his birth. The foundation "
+"stone for the Church-Shrine was blessed by Fathers Egidio Canil and Mario "
+"Conte representatives of the Basilica of St. Anthony in Padua on February "
+"8,1996 during the pilgrimage of the Saint’s Relics to Kerala. A relic of St."
+" Anthony - part of the skin - was presented for the future Shrine. The "
+"Church-Shrine was blessed and consecrated by Bishop James Pazhayattil of "
+"Irinjalakuda on November 9, 1997. On the same day, Fr. Agostino Gardin, "
+"Minister General unveiled the statue of St. Anthony, which was sent from the"
+" Basilica in Padua for the Shrine. The Shrine is also enriched with the "
+"centenary bell presented to it by the General Chapter of the Order and "
+"blessed in the Basilica in Padua on June 11, 1995 during the pilgrimage of "
+"the General Chapter members to the tomb of St. Anthony."
+
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:49
+msgid "padua ashram two"
+msgstr ""
+"The Ashram has also the Novitiate house, which was transferred to here from "
+"Kolbe Ashram on November 1, 1997. Fr. Agostino Gardin, Minister General on "
+"November 9, 1997 in the presence of Fr. Enrique Montero, Definitor General "
+"for FAAMC, blessed the newly constructed Novitiate House. In January 29, "
+"2005, the Novitiate was transferred to the newly erected friary of Belvedere"
+" Franciscan Ashram, Kottagiri and from May, 2005 it is the residence of the "
+"Pre-Novices."
+
+#: assisiapp/templates/friaries/Padua_Franciscan_Ashram.html:51
+msgid "padua ashram three"
+msgstr ""
+"The Church and the additional building with the original house are "
+"constructed on the plans of K.A. Jossey, an Engineer from Ernakulam.  In "
+"February 2017, a new faced shrine was build near the entrance of the church "
+"property to mark the second visit of the Relics of St. Anthony of Padua. It "
+"was blessed by Rev.Fr. Leo Payyappilly, Minister Provincial on 18 February, "
+"2017. Due to insufficient accommodation facilities pre novitiate programme "
+"temporarily  shifted to Kolbe Franciscan Ashram, Aluva from here. Now it "
+"serves as the Novitiate house of the Province."
+
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:15
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:33
+msgid "SAN CUPERTINO FRANCISCAN ASHRAM"
+msgstr "SAN CUPERTINO FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:65
+msgid "cupertino ashram one"
+msgstr ""
+"SAN CUPERTINO FRANCISCAN ASHRAM is St. Maximilian Kolbe Province’s first "
+"formation house in the State of AP. Besides, it is also the Delegate House "
+"of St. Joseph of Cupertino Provincial Delegation, Andra/Telangana. It "
+"situates in the Eparchy of Eluru diocese. The purchasing of the land and "
+"construction of the building began under the supervision and persevering "
+"effort of Fr. Manuel Manicompel, Definitor in charge of Mission and Fr. Joe "
+"Palukunnel, first Provincial Delegate."
+
+#: assisiapp/templates/friaries/San_Cupertino_Franciscan_Ashram.html:67
+msgid "cupertino ashram two"
+msgstr ""
+" Fr. Felix Kandathinkkara supervised the construction of the building. The "
+"foundation stone of the house was laid on 24th April 2013 by Fr. Sebastian "
+"Pendanathu, Minister Provincial. On 30 January 2014 the official "
+"inauguration of the establishment of St. Joseph Cupertino Provincial "
+"Delegation coupled with the inauguration of our new house were held. It was "
+"inaugurated by Rev. Fr. Marco Tasca, Minister General, in the presence of "
+"Rev. Fr. Benedict Baek, Assistant General for FAMC and Rev. Fr. Sebastian "
+"Pendanathu Minister Provincial. His Excellency Jaya Rao Polimera, Bishop of "
+"Eluru diocese blessed the new house. Fr. Regite Thuruthel OFM Conv was "
+"appointed the first Guardian and Rector of the student-friars while Fr. Rojo"
+" Purayidathil was appointed the Rector of the Minor Seminarians. The "
+"Blessing of San Cupertino Friary Chapel was held on 16 November 2014. It was"
+" officiated by Rev. Fr. Jim Kent OFM Conv, Provincial OLC Province, Indiana,"
+" USA. Rev. Fr. Sebastian Pendanathu, Minister Provincial, St. Maximillian "
+"Kolbe Province India was also present to the occasion."
+
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:15
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:34
+msgid "ST. ANTHONY FRANCISCAN ASHRAM"
+msgstr "ST. ANTHONY FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:55
+msgid "St. Anthony Franciscan Ashram"
+msgstr "St. Anthony Franciscan Ashram"
+
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:66
+msgid "st antony franciscan ashram one"
+msgstr ""
+"St. Anthony Franciscan Ashram which comprises Vidyaniketan Junior College, "
+"St. Augustine’s Hostel, St. Anthony’s EM school in  Warangal District of "
+"Telangana state is in the Diocese of Warangal, given to the Franciscan "
+"Conventuals on 09 May 2014 by Most. Rev. Udumala Bala, Bishop of Warangal. "
+"Also St. Augustine’s Hostel for boys was handed over to the Conventuals "
+"together with the College. It consists of 18 Acres of land including two "
+"buildings, furniture, laboratories and other household items. Fr. Felix "
+"Kandathinkkara OFM Conv. was appointed as the First Principal and Director "
+"of the Hostel for the same year. Fr. Joe Palukunnel OFM Conv, the Delegate "
+"of Andhra Pradesh and Telangana took initiative to take over this College "
+"and was approved by the Provincial and his Definitory. The Agreement between"
+" Diocese of Warangal and the Province of St. Maximilian Kolbe were made by "
+"the competent authority in the same year for trial basis and finally taken "
+"over this college and hostel for 15 years from 2014 to 2029. This Agreement "
+"was force on 09 May 2014. Later in 2017, the time period of the agreement "
+"was extended for another 25 years."
+
+#: assisiapp/templates/friaries/St_Anthony_Franciscan_Ashram.html:68
+msgid "st antony franciscan ashram two"
+msgstr ""
+"In 2016, we had begun girls’ hostel as well, in a separated building. "
+"Besides, from 2016 onwards the Aspirancy I and II year formation programme "
+"was shifted from San Cupertino Franciscan Ashram, Eluru to here. St. "
+"Anthony’s EM School at Vanamala is our latest undertaking here "
+
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:15
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:33
+msgid "ST. ANTHONY FRIARY"
+msgstr "ST. ANTHONY FRIARY"
+
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:56
+msgid "Conventual Franciscans"
+msgstr "Conventual Franciscans"
+
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:65
+msgid "anthonyfriary one"
+msgstr ""
+"The first Community at the St. Anthony Friary at Ethgala in Sri Lanka, in "
+"the Archdiocese of Colombo began on 10 October 2012 with the arrival Fr. "
+"Mathew Purayidom and Fr. Kolbe Puthenpurayil. Fr. Simon the Guardian of St. "
+"Francis Friary, Negambo on 12 October 2012, blessed the existing house. The "
+"land of the friary consists of ten and half acres, which was purchased in "
+"two parts. After the renovation of the existing building, four aspirants and"
+" one Pre-novice was admitted on 17 March 2013. Fr. Peter Kannampuzha "
+"OFMConv, the pioneer to Sri Lankan Mission blessed the foundation stone of "
+"the new building, on 29 January 2013. The new part of the friary was blessed"
+" by Rt. Rev. Dr. Maxwell De Silva, the Auxiliary Bishop of Colombo and was "
+"inaugurated by Rev. Fr. Marco Tasca, the Minister General, on 6th of "
+"February 2014, in the presence of Rev. Fr. Sebastian Pendanathu, the "
+"Minister Provincial of the St. Maxmilian Kolbe Province, India. The purpose "
+"of the friary is for the fundamental formation of the candidates of Sri "
+"Lanka."
+
+#: assisiapp/templates/friaries/St_Anthony_Friary.html:67
+msgid "anthonyfriary two"
+msgstr ""
+"The bust that carried the relic of St. Anthony on the occasion of the "
+"pilgrimage to Sri Lanka was donated to our Friary together with a relic of "
+"St. Anthony by the authorities of the Basilica in Padua in Italy. Minister "
+"General officially placed the relic in the Friary Chapel on the day of "
+"inauguration."
+
+#: assisiapp/templates/friaries/St_FrancisFriary.html:15
+#: assisiapp/templates/friaries/St_FrancisFriary.html:34
+#: assisiapp/templates/friaries/St_FrancisFriary.html:55
+#: assisiapp/templates/friaries/St_Francis_Friary.html:15
+#: assisiapp/templates/friaries/St_Francis_Friary.html:33
+msgid "ST. FRANCIS FRIARY"
+msgstr "ST. FRANCIS FRIARY"
+
+#: assisiapp/templates/friaries/St_FrancisFriary.html:56
+msgid "ST. Francis Friary"
+msgstr "ST. Francis Friary"
+
+#: assisiapp/templates/friaries/St_FrancisFriary.html:66
+msgid "francisfriary one"
+msgstr ""
+"St. Francis Friary at Dalupotha in Negambo in the eparchy of the Archdiocese"
+" of Colombo began in the year 2008 with the purchase of 80 cents of land "
+"with a house near the Air Port and 30 K.M. away from Colombo City. By the "
+"end of the same year the Friars began to live in the house after having some"
+" renovations and extensions to the existing house. Till the official "
+"establishment of the Friary, Friar Albert Pulliyadan, the Mission in charge "
+"served as the Superior of the House."
+
+#: assisiapp/templates/friaries/St_FrancisFriary.html:68
+msgid "francisfriary two"
+msgstr ""
+" Ever since from the very beginning in, it had been our long awaited wish to"
+" establish officially our presence in Sri Lanka. It is realised in the "
+"official ceremony of the establishment of the first Friary on December 01, "
+"2009. Most Rev. Fr. Marco Tasca, Minister General inaugurated and His "
+"Excellency Archbishop Joseph Spitery, the Apostolic Nuncio to Sri Lanka "
+"blessed the first Friary of the Conventual Franciscans in Sri Lanka in the "
+"presence of V. Rev. Fr. Vincent Long Nguyen, Assistant General for FAAMC, "
+"Rev. Fr. Mathew Purayidom, Minister Provincial, India and major superior of "
+"the FAAMC Jurisdictions, who came to participate in the FAAMC meeting held "
+"in Sri Lanka. The Friary is dedicated to St. Francis of Assisi, our Father "
+"and Founder. Friar Simon Elinjely was appointed as the first Guardian of the"
+" Friary. At present the Friary functions as the head quarters of Sri Lankan "
+"Mission and also as the formation house."
+
+#: assisiapp/templates/friaries/St_Francis_Friary.html:67
+msgid "st francis friary one"
+msgstr ""
+"St. Francis Friary, Dolthala, Calcutta, in the District of 24 North "
+"Parganas, West Bengal, in the Archdiocese of Kolkata."
+
+#: assisiapp/templates/friaries/St_Francis_Friary.html:69
+msgid "st francis friary two"
+msgstr ""
+"It is a joint Mission of the Mother Province of St. Paul, the Apostle of "
+"Malta and St. Maximilian Kolbe Province of India. The presence of the "
+"Conventual Franciscans started with the arrival of Fr. Manuel Manicompel, "
+"Fr. Mariadas Palatty and Fr. Lawrence Poovathummoottil on 14 January 2014. "
+"Fr. Collin Sammut OFM Conv and Fr. Stephan Borg OFMConv from Malta joined "
+"them on 15 January 2014 and stayed at Proggaloy, the pastoral Centre of the "
+"Archdiocese of Kolkata in Barasat."
+
+#: assisiapp/templates/friaries/St_Francis_Friary.html:71
+msgid "st francis friary three"
+msgstr ""
+"On 02 February 2014 during the concelebrated Holy Mass led by His Grace "
+"Thomas D’Souza, Archbishop of Kolkata, the Minister General Rev. Fr. Marco "
+"Tasca inaugurated the new Mission of the Order in Kolkata. On the same day "
+"during the meeting of the friars residing at Proggaloy with Rev. Fr. Marco "
+"Tasca OFM Conv Minister General, Rev. Fr. Benedict Baek OFM Conv Assistant "
+"General for FAMC, Rev. Fr. Sebastian Pendanathu, Minister Provincial, "
+"appointed Fr. Mariadas Palatty OFM Conv, the Mission Superior and Fr. Manuel"
+" Manicompel responsible for finding out a proper house for the Friary."
+
+#: assisiapp/templates/friaries/St_Francis_Friary.html:73
+msgid "st francis friary four"
+msgstr ""
+"On 07 May 2014, Friars purchased 3 cents of land with a three-storied "
+"building at Srijeoni Housing Society, at Ganganagar, Dolthala. The "
+"Definitory held on 26 May 2014 at Assisi Shanthi Kendra, Karukutty, Kerala "
+"decided to send two students for Theology at Morning Star, the Regional "
+"seminary, Kolkata. On 28 June 2014, Friars Sijo Nadackal and Sajesh "
+"Kottupallil joined the Community for their studies."
+
+#: assisiapp/templates/friaries/St_Francis_Friary.html:75
+msgid "st francis friary five"
+msgstr ""
+"On 01 September 2014, Friars moved from Proggaloy and started living "
+"permanently to the rearranged Friary at Dolthala.  An Act of Agreement is "
+"made between the Archdiocese of Calcutta and the Order of Friars Minor "
+"Conventual on 23 March 2015. Later, the Friary was canonically established "
+"on 03 August 2015. Later, on the basis of the agreement, the Friars Minor "
+"Conventual was requested to give pastoral care to the Catholic Community in "
+"the Green Park area."
+
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:15
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:34
+msgid "ST. JOSEPH VAZ FRIARY"
+msgstr "ST. JOSEPH VAZ FRIARY"
+
+#: assisiapp/templates/friaries/St_Joseph_Vaz_Friary.html:66
+msgid "vazfriary discription"
+msgstr ""
+"On Thursday, October 01, 2015. V. Rev. Fr. Leo Payyappilly, the Minister "
+"provincial of St. Maximillian Kolbe Province, India, in the presence of the "
+"definitors, with all the friars in Sri Lanka and representative friars from "
+"India, did the formal blessing of the house. The purpose of this friary is "
+"to function as a Post-Novitiate house. The first Post-Novitiate house in the"
+" mission is composed of two student friars from India and three student "
+"friars of Sri Lanka. The inauguration and the blessing of the Friary took "
+"place on April 23, 2016 by Rt. Rev.Dr. Vianny Fernando, the Bishop of Kandy."
+
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:15
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:33
+msgid "ST. MAXIMILIAN FRANCISCAN ASHRAM"
+msgstr "ST. MAXIMILIAN FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:57
+msgid "Christianpet, Tadepalli - 522501"
+msgstr "Christianpet, Tadepalli - 522501"
+
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:66
+msgid "max franciscan one"
+msgstr ""
+"The St. Maximilian Franciscan Ashram at Christianpet in Guntur District, "
+"Andhra Pradesh in the diocese of Guntur began on March 25, 2002. Fr. Jesmond"
+" Panapparambil was appointed the first parish priest of this new parish and "
+"superior of the residence of the Friars, a rented apartment at Tadepalli. "
+"The ashram was canonically erected on July 15, 2004."
+
+#: assisiapp/templates/friaries/St_Maximilian_Franciscan_Ashram.html:68
+msgid "max franciscan two"
+msgstr ""
+"The foundation stone of the Friary and the Church was blessed by Fr. Joseph "
+"Cilia, Provincial Custos on January 18, 2004 on the newly acquired plot of "
+"45 cents at Christianpet. On January 23, 2005, Fr. Joseph Cilia, Provincial "
+"Custos blessed the newly constructed friary at Christianpet retaining the "
+"name St. Maximilian Franciscan Ashram. On March 12, 2005 His Grace Most Rev."
+" Dr. Galibali Bishop of Guntur blessed and consecrated the newly constructed"
+" Church at Christianpet. The beautiful church is dedicated to St. Maximilian"
+" Kolbe. "
+
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:15
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:33
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:54
+msgid "ST. PAUL FRANCISCAN ASHRAM"
+msgstr "ST. PAUL FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:55
+msgid "St. Paul Franciscan Ashram"
+msgstr "St. Paul Franciscan Ashram"
+
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:57
+msgid "Vettukuzhakkavala, Erattayar Road"
+msgstr "Vettukuzhakkavala, Erattayar Road"
+
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:66
+msgid "paul franciscan one"
+msgstr ""
+"The origin of St. Paul Franciscan Ashram, Kattappana in the eparchy of "
+"Idukki was as a filial house of Assisi Shanthi Kendra, Karukutty. The friary"
+" is named after St. Paul, the apostle as a tribute to our Mother Province in"
+" Malta for their love and concern for our mission since its establishment. "
+"The land consisting of nearly 3 acres was purchased and registered on May "
+"25, 2006, and Friar Saviour Karamvelil was appointed to take care of the "
+"property and the house while serving as the assistant parish priest of St. "
+"Mary’s Church, Vellayamkudy to which parish we belong. Friar Saviour started"
+" living there together with a regent, Friar Felix Kandathinkara on July 03, "
+"2006."
+
+#: assisiapp/templates/friaries/St_Paul_Franciscan_Ashram.html:68
+msgid "paul franciscan two"
+msgstr ""
+"It took more than one year for the renovation of the old house and was "
+"inaugurated and blessed by Rev. Fr. Joseph Cilia OFM Conv., former "
+"Provincial Custos on Saturday, 01st September 2007 to commemorate the "
+"establishment of the Province of India. During the First Provincial Chapter "
+"of St. Maximilian Kolbe Province, Friar Shaji Kaniyaparambil was ap pointed "
+"as the new guardian of the new friary of which the canonical establishment "
+"is dated on January 25, 2008. St. Anthony’s prayer hall which is used for  "
+"Tuesday Ministries was blessed by Rev.Fr. Leo Payyappilly, Minister "
+"Provincial on September 06,2016. Besides, we built a shrine in front of our "
+"friary in order to mark the pilgrimage of the Relics of St. Anthony of Padua"
+" to India on February 20,2017. "
+
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:15
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:33
+msgid "ST. PETER FRANCISCAN ASHRAM"
+msgstr "ST. PETER FRANCISCAN ASHRAM"
+
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:64
+msgid "peter franciscan ashram one"
+msgstr ""
+"St. Peter Franciscan Ashram and St. Peter’s School, Gajwel is a new "
+"initiative in the field of educational ministry by Franciscan Conventual "
+"Friars, in the year 2017. Gajwel is a small town situated in the state of "
+"Telangana, 110 km away from Hyderabad airport. The school is 4 km away from "
+"national highway and thus a quiet and serene area. Geographically Gajwel is "
+"an agricultural area, where mostly the uneducated people are involved in "
+"farming. St. Peter’s School started by a catholic lay person named Mr. "
+"T.B.J. Sudhakar Reddy. In 2012 he started the building and in the same year "
+"officially it began functioning. His motivation was to give standard "
+"education to all the children in the area. In the year of 2017 due to "
+"certain personal reasons he has decided to sell the school to Conventual "
+"Franciscan Friars."
+
+#: assisiapp/templates/friaries/St_Peter_Franciscan_Ashram.html:66
+msgid "peter franciscan ashram two"
+msgstr ""
+"When we had taken up the school, the local people accepted this venture "
+"whole heartedly and giving their support by sending their children to the "
+"institute. At present there are 650 students and 36 teaching and non-"
+"teaching staff in the school. We have students from more than 60 villages, "
+"of which some situate really far from the school. Most of them are from very"
+" poor families. Educating the children is of course a great mission for us. "
+"However, on August 9, 2017, His Excellency Thumma Bala, Archbishop of "
+"Hyderabad officially inaugurated the school and it started to function "
+"officially.  Fr. Michael Earaly, Vicar Provincial who was delegated by Fr. "
+"Leo Payyappilly OFMConv., Minister Provincial, Fr. Damian Veliyil, Delegate "
+"of St. Joseph of Cupertino Provincial Delegation and our Friars from "
+"different communities were also present to the occasion. "
+
+#: assisiapp/templates/friends_of_smk.html:15
+#: assisiapp/templates/friends_of_smk.html:34
+msgid "contact us"
+msgstr "Contact Us"
+
+#: assisiapp/templates/friends_of_smk.html:59
+msgid "Office Address"
+msgstr "Office Address"
+
+#: assisiapp/templates/friends_of_smk.html:70
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#: assisiapp/templates/friends_of_smk.html:79
+msgid "Email Address"
+msgstr "Email Address"
+
+#: assisiapp/templates/friends_of_smk.html:86
+msgid "FRIENDS OF SMK (ST. MAXIMILAN KOLBE PROVINCE , INDIA)"
+msgstr "FRIENDS OF SMK (ST. MAXIMILAN KOLBE PROVINCE , INDIA)"
+
+#: assisiapp/templates/friends_of_smk.html:87
+msgid "Friends of SMK discription"
+msgstr ""
+"Friends of SMK (St. Maximilan Kolbe Province, India)\n"
+"\t\t\t\t\t\t\t\tThe Conventual Franciscans of St. Maximilian Kolbe Province began an exciting venture to address the cost of forming friar priests and brothers for the future. This new group of individuals who commit themselves to assist the Conventual Franciscans are called FRIENDS OF SMK.\n"
+"\t\t\t\t\t\t\t\tThese FRIENDS OF SMK have done a great deal of work since their beginning and continue to assist the friars in these particular areas: the cost of formation for young men studying for the priesthood and other particular financial challenges for charitable works of this province. You, too, can help us. We need your prayers and your financial assistance. If you want to see Franciscan priests and brothers serving the Church in our challenging times, please join the wonderful works of the FRIENDS OF SMK.\n"
+"\t\t\t\t\t\t\t\tConsider becoming a FRIEND OF SMK! Every Friend of Francis member becomes a part of the Franciscan Family by receiving mailings which update you on the Franciscan Ministries and prayer life. Some mailings include invitations to join the Friars in specific events. \n"
+"\t\t\t\t\t\t\t\tTo contact us through mail"
+
+#: assisiapp/templates/friends_of_smk.html:105
+msgid "Full Name"
+msgstr "Full Name"
+
+#: assisiapp/templates/friends_of_smk.html:108
+msgid "Your Email"
+msgstr "Your Email"
+
+#: assisiapp/templates/friends_of_smk.html:111
+msgid "Subject"
+msgstr "Subject"
+
+#: assisiapp/templates/friends_of_smk.html:116
+msgid "Type here message"
+msgstr "Type here message"
+
+#: assisiapp/templates/friends_of_smk.html:119
+msgid "Post comment"
+msgstr "Post comment"
+
+#: assisiapp/templates/index.html:710 assisiapp/templates/index.html:711
+msgid "St. Francis of Assisi"
+msgstr "St. Francis of Assisi"
+
+#: assisiapp/templates/index.html:720 assisiapp/templates/index.html:847
+msgid "Administration"
+msgstr "Administartion"
+
+#: assisiapp/templates/index.html:787
+#, fuzzy
+#| msgid "Green Park Pastoral Community,Kolkatta"
+msgid "Green Park Pastoral Community, Kolkatta"
+msgstr "Green Park Pastoral Community,Kolkatta"
+
+#: assisiapp/templates/index.html:1025
+msgid "We Should See Not So Much To Pray But Not To Become Prayer"
+msgstr "We should seek not so much to pray, but to become prayer"
+
+#: assisiapp/templates/index.html:1035
+msgid "For It Is In Giving That We Receive"
+msgstr "For it is in giving that we receive"
+
+#: assisiapp/templates/index.html:1046
+msgid "Preach The Gospel At All Times And When Necessary Use Words"
+msgstr "Preach the gospel at all times and when necessary use words"
+
+#: assisiapp/templates/index.html:1076 assisiapp/templates/index.html:1077
+msgid "event content one"
+msgstr ""
+"Join us every weekend for impactful events dedicated to making our world a "
+"better place. Together, let's create a beautiful and sustainable future for "
+"all!"
+
+#: assisiapp/templates/index.html:1076
+msgid "event content two"
+msgstr "everyone."
+
+#: assisiapp/templates/index.html:1076
+msgid "event content three"
+msgstr "everyone"
+
+#: assisiapp/templates/index.html:1096
+msgid "Notice Borad"
+msgstr "Notice Borad"
+
+#: assisiapp/templates/index.html:1098
+#| msgid "novitiate description"
+msgid "notice description"
+msgstr ""
+"In the spirit of community and connection, we present the Event Notice "
+"Board. Let's create lasting memories and embrace new opportunities to "
+"connect and grow."
+
+#: assisiapp/templates/index.html:1118
+msgid "Wishes"
+msgstr "Wishes"
+
+#: assisiapp/templates/index.html:1120 assisiapp/templates/index.html:1121
+msgid "Wishes one"
+msgstr ""
+"Share heartfelt wishes with loved ones for birthdays, anniversaries,or any "
+"occasion. Find the perfect message to make their day special."
+
+#: assisiapp/templates/index.html:1120
+msgid "wishes two"
+msgstr " or any occasion. Find the perfect message to make their day"
+
+#: assisiapp/templates/index.html:1120
+msgid "wishes content three"
+msgstr "special."
+
+#: assisiapp/templates/index.html:1148
+msgid "We Are Taking Small Steps To Make Earth Better Planet"
+msgstr "We Are Taking Small Steps To Make Earth Better Planet"
+
+#: assisiapp/templates/index.html:1154
+msgid "about dis"
+msgstr ""
+"The Conventual Franciscans in India are part of the Order of Friars Minor "
+"Conventual (OFM Conv), a branch of the Franciscan family within the Catholic"
+" Church. This order traces its roots back to St. Francis of Assisi, who "
+"founded it in the early 13th century. The Conventual Franciscans emphasize "
+"communal living, simplicity, and a commitment to preaching, education, and "
+"pastoral care.In India, the Conventual Franciscans are involved in various "
+"ministries including parishes, educational institutions, and social work "
+"aimed at aiding the poor and marginalized. They focus on fostering spiritual"
+" growth and serving the community through their religious and social "
+"initiatives. The order has several provinces and missions across India, "
+"working to spread the Franciscan charism of peace, joy, and fraternity."
+
+#: assisiapp/templates/index.html:1160
+#, fuzzy
+#| msgid "Read More"
+msgid "View More"
+msgstr "Read More"
+
+#: assisiapp/templates/index.html:1220
+msgid "News"
+msgstr "News"
+
+#: assisiapp/templates/index.html:1221
+msgid "Our Latest News"
+msgstr "Our Latest News"
+
+#: assisiapp/templates/index.html:1262
+msgid "Saints of the day"
+msgstr "Saints of the day"
+
+#: assisiapp/templates/index.html:1292
+msgid "Our Gallery"
+msgstr "Our Gallery"
+
+#: assisiapp/templates/index.html:1342
+msgid ""
+"The most deadly poison of our times is indifference. And this happens, "
+"although the praise of God should know no limits. Let us strive, therefore, "
+"to praise Him to the greatest extent of our powers."
+msgstr ""
+"The most deadly poison of our times is indifference. And this happens, "
+"although the praise of God should know no limits. Let us strive, therefore, "
+"to praise Him to the greatest extent of our powers."
+
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:17
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:35
+msgid "BALA YESU SHRINE, DONDAPUDI"
+msgstr "SANTUARIO DI BALA YESU, DONDAPUDI"
+
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:56
+msgid "Bala Yesu Shrine"
+msgstr "Santuario di Bala Yesu"
+
+#: assisiapp/templates/ministries/Bala_Yesu_Shrine.html:57
+msgid "Bala Yesu Shrine one"
+msgstr ""
+"Bala Yesu Shrine at Dondapudi is one of four Shrines in the Diocese of "
+"Eluru. The Shrine was blessed and consecrated on 5 May 1996 by His Grace "
+"Most Rev. John Mulagada, Bishop of Eluru. The Conventual Franciscan Friars "
+"of St. Maximilian Kolbe Province took over the Shrine in June 2001 as their "
+"first mission in Andhra Pradesh. Approximately 550 families from among the "
+"seven villages form the church at the village Dondapudi. The Shrine "
+"celebrates its annual festival on February 22, 23, and 24. Holy Eucharistic "
+"is celebrated every day, and on Sundays is celebrated in the villages as "
+"well. There is a village visit and prayer every week on Tuesdays, Fridays, "
+"and Saturdays. The youth group is very active in the parish, and Anthonian "
+"devotion is celebrated in the shrine."
+
+#: assisiapp/templates/ministries/FCPD.html:17
+#: assisiapp/templates/ministries/FCPD.html:35
+msgid "FRANCISCAN CENTRE FOR PEACE AND DIALOGUE  (FCPD)"
+msgstr "FRANCISCAN CENTRE FOR PEACE AND DIALOGUE (FCPD)"
+
+#: assisiapp/templates/ministries/FCPD.html:58
+msgid "fcpd one"
+msgstr ""
+"The Franciscan Centre for Peace and Dialogue (FCPD) of the Conventual Friars"
+" of India was established on March 8, 1994 and inaugurated on September 1, "
+"1994. As followers of St. Francis of Assisi (“Known and revered by many "
+"throughout the world as a symbol of Peace, Reconciliation and "
+"Brotherhood...” John Paul II), spirit and values that can be assimilated "
+"into the ordinary person’s daily life and situation."
+
+#: assisiapp/templates/ministries/FCPD.html:61
+msgid "fcpd two"
+msgstr ""
+"we commit ourselves to be instruments of peace and walk alongside those "
+"“Persecuted for the sake of Justice…” (Mt.5:10)."
+
+#: assisiapp/templates/ministries/FCPD.html:66
+msgid "OBJECTIVES"
+msgstr "OBJECTIVES"
+
+#: assisiapp/templates/ministries/FCPD.html:71
+msgid "fcpd thee"
+msgstr ""
+"To raise awareness and deepen the understanding of current issues of "
+"justice, peace, and safeguarding of creation"
+
+#: assisiapp/templates/ministries/FCPD.html:73
+msgid "fcpd four"
+msgstr ""
+"To promote and express solidarity with those who request help in situations "
+"of injustice"
+
+#: assisiapp/templates/ministries/FCPD.html:74
+msgid "fcpd five"
+msgstr " To promote and defend Human Life"
+
+#: assisiapp/templates/ministries/FCPD.html:75
+msgid "fcpd six"
+msgstr "To promote ecumenism and inter-religious dialogue"
+
+#: assisiapp/templates/ministries/FCPD.html:77
+msgid "fcpd seven"
+msgstr ""
+"To conduct the ASSISI ANNUAL LECTURE in view of concretizing our positions "
+"on current social issues, justice, peace, and safeguarding of creation"
+
+#: assisiapp/templates/ministries/FCPD.html:78
+msgid "fcpd eight"
+msgstr ""
+"To organize and present annually ‘THE SPIRIT OF ASSISI NATIONAL AWARD’: the "
+"purpose of the award is to give public recognition to persons or "
+"institutions working for inter-religious harmony, safeguarding of creation, "
+"peace, justice, and dignity of human life"
+
+#: assisiapp/templates/ministries/FCPD.html:79
+msgid "fcpd nine"
+msgstr ""
+"To organize the SARVA MATHA SHANTHI GHOSH – All Religious Peace Festival in "
+"view of propagating the principles of the FCPD among the school students"
+
+#: assisiapp/templates/ministries/FCPD.html:81
+msgid "MAJOR ACTIVITIES OF FCPD"
+msgstr "MAJOR ACTIVITIES OF FCPD"
+
+#: assisiapp/templates/ministries/FCPD.html:83
+msgid "The Spirit of Assisi National Award"
+msgstr "The Spirit of Assisi National Award"
+
+#: assisiapp/templates/ministries/FCPD.html:84
+msgid "fcpd ten"
+msgstr ""
+"The motivation for this Award comes from the “Spirit of Assisi” that entered"
+" the world on 27 October 1986, when the most notable representatives of many"
+" of today’s world religions joined Pope John Paul II at Assisi, the city of "
+"St. Francis, to pray together for peace. The “Spirit of Assisi” invites us "
+"to purify ourselves of prejudice, hatred, jealousy, and envy. It invites us "
+"to be workers for peace in thought and deed, with our minds and hearts "
+"turned toward the unity of the human family. This “Spirit” encourages us to "
+"follow the example of St. Francis who embraced the leper, made himself poor "
+"and minor, sent his friars to announce peace to the world, pacified the wolf"
+" of Gubbio, met the Sultan of Egypt, and sang the marvels of creation."
+
+#: assisiapp/templates/ministries/FCPD.html:86
+msgid "fcpd eleven"
+msgstr ""
+"The Spirit of Assisi National Award is presented by the Franciscan Centre "
+"for Peace and Dialogue, which has its office at Assisi Shanthi Kendra, "
+"Karukutty, Kerala, India. The award gives public recognition and "
+"encouragement to any person or institution in India who contributes to "
+"peace, justice, ecology, ecumenism, inter-religious dialogue, and defence of"
+" human life. It consists of a memento, a citation, and 50,000 Rupees."
+
+#: assisiapp/templates/ministries/FCPD.html:89
+msgid "Sarva Matha Shanthi Ghosh"
+msgstr "Sarva Matha Shanthi Ghosh"
+
+#: assisiapp/templates/ministries/FCPD.html:89
+msgid "fcpd twelve"
+msgstr ""
+"Sarva Matha Shanthi Ghosh is a programme conducted among schoolchildren up "
+"to higher secondary course, and includes competitions such as poem reciting,"
+" rhetoric, essay writing, etc. The competitions are conducted on selected "
+"themes, but mainly on peace and harmony among various religions. Thus, FCPD "
+"organizes Sarva Matha Shanthi Ghosh as one of its means to reach its "
+"objectives. Through this festival we connect various schools to one another "
+"– those run by Christians, Muslims, and Hindus, the three major religions in"
+" Kerala. The students and teachers of various schools spend a day together "
+"and become known to each other. This very act colours and wipes away doubts "
+"and misunderstandings about each other’s religion. Thus, this very simple "
+"activity is sufficient to create a sense of ‘belongingness’ among them, even"
+" though they practice different religions."
+
+#: assisiapp/templates/ministries/FCPD.html:90
+msgid "Assisi Annual Lecture"
+msgstr "Assisi Annual Lecture"
+
+#: assisiapp/templates/ministries/FCPD.html:90
+msgid "fcpd thirteen"
+msgstr ""
+"The FCPD organizes every year a lecture on the contemporary issues of the "
+"time. The focus of these lectures is to create awareness about problematic "
+"issues of society among the youth."
+
+#: assisiapp/templates/ministries/Franciscan_Centre.html:17
+#: assisiapp/templates/ministries/Franciscan_Centre.html:35
+msgid "FRANCISCAN CENTRE IN THE SPIRIT OF ASSISI"
+msgstr "FRANCISCAN CENTRE IN THE SPIRIT OF ASSISI"
+
+#: assisiapp/templates/ministries/Franciscan_Centre.html:58
+msgid "franciscan center one"
+msgstr ""
+"Il Centro Francescano nello Spirito di Assisi è un centro di spiritualità con un'atmosfera serena per condurre ritiri, seminari, programmi di formazione e altre offerte spirituali.\n"
+"                                    L’obiettivo principale di questo centro è diffondere lo “Spirito di Assisi”. A questo scopo i nostri Frati conducono diversi programmi francescani. Con grande zelo per far conoscere il nostro Spirito francescano a più persone, lavoriamo per invitare molte più persone al nostro Centro."
+
+#: assisiapp/templates/ministries/Franciscan_Centre.html:65
+msgid "franciscan center two"
+msgstr "Major Features of Franciscan Centre"
+
+#: assisiapp/templates/ministries/Franciscan_Centre.html:66
+msgid "franciscan center three"
+msgstr ""
+"To spread the “Spirit of Assisi” through various programmes under the "
+"leadership of FCPD (Franciscan Centre for Peace and Dialogue) and other "
+"Franciscan Organizations"
+
+#: assisiapp/templates/ministries/Franciscan_Centre.html:68
+msgid "franciscan center four"
+msgstr ""
+"To host the common programmes and meetings of the St. Maximilian Kolbe "
+"Province, such as all meetings of the Solemnly Professed Friars, Fraternal "
+"Gatherings, Annual Retreats, Junior Priest’s meeting, etc."
+
+#: assisiapp/templates/ministries/Franciscan_Centre.html:69
+msgid "franciscan center five"
+msgstr ""
+"To organize retreats for priests, religious, and laity, in order to bring "
+"them closer to God and deepen them in the Spirit"
+
+#: assisiapp/templates/ministries/Franciscan_Centre.html:70
+msgid "franciscan center six"
+msgstr ""
+"To provide a public venue for motivational programmes and general-interest "
+"events, the proceeds of which will increase financial support for the "
+"ministries of the Conventual Franciscans in India"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:17
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:35
+msgid "FRANCISCAN RECONCILIATION RETREAT (FRR)"
+msgstr "FRANCISCAN RECONCILIATION RETREAT (FRR)"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:58
+msgid "frr one"
+msgstr ""
+"The preaching ministry is an essential part of the Franciscan Charism. The ministry of the Franciscan Reconciliation Retreats was born as a result of the invitation of “The Conference of the Franciscan Family” that in its letter “Reconciled in Jesus Christ” in 1997 suggested having “popular missions.” Our province saw this as an opportunity to further develop Franciscan Reconciliation Retreat “in the Spirit of Assisi”.\n"
+"\n"
+"                                    Through this ministry we promote peace and unity through reconciliation among the people of God. Different from other retreats, we try to impart Franciscan spirit and values that can be assimilated into the ordinary person’s daily life and situation."
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:67
+msgid "frr two"
+msgstr ""
+"We help them to reconcile in every level of Christian life by the "
+"application of these Franciscan values. Usually we conduct this Retreat "
+"during the Lenten season, but it can be conducted on other occasions as "
+"requested by parish priests."
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:68
+msgid "Major Features of FRR"
+msgstr "Major Features of FRR"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:69
+msgid "Prayer and Eucharistic Adoration"
+msgstr "Prayer and Eucharistic Adoration"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:71
+msgid "House Visiting"
+msgstr "House Visiting"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:72
+msgid "Preaching"
+msgstr "Preaching"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:73
+msgid "Sacrament of Confession"
+msgstr "Sacrament of Confession"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:75
+msgid "Procession with the Relic of the Cross"
+msgstr "Procession with the Relic of the Cross"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:76
+msgid "How it Functions"
+msgstr "How it Functions"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:77
+msgid "frr three"
+msgstr ""
+"The Franciscan Reconciliation Retreat Team preaches in various parishes with"
+" the following program:"
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:78
+msgid "frr four"
+msgstr ""
+"Preparations in the parishes: The Director of FRR visits the parishes where "
+"the retreat will be preached and prepares the parishioners by explaining to "
+"them the importance of the retreat, how they should prepare themselves "
+"through prayer and fasting, how they may participate effectively in the "
+"retreat, etc. The preparatory prayers are given to the parishioners one "
+"month prior to the retreat. Thus they are able to pray in advance for the "
+"success of the retreat."
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:79
+msgid "frr five"
+msgstr ""
+" Preparations of the team: On the day before the Retreat, all the members of"
+" the team come together for a day’s prayer. The day contains a Holy hour, "
+"time for confession, and other preparatory prayers. The team then proceeds "
+"to the assigned parish."
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:80
+msgid "frr six"
+msgstr ""
+"House visiting: The friars visits every family in the parish to reconcile "
+"broken hearts, bless the houses, and encourage the parishioners to "
+"participate in the retreat. The house visiting and the work of "
+"reconciliation are the effective and specific aspects of FRR."
+
+#: assisiapp/templates/ministries/Franiscan_Reconciliation_Retreat.html:81
+msgid "frr seven"
+msgstr ""
+"Preaching: The Preaching is done on the third day, after the family visits "
+"are completed. The retreat has four days of preaching. These sessions "
+"include the Rosary, Solemn Eucharistic Celebration, Preaching the Word of "
+"God, and Eucharistic Adoration. The topics dealt with include: Sin and "
+"Reconciliation, Christian Family Life, Eucharist, Christian Faith, and "
+"Suffering. Moreover, friars are always available for Counselling and "
+"Confession throughout the retreat. "
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:17
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:35
+msgid "GRAY FRIARS PUBLICATIONS"
+msgstr "GRAY FRIARS PUBLICATIONS"
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:56
+msgid "Greyfriars Publications"
+msgstr "Greyfriars Publications"
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:57
+msgid "gray friars one"
+msgstr ""
+"Greyfriars Publications is an activity of our Province, promoting through various methods of mass media the spirituality of St. Francis of Assisi and his message of universal brotherhood, peace, justice, safeguarding of creation, and defence of human life.\n"
+"\n"
+"                                    The printing apostolate was on the mind of the Friars from the beginning of our presence in India. We were confirmed in this-"
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:60
+msgid "gray friars two"
+msgstr ""
+"apostolate through the life and ministry of St. Maximillian Kolbe who once "
+"wrote: “we need to encircle the globe by words of life in printed form, so "
+"that the world may once again experience the joy of living.” In 1984 the "
+"Amalolbhava (Immaculate) magazine in the vernacular language of Malayalam "
+"was first published. In 1990 we began to publish the Seraphic Mottukal "
+"(Seraphic Buds), later changed to Fratres as an information bulletin about "
+"our mission. In 1992 the much-appreciated Franciscan magazine, Franciscan "
+"Documentation was started. Other than these magazines, Greyfriars "
+"Publications regularly publishes books. At present, 73 books have been "
+"published by Greyfriars Publications."
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:62
+msgid "gray friars three"
+msgstr ""
+"In 1993 we decided to organize all our publication under the Greyfriars "
+"Publications Trust. Under this trust there were above mentioned magazines "
+"Amalolbhava and Franciscan Documentation, the publication of the books, and "
+"the administration in India of the Messenger of St. Anthony, published from "
+"Padua, Italy."
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:64
+msgid "gray friars four"
+msgstr "This trust is governed by the Greyfriars Publications Board."
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:66
+msgid "gray friars five"
+msgstr "Amalolbhava"
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:68
+msgid "gray friars six"
+msgstr ""
+"Amalolbhava, a Marian Franciscan monthly in Malayalam, is one of the media "
+"through which the Publication promotes its ideals. On November 5, 1984, the "
+"first copy of Amalolbhava was printed at Viany Printings, Ernakulam, the "
+"same press where St. Maximilian Kolbe had desired to print his Knight of "
+"Immaculate when he was at Ernakulam in 1932. Today it deals with current "
+"issues, contains regular columns on the Bible, and prints articles on "
+"various themes in Franciscanism and Mariology."
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:70
+msgid "gray friars seven"
+msgstr "Messenger of St. Anthony"
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:72
+msgid "gray friars eight"
+msgstr ""
+"The Messenger of St. Anthony is an international magazine published by the "
+"Conventual friars in Padua. It is a full-colour, socio-religious magazine "
+"that spreads the Franciscan spirit and covers a wide range of themes and "
+"interests that may be of interest to the general public. The Province, in "
+"collaboration with the English edition of The Messenger of St. Anthony, has "
+"been authorized to circulate this magazine in India.  "
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:74
+msgid "gray friars nine"
+msgstr "Publication of Books"
+
+#: assisiapp/templates/ministries/Gray_Friars_Publications.html:76
+msgid "gray friars ten"
+msgstr ""
+"Greyfriars Publications is a good means for our province to spread the "
+"Gospel. Publishing books based on Christian and Franciscan spirituality is "
+"one of its major goals. So far it has published 73 works by various eminent "
+"authors."
+
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:16
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:35
+msgid "GREEN PARK PASTORAL COMMUNITY"
+msgstr "GREEN PARK PASTORAL COMMUNITY"
+
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:56
+msgid "Green Park Pastoral Community"
+msgstr "Green Park Pastoral Community"
+
+#: assisiapp/templates/ministries/Green_Park_Pastoral_Community.html:57
+msgid "green park one"
+msgstr ""
+"Green Park Pastoral Community is a substation of the parish of Our Lady of "
+"Lourdes, Barasat, in the Archdiocese of Kolkata. At present there are 84 "
+"families scattered around the six surrounding villages. Our Lady of "
+"Velankanni is the Heavenly Patroness of this community. The feast of the "
+"Nativity of Blessed Virgin Mary on October 8 is the main festival. The Feast"
+" of Saint Mother Theresa is also celebrated every year, and there are "
+"Anthonian devotion on all Tuesdays. The community is in continuing prayer "
+"for a place to build a new church and erecting it as their permanent parish "
+"location"
+
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:16
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:34
+msgid "GREYFRIARS DEGREE COLLEGE"
+msgstr "GREYFRIARS DEGREE COLLEGE"
+
+#: assisiapp/templates/ministries/Greyfriars_Degree_College.html:56
+msgid "greyfriars degree one"
+msgstr ""
+"Greyfriars Degree College was inaugurated on 3 July 2017. It is an extension"
+" of the Greyfriars Junior College, with the purpose of empowering young "
+"people, especially young women, with higher education qualification in order"
+" to move forward into the mainstream of society. It now has 100 students "
+"with 27 people on staff. The Degree College is strengthening its roots and "
+"growing slowly, yet firmly, in this fertile soil."
+
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:17
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:36
+msgid "GERYFRIARS JUNIOR COLLEGE (GFJC)"
+msgstr "GERYFRIARS JUNIOR COLLEGE (GFJC)"
+
+#: assisiapp/templates/ministries/Greyfriars_Junior_College.html:58
+msgid "grayfriars junior one"
+msgstr ""
+"Greyfriars Junior College is a higher secondary school for the students from"
+" surrounding villages. It is situated at Dondapudi in West Godavari "
+"District, in the State of Andhra Pradesh. Greyfriars Junior College was "
+"established on 1 June 2008, and was recognized by the Board of Intermediate,"
+" Andhra Pradesh. This was the first educational institution sponsored by the"
+" Conventual Franciscan St. Maximilian Kolbe Province, India. The aim of the "
+"Junior College is to provide quality education to poor students, while at "
+"the same time empowering the girls of that locality.<br>There are "
+"approximately five hundred students with a staff of 27. The Junior College "
+"follows the BIEAP syllabus. For the past six years, the school has been "
+"ranked as number one among the adjacent five mandalas. Three buses are "
+"available for student transportation. There is also a well-functioning NSS "
+"unit in the Junior College."
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:17
+#: assisiapp/templates/ministries/Kolbe_Communications.html:36
+msgid "KOLBE COMMUNICATIONS"
+msgstr "KOLBE COMMUNICATIONS"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:59
+msgid "communications one"
+msgstr ""
+"Kolbe Communication is a new venture of the St. Maximilian Kolbe Province, "
+"India. Though the Province had for years made great progress in the field of"
+" media, we had not moved forward in the world of visual media. With the new "
+"administration of the Province in 2015, Kolbe Communication has its origin, "
+"and in the year 2016 with the release of the movie “THE HERO OF AUSCHWITZ”"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:66
+msgid "communications two"
+msgstr ""
+"Kolbe Communication launched in the world of visual media. The movie told "
+"the story of St. Maximillian Kolbe, the patron saint of our Province and our"
+" inspiration in the field of media and communication. In Poland in 1922, St."
+" Maximillian Kolbe fulfilled his dream of beginning a printing operation. In"
+" 1986, the Conventual Franciscan Friars in India continued that dream of St."
+" Maximilian’s by publishing a magazine that continues today. Now, with the "
+"technology and other means at our disposal in this 21st century, the Indian "
+"Province under the patronage of St. Maximilian Kolbe continues to follow his"
+" dream by moving forward with new trends in visual media."
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:68
+msgid "communications three"
+msgstr "Goals"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:70
+msgid "communications four"
+msgstr "To Promote Franciscan Saints and their spirituality to the public"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:72
+msgid "communications five"
+msgstr "To introduce Conventual Franciscan Charism and lifestyle to society"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:73
+msgid "communications six"
+msgstr ""
+"To be an inspiring companion of young people in their challenging world"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:74
+msgid "communications seven"
+msgstr ""
+"To be creative and powerful in the ministry of the New and Re-evangelization"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:75
+msgid "communications eight"
+msgstr ""
+"To present the Church and her teachings in a more friendly and appealing way"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:76
+msgid "Achievements"
+msgstr "Achievements"
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:77
+msgid "communications nine"
+msgstr ""
+"In 2016 we released a movie called THE HERO OF AUSCHWITZ, based on the life "
+"story of St. Maximilian Kolbe, and directed by Ms. Jessy Maria. A unique "
+"aspect of the movie is that most of the actors were friars and students from"
+" our St. Maximilian Kolbe Province."
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:78
+msgid "communications ten"
+msgstr ""
+"In 2018 Kolbe Communication presented a new short film called MILITIA, "
+"released in commemoration of the 100th anniversary of the Militia "
+"Immaculata. The purpose of the short film was to increase the devotion to "
+"Blessed Virgin Mary among the younger generation. It was directed by Mr. "
+"Noble Sebastian."
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:79
+msgid "communications eleven"
+msgstr ""
+"Also in 2018, Kolbe Communication looks forward to releasing a documentary "
+"on the life story of St. Anthony of Padua. Post production is in progress "
+"and the release should take place soon. The intention of this documentary is"
+" to introduce to people the places St. Anthony lived, the events of his "
+"life, and the miracles attributed to him. All the filming took place in "
+"those areas related to the life of St. Anthony."
+
+#: assisiapp/templates/ministries/Kolbe_Communications.html:80
+msgid "communications twelve"
+msgstr ""
+"The Province looks forward with great hope and expectation in the field of "
+"visual media. Therefore she is preparing more friars in this field, giving "
+"them opportunities to learn more and become better trained in visual media "
+"communication. They will be able to make this dream of St. Maximilian, and "
+"ministry of their Province, a brilliant reality."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:16
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:34
+msgid "MILITIA OF THE IMMACULATA (MI)"
+msgstr "MILITIA OF THE IMMACULATA (MI)"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:55
+msgid "Militia Of The Immaculata (MI)"
+msgstr "Militia Of The Immaculata (MI)"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:56
+msgid "militia one"
+msgstr ""
+"Franciscan Conventuals fix their eyes on the Blessed Virgin Mary as their "
+"own mother, patroness, model, and mediatrix. ‘Militia of Mary Immaculate’ "
+"has become an important part in the life of its members, especially since it"
+" was a great endeavour taken by St. Maximilian Kolbe who in 1932 dreamt of "
+"establishing an Indian Nepokalanow. "
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:59
+msgid "militia two"
+msgstr ""
+"Being true sons and daughters of Mary, we are trying to establish the "
+"Kingdom of God in the hearts of men and women. And this is the greatest "
+"glory and honour that we can give to our Mother Mary: to take her Son Jesus "
+"to others and make him known to other as the Redeemer and Saviour of all. "
+"With her strong protection, its members are trying to establish a Kolbean "
+"Era through Franciscan spirituality."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:64
+msgid "militia three"
+msgstr "What is the Militia of the Immaculata?"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:64
+msgid "militia four"
+msgstr ""
+"The Militia of the Immaculata (MI) is a worldwide evangelization movement "
+"founded by St. Maximilian Kolbe in 1917, encouraging total consecration to "
+"the Blessed Virgin Mary as a means of spiritual renewal for individuals and "
+"society. The MI movement is open to all Catholics over 7 years old. It "
+"employs prayer as the main tool in the spiritual battle with evil. Members "
+"of the MI also immerse themselves in apostolic initiatives throughout "
+"society, either individually or in groups, to deepen and spread the "
+"knowledge of the Gospel and our Catholic Faith."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:66
+msgid "militia five"
+msgstr "MI in our Province"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:66
+msgid "militia six"
+msgstr ""
+"The MI and its founder St.Maximilian Kolbe have a special place in the life "
+"of the Province. St. Maximilian has been the patron of our province, and our"
+" presence and establishment in India has always been seen as a fulfilment of"
+" his desire to establish his Marian Apostolate in this land, especially "
+"after his failed attempt in 1932 when he came to Ernakulum and Alwaye for "
+"this purpose. On the initiative of the late Fr. Joseph Cilia, former "
+"provincial Custos, the first center of MI was established at Kolbe Ashram, "
+"Alwaye, by late Bishop Sebastian Mankuzhikary, Apostolic Administrator of "
+"Ernakulum, on August 25, 1984. Fr. Cilia was named its first director and "
+"Bishop Sebastian Mankuzhikary became its first officially registered member "
+"in India. The Indian MI center was aggregated with the Primary Union in Rome"
+" by a decree of Father Lanfranco Serini, Minister General and the Moderator "
+"of MI, on October 16, 1984. At present we have around 200 plus MI members in"
+" our Province."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:69
+msgid "militia seven"
+msgstr "Marian Life in our Fraternities"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:69
+msgid "militia eight"
+msgstr ""
+"All the Indian Conventual Friars are well aware of the importance of "
+"veneration to the Blessed Virgin Mary. This veneration is expressed "
+"personally through daily consecration to Mary. And every Friary we have "
+"either daily common rosary or personal rosary, as well as solemn rosary in "
+"the month of October as part of our common devotion to Mary. And in all our "
+"fraternities we celebrate the important feasts of Blessed Virgin Mary, and "
+"we commemorate the feast of Immaculate Conception most solemnly."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:71
+msgid "militia nine"
+msgstr "Marian Life among the student-friars"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:71
+msgid "militia ten"
+msgstr ""
+"The MI group in the major seminary co-ordinates the whole student-friars to "
+"foster Marian devotion in the seminary life. Besides the daily consecration "
+"and the recitation of the daily rosary, they have special programme for "
+"every year. They publish a magazine named Marian Voice once in every three "
+"months. The M.I. group has translated the English prayer of consecration to "
+"Mary into Malayalam for the convenience of the people to recite it every day"
+" during the Mass. They also animate solemn rosary in every monthly retreat "
+"and feast days of BVM. The student-friars every day after evening angelus "
+"recite the prayer of salutation to BVM. M.I. group also has published small "
+"booklet of M.I. intentions to be recited during rosary. They take initiative"
+" to conduct Marian seminar every year."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:72
+msgid "militia eleven"
+msgstr "Feast of St. Maximilian Kolbe"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:72
+msgid "militia twelve"
+msgstr ""
+"In all our friaries especially at Kolbe Franciscan Ashram we celebrate the "
+"feast of St. Maximilian Kolbe, the founder of M.I. with most solemnity. We "
+"have nine days of preparation with special novena to the Saint. We also "
+"celebrate a Para-liturgy in honor of St. Maximilian Kolbe. People from "
+"neighbouring places, seminarians and religious and our well-wishers are "
+"specially invited for the feast."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:73
+msgid "militia thirteen"
+msgstr "Marian life among the lay people under the leadership of our friars"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:73
+msgid "militia fourteen"
+msgstr ""
+"Assisi Shanthi Kendra is the only unit of M.I. for the lay people. This unit"
+" is so active and alive under the leadership of friars who regularly watch "
+"and lead the group to its goal and purposes. This group is very active with "
+"their Marian programme. This ordinary people put their petitions and "
+"problems to Jesus and find relief through BVM. They have Novena in honour of"
+" the BVM on every Wednesdays. Once in every three months they spend a day in"
+" prayer. Every month they recite rosary in the houses of a chosen member "
+"followed by special prayers including the intentions of M.I. They come "
+"together once in every month with their spiritual director for sharing their"
+" day-to-day life and spend time in adoration and prayer. And on those days "
+"one of the priests will take class on BVM and other related subjects which "
+"enable them to lead a Marian-Franciscan life. They also find time to have "
+"regular Marian pilgrimage to different Marian centres."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:75
+msgid "militia fifteen"
+msgstr ""
+" In spite of their busy family life, they find some days to visit poor "
+"people by rendering their helping hand. They visit old-age homes and "
+"orphanages and spend time with these abandoned people. Besides they collect "
+"a reasonable amount from the fund to share it with the poor every year."
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:76
+msgid "militia sixteen"
+msgstr "Official website of MI:"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:76
+msgid "Kolbe Prison Mission (KPM)"
+msgstr "Kolbe Prison Mission (KPM)"
+
+#: assisiapp/templates/ministries/Militia_Of_The_Immaculata.html:78
+msgid "militia seventeen"
+msgstr ""
+"Kolbe Prison Mission was started at Kolbe Ashram in the silver jubilee year "
+"of its establishment on 2008. KPM in the spirit of St.Maximilian Kolbe is "
+"trying to help to the prisoners, who are rejected from the society. KPM aims"
+" at giving counselling to the prisoners, visiting prisons and their families"
+" and enable them to accept prisoners to their families. A group of Friars as"
+" members fulfils this ends by conducting prayer meetings, adorations, Holy "
+"Masses and Confessions in the prisons, sending greeting cards etc. along "
+"with this KPM also organises classes and seminars for the prisoners."
+
+#: assisiapp/templates/ministries/OFS.html:56
+msgid "ofs one"
+msgstr ""
+"The Secular Franciscan Order (SFO) shares in the common charism of the "
+"Franciscan family, and within the various ministries of our Order the SFO "
+"has a prominent role. It is the responsibility of the Friars to give SFO "
+"members adequate spiritual assistance and impart to them the spirituality of"
+" St. Francis."
+
+#: assisiapp/templates/ministries/OFS.html:61
+msgid "ofs two"
+msgstr ""
+"The pastoral care of the Secular Franciscan Order is entrusted to the First "
+"Order and TOR. In India, all four Obediences are actively involved for the "
+"development of SFO. The beginning of the SFO in India goes back to 1872. It "
+"is interesting to read from the history that the spiritual assistance of the"
+" first fraternities was attached to the Conventual Franciscan Friars, though"
+" there was no presence of any of the Friars. It was on 5 October, 1949, that"
+" the Capuchin Friars took over the pastoral assistance of all the "
+"fraternities in Kerala. Eventually came all other branches of the First "
+"Order and TOR."
+
+#: assisiapp/templates/ministries/OFS.html:61
+msgid "ofs three"
+msgstr ""
+"We began our first fraternity at Kolbe Franciscan Ashram, Aluva, in 1994. In"
+" the same year a fraternity at Franciscan Ashram, Nattakkal, was also "
+"established. Later, in 1999, the fraternities in the diocese of "
+"Kanjirappally had been handed over to us by the Capuchins. There has been a "
+"tremendous revival for the SFO during these last four years. Mainly: a) The "
+"number of fraternities increased, b) more Friars were interested to work in "
+"this field, c) the awareness regarding the autonomous nature of the SFO and "
+"its juridical status in the Church, are some of the important elements of "
+"growth and development of the SFO."
+
+#: assisiapp/templates/ministries/OFS.html:63
+msgid "ofs four"
+msgstr ""
+"In 1999, the Conference of the Spiritual Assistants of all the four "
+"Obediences was formed and this Conference, which meets occasionally, "
+"evaluates and animates SFO in various levels. In this steady growth and "
+"development for SFO in India, we Conventual Franciscans play an important "
+"role. As per the norms of the National Statutes and the Directions of the "
+"National Council, for better functioning the units under our pastoral care "
+"were divided in the National Chapter held at Assisi Shanthi Kendra, "
+"Karukutty, on 23 January 2005. Accordingly, there are three regions; "
+"Kanjirappally region, Kolbe region, Assisi region, and a fraternity which is"
+" attached to Franciscan Ashram, Nattakkal, under our pastoral care."
+
+#: assisiapp/templates/ministries/OFS.html:65
+msgid "ofs five"
+msgstr " At present the three OFS regions have 700+ members."
+
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:16
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:35
+msgid "OXFORD ENGLISH MEDIUM HIGH SCHOOL"
+msgstr "OXFORD ENGLISH MEDIUM HIGH SCHOOL"
+
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:56
+msgid "Oxford English Medium High School"
+msgstr "Oxford English Medium High School"
+
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:57
+msgid "oxford one"
+msgstr ""
+"Oxford English Medium High School is an initiative of the Conventual "
+"Franciscan St. Maximilian Kolbe Province, India. The school is located at "
+"Mancherial, in the Adilabad district, in the State of Telangana. The Vision "
+"and Mission of the school is: Lighted to Lighten, enlightenment from "
+"darkness. The school provides a high-quality and comprehensive education to "
+"the poor and mostly uneducated people of coal belt area. The Conventuals "
+"took over the leadership of the school in January 2011."
+
+#: assisiapp/templates/ministries/Oxford_Creativity_School.html:62
+msgid "oxford two"
+msgstr ""
+"The School has 1650 students enrolled with a teaching and non-teaching staff"
+" of 75. Students come from the 40 nearby villages. The school follows the  "
+"State syllabus of Telangana. The Oxford has seven school buses to serve the "
+"outlying areas. One of the advantages for the students is a well-equipped "
+"Computer lab. Also, the school is serious about providing extra-curricular "
+"activities for the students, such as coaching them in dance, scouting, and "
+"games. In addition, it has participated and won medals in the national "
+"boxing championship, national fencing championship, volleyball, handball, "
+"and kabaddi matches."
+
+#: assisiapp/templates/ministries/Retreat_Centers.html:17
+#: assisiapp/templates/ministries/Retreat_Centers.html:35
+msgid "RETREAT CENTERS"
+msgstr "RETREAT CENTERS"
+
+#: assisiapp/templates/ministries/Retreat_Centers.html:58
+msgid "retreat one"
+msgstr "The St. Maximilian Kolbe Province has two retreat centers:"
+
+#: assisiapp/templates/ministries/Retreat_Centers.html:61
+msgid "retreat two"
+msgstr "Franciscan Center, Karukutty:"
+
+#: assisiapp/templates/ministries/Retreat_Centers.html:61
+msgid "retreat three"
+msgstr ""
+"The center is specially dedicated for the retreats of the laity, conducted "
+"by the friars every month. In addition, the center host retreats for Priests"
+" and Religious. Franciscan retreats for children are also offered here."
+
+#: assisiapp/templates/ministries/Retreat_Centers.html:63
+msgid "retreat four"
+msgstr "Franciscan Ashram, Nattakkal"
+
+#: assisiapp/templates/ministries/Retreat_Centers.html:63
+msgid "retreat five"
+msgstr ""
+"The Ashram also functions as a retreat center for the laity. Our friars here preach the retreat every month.\n"
+"\n"
+"                                    For children, the friars conduct special retreats, especially during holidays."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:58
+msgid "social apostolate description"
+msgstr ""
+"The Province of St. Maximilian Kolbe, India, is very much dedicated to the "
+"needs of the people and to the requests for social improvements in our "
+"society. Friars are available as much as possible and are involved in these "
+"ministries in many ways wherever they are stationed. The following "
+"summarizes the continuing developments in our social apostolate."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:65
+msgid "ST. ANTONY’S SOCIAL PROJECTS, ALUVA"
+msgstr "ST. ANTONY’S SOCIAL PROJECTS, ALUVA"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:68
+msgid "social apostolate one"
+msgstr ""
+"Includes a Nursery School, Tailoring School, and St. Paul's Clinic to aid "
+"economically and socially challenged individuals."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:69
+msgid "social apostolate two"
+msgstr "Supported by the Preshitharam Congregation."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:72
+msgid "ASSISI HOUSING PROJECTS"
+msgstr "ASSISI HOUSING PROJECTS"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:74
+msgid "social apostolate three"
+msgstr ""
+"Started in 1983 to provide housing for needy families in Aluva and expanded "
+"to other parts of Kerala, Andhra Pradesh, and Tamil Nadu."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:75
+msgid "social apostolate four"
+msgstr "Aims to rectify family problems and promote community harmony."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:77
+msgid "ST. ANTONY’S EDUCATION PROJECT"
+msgstr "ST. ANTONY’S EDUCATION PROJECT"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:79
+msgid "social apostolate five"
+msgstr ""
+" Sponsored by Caritas Antoniana, Padua, to financially support students in "
+"completing their studies."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:80
+msgid "social apostolate six"
+msgstr ""
+"Over 150 students assisted, including those pursuing PhDs and PG degrees."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:83
+msgid "ASSISI SNEHALAYA HIV/AIDS CENTRE. COIMBATORE"
+msgstr "ASSISI SNEHALAYA HIV/AIDS CENTRE. COIMBATORE"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:85
+msgid "social apostolate seven"
+msgstr ""
+"Provides integral health care, compassionate support, and awareness programs"
+" for those affected by HIV/AIDS."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:86
+msgid "social apostolate eight"
+msgstr ""
+"Aims to offer dignified end-of-life care and prevent the spread of the "
+"disease."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:91
+msgid "BALA YESU BOY’S HOSTEL"
+msgstr "BALA YESU BOY’S HOSTEL"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:93
+msgid "social apostolate nine"
+msgstr "Provides education and shelter for underprivileged boys in Dondapudi."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:94
+msgid "social apostolate ten"
+msgstr ""
+"Helps students pursue higher education and escape the cycle of poverty."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:98
+msgid "MICRO FUNDING PROGRAMME FOR WOMEN"
+msgstr "MICRO FUNDING PROGRAMME FOR WOMEN"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:99
+msgid "social apostolate eleven"
+msgstr ""
+"Empowers women in villages by encouraging savings and future planning."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:101
+msgid "RAPID ACTION FORCE"
+msgstr "RAPID ACTION FORCE"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:102
+msgid "social apostolate twelve"
+msgstr ""
+"Responds to natural disasters by providing immediate assistance and "
+"collecting aid for affected communities."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:104
+msgid "DRINKING WATER PROJECT"
+msgstr "DRINKING WATER PROJECT"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:105
+msgid "social apostolate thirteen"
+msgstr ""
+"Provides clean drinking water to villages in Andhra Pradesh, improving "
+"health and sanitation."
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:106
+msgid "LEPROSY COLONY"
+msgstr "LEPROSY COLONY"
+
+#: assisiapp/templates/ministries/Social_Apostolate.html:107
+msgid "social apostolate fourteen"
+msgstr ""
+"Offers spiritual care and support to families living in a leprosy colony in "
+"Dondapudi."
+
+#: assisiapp/templates/ministries/St_Anthony_School.html:16
+#: assisiapp/templates/ministries/St_Anthony_School.html:35
+msgid "ST. ANTHONY’S ENGLISH MEDIUM SCHOOL"
+msgstr "ST. ANTHONY’S ENGLISH MEDIUM SCHOOL"
+
+#: assisiapp/templates/ministries/St_Anthony_School.html:56
+msgid "St. Anthony’s English Medium School"
+msgstr "St. Anthony’s English Medium School"
+
+#: assisiapp/templates/ministries/St_Anthony_School.html:57
+msgid "st anthony school one"
+msgstr ""
+"St. Anthony’s English Medium School at Vanamala, Warangal, began to function"
+" in 2010 using the state syllabus of Telangana. The school’s motto is: "
+"Nurture, Inspire, and Flourish. The mission of the school is to enrich every"
+" student with moral values accompanied by academic excellence. The "
+"enrollment of the school stands at more than 700, with 22 members of the "
+"teaching staff. The school has four school buses. As an added feature, the "
+"school also offers special computer and karate coaching classes."
+
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:17
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:35
+msgid "ST. FRANCIS OF ASSISI CHURCH, NATTAKKAL"
+msgstr "ST. FRANCIS OF ASSISI CHURCH, NATTAKKAL"
+
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:56
+msgid "St. Francis Of Assisi Church"
+msgstr "St. Francis Of Assisi Church, Nattakal"
+
+#: assisiapp/templates/ministries/St_Francis_Of_Assisi_Church.html:57
+msgid "Assisi Church description"
+msgstr ""
+"St. Francis Of Assisi Church, Nattakkal, the only Conventual Franciscan Parish in Kerala, was blessed and consecrated on 17 September 1994 by His Grace Mar George Valiyamattam of Tellicherry. The church was erected as a parish in 2003 in the Eparchy of Thalassery. There are 140 families in the parish. The church is locally known as the Malabarinte Paduva (Padua of Malabar). The patron of the parish is St. Francis of Assisi, and his feast is celebrated each year on the first Sunday of October. The feast of St. Anthony of Padua is celebrated as a parish festival in the month of January. An annual Padua Bible Convention is held in preparation for the feast. On every first Friday special prayers and a vigil service are conducted.\n"
+"                                    Anthonian devotion is celebrated every Tuesday. Special Rosary Devotion begins in the month of October and lasts until the Feast of the Immaculate Conception in December. Forty hour adoration is also celebrated at this time."
+
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:17
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:35
+msgid "ST. MAXIMILIAN KOLBE CHURCH, CHRISTIANPET"
+msgstr "ST. MAXIMILIAN KOLBE CHURCH, CHRISTIANPET"
+
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:56
+msgid "St. Maximilian Kolbe Parish"
+msgstr "St. Maximilian Kolbe Parish"
+
+#: assisiapp/templates/ministries/St_Maximilian_Kolbe_Church.html:57
+msgid "kolbe parish church one"
+msgstr ""
+"St. Maximilian Kolbe Parish, Christianpet, is a Latin Rite parish in the "
+"Diocese of Guntur. The parish was blessed and consecrated on March 12, 2005,"
+" by His Grace Most Rev. Dr. Galibali, Bishop of Guntur. The parish consists "
+"of 500 families from the seven surrounding villages. The feast of the "
+"patron, St. Maximillian Kolbe, is celebrated on the last week of October. A "
+"relic of the Saint is also kept in the church. The Holy Eucharist is "
+"celebrated every day at 6:30 am. On Sundays there are Holy Masses in Telegu "
+"and English in the parish and in all the villages. The Tuesday Devotion of "
+"St. Anthony is much promoted in the parish."
+
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:17
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:36
+msgid "ST. PADRE PIO SHRINE, ATHURUGIRIYA"
+msgstr "ST. PADRE PIO SHRINE, ATHURUGIRIYA"
+
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:58
+msgid "padre pio one"
+msgstr ""
+"St. Padre Pio Shrine, Athurugiriya, is in the Archdiocese of Colombo and is "
+"the first shrine of this Saint in Asia. The Shrine parish has 350 families, "
+"with Sinhalese and Tamil forming the majority. The Shrine was blessed and "
+"consecrated on 23 September 2005 by His Grace Archbishop Oswald Thomas "
+"Colman Gomis. Two important feasts are celebrated at the Shrine: 1) on 14 "
+"January, the Feast of St. Joseph Vaz, in whose name the old church was "
+"build; and 2) the Feast of the patron St. Padre Pio on the last Sunday of "
+"September. There are two relics of the Saint kept at the Shrine for public "
+"veneration."
+
+#: assisiapp/templates/ministries/St_Padre_Pio_Shrine.html:64
+msgid "padre pio two"
+msgstr ""
+"On every Thursday, the Novena to St. Joseph Vaz is recited. The novena to "
+"St. Padre Pio is on every Friday, celebrated with Benediction, Adoration of "
+"the Blessed Sacrament, and Anointing for the sick. Cancer patients frequent "
+"the place, praying for healing of body and spirit. October devotion of the "
+"Holy rosary is also celebrated in a festive way, with the procession of the "
+"statue of Blessed Virgin Mary."
+
+#: assisiapp/templates/ministries/St_Peter_School.html:17
+#: assisiapp/templates/ministries/St_Peter_School.html:36
+msgid "ST. PETER’S HIGH SCHOOL"
+msgstr "ST. PETER’S HIGH SCHOOL"
+
+#: assisiapp/templates/ministries/St_Peter_School.html:57
+msgid "St. Peter’s High School"
+msgstr "St. Peter’s High School"
+
+#: assisiapp/templates/ministries/St_Peter_School.html:58
+msgid "st peter school one"
+msgstr ""
+"St. Peter’s High School, Gajwel, is an initiative in the field of "
+"educational ministry by the Conventual Franciscan Friars, who took over "
+"management of the school in 2017. The vision of the school is: EVERY CHILD "
+"EVERY DAY FOR A BETTER TOMORROW."
+
+#: assisiapp/templates/ministries/St_Peter_School.html:59
+msgid "st peter school two"
+msgstr ""
+"There are more than 600 students, with 50 staff members. The school employs "
+"the Telangana state syllabus. There is also a strong computer education "
+"program. Eight school buses are available for student transportation. "
+"Extracurricular activities include the Cricket academy, smart class, and an "
+"activity room."
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:17
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:35
+msgid "TUESDAY DEVOTIONS"
+msgstr "TUESDAY DEVOTIONS"
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:59
+msgid "tuesday one"
+msgstr ""
+"Every Tuesday, our province conducts special prayers and devotion towards "
+"St. Anthony of Padua. The following are the Friaries where the devotion is "
+"done in special way: Franciscan Ashram, Nattakkal; St. Paul Franciscan "
+"Ashram, Kattappana; Padua Franciscan Ashram, Puthenchira; and Assisi Shanthi"
+" Kendra, Karukutty."
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:66
+msgid "Franciscan Ashram, Nattakkal"
+msgstr "Franciscan Ashram, Nattakkal"
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:67
+msgid "tuesday two"
+msgstr ""
+"The Ashram is known for its Tuesday devotion to St. Anthony, which has been "
+"held from the beginning of the Ashram itself. It’s the only Ashram where the"
+" devotion towards the Saint takes place in that locality. The Friars conduct"
+" special services such as the Divine Mercy Rosary, Holy Eucharistic "
+"Adoration, Confessions, Preaching, Solemn Eucharistic Celebration with "
+"solemn Novena  to St. Anthony of Padua. The days service ends with ‘Nercha "
+"Kanji’, where huge crowds thank the Saint for favours received."
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:69
+msgid "St. Paul Franciscan Ashram, Kattappana"
+msgstr "St. Paul Franciscan Ashram, Kattappana"
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:70
+msgid "tuesday three"
+msgstr ""
+"The Tuesday services in the Friary are: the Divine Mercy Rosary, Holy "
+"Eucharistic Adoration, Confessions, Preaching, Solemn Eucharistic "
+"Celebration with solemn   Novena to St. Anthony of Padua. The day’s service "
+"ends with ‘Nercha Kanji’. Thousands gather at the Ashram to pour out their "
+"intentions and petitions to their favourite Saint."
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:71
+msgid "Padua Franciscan Ashram, Puthenchira"
+msgstr "Padua Franciscan Ashram, Puthenchira"
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:72
+msgid "tuesday four"
+msgstr ""
+"This is the only shrine of our Province that is dedicated to St. Anthony. "
+"The feast of the Saint is celebrated in a grand way, as thousands gather for"
+" the procession. On every Tuesday there is Solemn Eucharistic Celebration, "
+"Adoration, Rosary, and Novena prayers to the saint. Confession is given "
+"special importance."
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:73
+msgid "Assisi Shanthi Kendra, Karukutty"
+msgstr ""
+"This is the only shrine of our Province that is dedicated to St. Anthony. "
+"The feast of the Saint is celebrated in a grand way, as thousands gather for"
+" the procession. On every Tuesday there is Solemn Eucharistic Celebration, "
+"Adoration, Rosary, Assisi Shanthi Kendra, Karukutty"
+
+#: assisiapp/templates/ministries/Tuesday_Devotions.html:74
+msgid "tuesday five"
+msgstr ""
+"The chapel is always crowded for the Tuesday service. Special prayers and "
+"talks by the friars and renowned preachers are available to the faithful. "
+"The province provides this for the faithful living nearby. On Tuesday there "
+"is Holy Eucharistic Celebration in the morning and afternoon, with special "
+"devotion toward St. Anthony. Confession is available throughout the day. The"
+" people make offerings in thanksgiving for favours received."
+
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:17
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:35
+msgid "VIDYANIKETAN JUNIOR COLLEGE, KARUNAPURAM"
+msgstr "VIDYANIKETAN JUNIOR COLLEGE, KARUNAPURAM"
+
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:57
+msgid "vidhyanikethan one"
+msgstr ""
+"Vidyaniketan Junior College, located in Karnapuram in the Warangal District "
+"of Telangana State, was taken over from the Warangal Diocese by the "
+"Conventual Franciscan Friars of the St. Maximilian Kolbe Province on 9 May "
+"2014. The mission and the motto of the school is VALUE EDUCATION TO WING THE"
+" DREAMS. There are approximately 200 students with 17 staff members. It’s an"
+" English and Telegu medium intermediate college, with both science and arts "
+"groups. A good number of seminarians from the surrounding area take their "
+"intermediate courses from this institute."
+
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:62
+msgid "ST.  AUGUSTINE AND ST. ANTHONY HOSTELS"
+msgstr "ST. AUGUSTINE AND ST. ANTHONY HOSTELS"
+
+#: assisiapp/templates/ministries/Vidyaniketan_Junior_College.html:63
+msgid "vidhyanikethan two"
+msgstr ""
+"St. Augustine Hostel and St. Anthony Hostel are also part of the "
+"Vidyaniketan Junior College, providing boarding for the boys and girls in "
+"two separate houses. Sisters of St. Lucy Filippini help the Friars by "
+"staffing the St. Anthony’s Girls’ Hostel."
+
+#: assisiapp/templates/news_details.html:34
+msgid "Latest News"
+msgstr "Our Latest News"
+
+#: assisiapp/templates/notice_details.html:15
+#, fuzzy
+#| msgid "Events"
+msgid "Details"
+msgstr "Our Events"
+
+#: assisiapp/templates/obituary.html:34
+msgid "Obituary"
+msgstr "Obituary"
+
+#: assisiapp/templates/set_up_of_the_province/friars.html:34
+#, fuzzy
+#| msgid "Friaries"
+msgid "Friars"
+msgstr "Friaries"
+
+#: assisiapp/templates/vocation/vocation-1.html:14
+#: assisiapp/templates/vocation/vocation-1.html:33
+#: assisiapp/templates/vocation/vocation-2.html:33
+msgid "VOCATION"
+msgstr "VOCATION"
+
+#: assisiapp/templates/vocation/vocation-1.html:60
+msgid "ORIENTATION YEAR"
+msgstr "ORIENTATION YEAR"
+
+#: assisiapp/templates/vocation/vocation-1.html:61
+msgid "orientation description"
+msgstr ""
+"During this stage, the candidate is immersed in Franciscan community life. "
+"He is introduced to the Liturgy of Hours, attends daily Mass, deepens his "
+"own personal prayer, and continues to meet with a Spiritual Director. "
+"Candidates learn to be good stewards of the Friary by doing household and "
+"maintenance work. Keeping physically fit by working out or playing sports is"
+" encouraged. He is exposed to Franciscan traditions and studies the life of "
+"Saint Francis. It lasts for one year."
+
+#: assisiapp/templates/vocation/vocation-1.html:135
+msgid "ASPIRANCY YEARS"
+msgstr "ASPIRANCY YEARS"
+
+#: assisiapp/templates/vocation/vocation-1.html:136
+msgid "aspiracy one"
+msgstr ""
+"During the two years of Aspirancy, a candidate might do some college work or"
+" take pre-requisites for graduation. This is done while living in a "
+"community and deepening in the Franciscan way of life."
+
+#: assisiapp/templates/vocation/vocation-1.html:231
+msgid "PRE-NOVITIATE"
+msgstr "PRE-NOVITIATE"
+
+#: assisiapp/templates/vocation/vocation-1.html:232
+msgid "pre Novitiate one"
+msgstr ""
+"The one-year Pre-novitiate deepens the postulant's knowledge of the "
+"community and the community's knowledge of the candidate, including his "
+"social and family background, before going to the Novitiate. In this stage, "
+"formees come together from various states of India for a common pre-"
+"novitiate program."
+
+#: assisiapp/templates/vocation/vocation-2.html:55
+msgid "NOVITIATE"
+msgstr "NOVITIATE"
+
+#: assisiapp/templates/vocation/vocation-2.html:56
+msgid "novitiate description"
+msgstr ""
+"During this year, the candidate is formally accepted into the Order. He is "
+"now a novice. During this contemplative year, the novice deepens his "
+"knowledge and appreciation of the Rule of Saint Francis, the Constitutions "
+"of the Conventual Franciscans, and the history of the Franciscan movement. "
+"This stage of formation intensifies the development of the inner prayer life"
+" and the practical skills of being a Friar to one another. It also focuses "
+"quite purposefully on the vows of Poverty, Chastity and Obedience. At the "
+"end of the year, at the request of the Novice and with the approval of the "
+"Definitory, the Novice professes the vows of poverty, obedience, and "
+"chastity. Thus he becomes a Friar and a partial member in the Conventual "
+"community until he becomes a full – fledged member with solemn Profession."
+
+#: assisiapp/templates/vocation/vocation-2.html:153
+msgid "POST-NOVITIATE"
+msgstr "POST-NOVITIATE"
+
+#: assisiapp/templates/vocation/vocation-2.html:154
+msgid "post novitiate discription"
+msgstr ""
+"During this stage of formation, the student-friar specializes in ministry "
+"training and academic studies. He might complete a college degree or begin "
+"graduate philosophical and theological studies. Usually we have three years "
+"of Philosophy Course and three and a half years of Theological Course. The "
+"focus on this three- or four-year period is on commitment. His continued "
+"discernment ultimately helps him conclude whether he is called and ready to "
+"profess the vows for the rest of his life. After five or six years, and "
+"passing through different stages of formation and ongoing discernment, he is"
+" finally able to profess Solemn Vows. Completing the Theological Course, "
+"normally we have the Priestly Ordination. All together, the whole formation "
+"program lasts for thirteen and a half years."
+
+#: assisiapp/templates/vocation/vocation-2.html:249
+msgid "REGENCY YEAR"
+msgstr "REGENCY YEAR"
+
+#: assisiapp/templates/vocation/vocation-2.html:250
+msgid "regency description"
+msgstr ""
+"After the philosophy years, the student-friars pause their academic "
+"formation for a regency year. The aim of this year is to evaluate the "
+"student-friar's assimilation of the values taught during the previous years,"
+" especially his capacity to live and give service outside his formation "
+"community. During this year, every student-Friar goes through four "
+"Experiences, namely: Prayer, Mission, Social, and Community."
+
+#: assisiapp/templates/wishes.html:15
+#, fuzzy
+#| msgid "Wishes"
+msgid "Today's Wishes"
+msgstr "Wishes"
+
+#: assisipro/settings.py:118
+msgid "English"
+msgstr "English"
+
+#: assisipro/settings.py:119
+msgid "Italian"
+msgstr "Italian"
+
+#~ msgid "obituary details"
+#~ msgstr ""
+#~ "In loving memory of those we've lost, we honor their lives and cherish the "
+#~ "memories they've left behind. Together, we celebrate the legacy of our "
+#~ "departed loved ones."
+
+#~ msgid "Saints"
+#~ msgstr "Saints"
+
+#~ msgid "Contact Us"
+#~ msgstr "Contact Us"
+
+#~ msgid "History Of Order"
+#~ msgstr "History Of The Order"
+
+#~ msgid "Copyright © 2024 Powered by Tinos Software And Security Solutions LLP"
+#~ msgstr "Copyright © 2024 Powered by Tinos Software And Security Solutions LLP"
+
+#~ msgid "Click More"
+#~ msgstr "Click More"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendar"
+
+#~ msgid "Previous"
+#~ msgstr "Previous"
+
+#~ msgid "Next"
+#~ msgstr "Next"
+
+#~ msgid "Learn More"
+#~ msgstr "Learn More"
+
+#~ msgid "god description"
+#~ msgstr ""
+#~ "The most deadly poison of our times is indifference. And this happens, "
+#~ "although the praise of God should know no limits. Let us strive, therefore, "
+#~ "to praise Him to the greatest extent of our powers."
+
+#~ msgid "about title"
+#~ msgstr "We Are Taking Small Steps To Make Earth Better Planet"
+
+#~ msgid "about description"
+#~ msgstr ""
+#~ "Francis was born into a wealthy merchant family in 1182. Francis enjoyed a "
+#~ "very rich easy life growing up because of his father's wealth and the "
+#~ "permissiveness of the times. From the beginning, everyone loved Francis. He "
+#~ "was constantly happy, charming, and a born leader. As he grew up, Francis "
+#~ "became the leader of a crowd of young people who spent their nights in wild "
+#~ "parties"
+
+#~ msgid "Languages"
+#~ msgstr "Languages"
+
+#, fuzzy
+#~ msgid "Assisi FranciscanAshram"
+#~ msgstr "Assisi Franciscan Ashram"
+
+#, fuzzy
+#~ msgid "Wishes content one"
+#~ msgstr ""
+#~ "We conduct events every weekend. Make a part of it and help us to change the"
+#~ " earth into a "

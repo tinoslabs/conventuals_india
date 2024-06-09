@@ -1,0 +1,41 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+
+{% block content %}
+    
+
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Update Video Gallery</h4>
+
+                    <form class="forms-sample" method="POST" enctype="multipart/form-data" novalidate> 
+                      {% csrf_token %}
+                      <div class="form-group">
+                        <label for="videoName">Video Name</label>
+                        <input type="text" class="form-control" id="videoName" name="video_name" placeholder="Video Name" value="{{ video_link.video_name }}">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="videoGallery">Video Links</label>
+                        <input type="text" class="form-control" id="videoGallery" name="video_gallery" placeholder="Video Link" value="{{ video_link.video_gallery }}">
+                      </div>
+
+                      <div class="form-check form-check-flat form-check-primary">
+                        <label class="form-check-label">
+                          <!-- No checkbox input is provided, so this div might be unnecessary -->
+                        </label>
+                      </div>
+
+                      <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          
+            {% endblock %}

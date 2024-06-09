@@ -1,0 +1,226 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+		
+
+		<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans 'Friars' %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		
+		<div class="content">
+
+			<!-- <section>
+				<div class="slider">
+					<div class="slide-track">{% for details in friars %}
+						<div class="slide">
+							<img src="{{details.image.url}}">
+							<div class="caption">
+								<p>{{details.name}}</p>
+								<p class="email">{{details.email}}</p>
+						</div>
+					</div>{% endfor %}
+				</div>
+				
+			</section> -->
+			<br><br>
+        
+			<section class="events-section section-bg-img o-visible pad-top-95" data-bg="images/bg/bg-4.jpg">
+				
+				<div class="container">
+					
+					<div class="row">
+						<div class="offset-md-2 col-md-8">
+							<div class="title-wrap text-center">
+								<div class="section-title">
+									
+									<span class="border-bottom center"></span>											
+								</div>
+							</div>
+						</div>
+						
+						<div class="owl-carousel events-main-wrapper events-style-2" data-loop="1" data-nav="0" data-dots="0" data-autoplay="1" data-autoplaypause="1" data-autoplaytime="5000" data-smartspeed="1000" data-margin="30" data-items="3" data-items-tab="1" data-items-mob="1">
+							{% for details in friars %}
+							<div class="item">
+								
+								<div class="events-inner">
+									
+									<div class="events-thumb mb-0 relative">
+										<img src="{{details.image.url}}" class="img-fluid thumb w-100" width="768" height="650" alt="events-img" />
+									</div>
+									
+									<div class="events-details pad-lr-30 pad-bottom-35 bg-white">
+
+										<div class="event-title mb-3">
+											<h5 style="text-align:center;">{{details.name}}</h5>
+											<h6 style="text-align:center;"><a href="mailto:{{details.email}}">{{details.email}}</a></h6>
+
+										</div>
+                                                     
+									</div>
+									
+								</div>
+							</div>{% endfor %}
+
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</section>
+
+			
+              
+            <div class="church_prayer_block height padding-0">
+				<div class="container">
+					<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'Above all the grace and the gifts that Christ gives to his beloved is that of overcoming self..' %}</p>
+						<P>{% trans 'SAINT FRANCIS OF ASSISI' %}</P>
+						
+    					<a href="{% url 'friends_of_smk' %}" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+					<div class="pull-right">
+						<figure>
+							<img src="{% static 'image/assisi3.jpg' %}" alt="">
+						</figure>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+		
+		
+		
+		<style>
+			.slider {
+				height: 550px;
+				margin: auto;
+				position: relative;
+				width: 90%;
+				/* display: grid; */
+				place-items: center;
+			}
+			
+			.slide-track {
+				display: flex;
+				width: calc(250px * 60);
+				animation: scroll 80s linear infinite; /* Added animation property for autoplay */
+			}
+			
+			@keyframes scroll {
+				0% {
+					transform: translateX(0);
+					animation-play-state: running;
+				}
+				100% {
+					transform: translateX(calc(-250px * 60));
+					animation-play-state: running;
+				}
+			}
+			
+			.slide {
+				height: 500px;
+				width: 550px;
+				display: flex;
+				align-items: center;
+				padding: 15px;
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+				margin: 0 10px;
+			}
+
+			.slide img{
+				border-radius: 50%;
+			}
+			
+			img {
+				width: 75%;
+				height: 100%;
+				transition: transform 1s;
+			}
+			
+			img:hover {
+				transform: translateZ(20px);
+			}
+			
+			
+			.slider::before {
+				left: 0;
+				top: 0;
+			}
+			
+			.slider::after {
+				right: 0;
+				top: 0;
+				transform: rotateZ(180deg);
+			}
+			
+			.caption {
+        text-align: center; /* Center align the text */
+    }
+
+    .caption p {
+        margin: 5px 0; /* Add margin to separate name and email */
+        font-size: 20px; /* Adjust font size for both name and email */
+    }
+
+    .caption p:first-child {
+        font-weight: bold; /* Make the name bold */
+    }
+	.caption p.email {
+        font-size: 16px; /* Adjust font size for the email section */
+    }
+			
+			
+
+						
+			
+			</style>
+          <script>
+	document.addEventListener('DOMContentLoaded', function() {
+    const slideTrack = document.querySelector('.slide-track');
+    let isPaused = false;
+
+    slideTrack.addEventListener('click', function() {
+        if (!isPaused) {
+            isPaused = true;
+            slideTrack.style.animationPlayState = 'paused';
+        } else {
+            isPaused = false;
+            slideTrack.style.animationPlayState = 'running';
+        }
+    });
+
+    const slides = document.querySelectorAll('.slide');
+    slides.forEach(slide => {
+        slide.addEventListener('dblclick', function(event) {
+            event.stopPropagation();
+        });
+    });
+});
+
+
+		  </script>
+
+        {% endblock %}

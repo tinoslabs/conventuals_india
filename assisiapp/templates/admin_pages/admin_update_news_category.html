@@ -1,0 +1,49 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+{% block content %}
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Add News Category</h4>
+                <!-- <p class="card-description">
+                  Basic form layout
+                </p> -->
+                <form class="forms-sample" method="POST" enctype="multipart/form-data"> {% csrf_token %}
+                  <div class="form-group">
+                    <label for="newsHeading">News Heading</label>
+                    <input type="text" class="form-control" id="newsHeading" name="news_heading" placeholder="Event Name" value="{{category.news_heading}}">
+                  </div>
+                
+                <div class="form-group">
+                    <label>Current Image</label><br>
+                    {% if category.main_image %}
+                        <img src="{{ category.main_image.url }}" alt="Current Image" style="width: 150px; height: 150px;">
+                        <br>
+                        
+                    {% else %}
+                        <p>No image available</p>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                  <label for="imageFile">Main Image</label>
+                  <input type="file" class="form-control-file" id="imageFile" name="main_image" accept="image/*">
+                </div>
+
+                  <div class="form-check form-check-flat form-check-primary">
+                    <label class="form-check-label">
+                      <!-- <input type="checkbox" class="form-check-input">
+                      Remember me -->
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary me-2">Submit</button>
+                  <!-- <button class="btn btn-light">Cancel</button> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endblock %}

@@ -1,0 +1,151 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+        <div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+            <div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+                <div class="sab_banner_text">
+                    <h3>{% trans "Today's Wishes" %}</h3>
+                    <div class="banner_dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        </head>
+        <br><br>
+        <title>Birthday Wishes Card</title>
+        
+    
+        <!-- <h2 style="text-align: center; margin-top: 20px;font-family: brittanic bold;">Today's Wishes</h2> -->
+        <div class="card-container" id="cardContainer">
+            {% for wishes in wishes %}
+            <div class="birthday-card">
+            <img src="{{wishes.image.url}}" alt="Birthday Balloons" style="height: 350px;">
+            <h1 class="section-title theme-color styled-text" style="color: brown;"><b>{{wishes.heading}}</b></h1>
+            
+            <p class="styled-text" style="text-align: center; color: black;">{{wishes.wishes}}</p>
+            </div>
+            {% endfor %}
+        </div>
+      
+        
+
+        <style>
+            body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            }
+
+            .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 50px;
+            justify-items: center;
+            }
+
+            .few-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            }
+
+            .birthday-card {
+            text-align: center;
+            width: 100%;
+            max-width: 300px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+
+            img {
+            width: 100%;
+            max-height: 300px;
+            /* min-height: 300px; */
+            object-fit: cover;
+            border-radius: 5px;
+            animation: fadeIn 2s ease;
+            }
+            img {
+            transition: transform 0.3s ease;
+            }
+
+            img:hover {
+            transform: scale(1.0);
+            }
+
+            h1 {
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+            animation: slideInLeft 1.5s ease;
+            }
+
+            p {
+            font-size: 16px;
+            color: #666;
+            margin-top: 10px;
+            animation: slideInRight 1.5s ease;
+            }
+
+            @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            }
+
+            @keyframes slideInLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            }
+
+            @keyframes slideInRight {
+            0% {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            }
+        </style>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+            var cardContainer = document.getElementById("cardContainer");
+            var cards = cardContainer.getElementsByClassName("birthday-card");
+            
+            if (cards.length > 0 && cards.length < 4) {
+                cardContainer.classList.add("few-cards");
+            }
+            });
+        </script>
+
+{% endblock %}

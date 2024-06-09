@@ -1,0 +1,49 @@
+.container-1{
+	width: 600px;
+	background: ffff;
+	padding: 20px;
+	margin : 0 auto;
+}
+
+.container h2{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.container p{
+	line-height: 1.4;
+    text-align: justify;
+}
+#check{
+    display: none;
+}
+.content{
+    display: none;
+    transition: 0.5s linear;
+}
+label{
+    display: inline-block;
+    margin-top: 15px;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: green;
+    border-radius: 3px;
+}
+#check:checked ~ .content{
+    display: block;
+}
+#check:checked ~ label{
+    /* display: none; */
+    visibility: hidden;
+}
+#check:checked ~ label::after{
+    content: 'show less';
+    display: block;
+    visibility: visible;
+    color:red;
+    background-color: green;
+    border-radius: 3px;
+}

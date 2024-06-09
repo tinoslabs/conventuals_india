@@ -1,0 +1,75 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+
+{% block content %}
+ 
+            <div class="col-lg-11 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Obituary</h4>
+                  <a href="{% url 'admin_add_obituary' %}">
+                    <button class="btn btn-primary">Add Obituary</button>
+                  </a>
+                  <!-- <p class="card-description">
+                    Add class <code>.table-striped</code>
+                  </p> -->
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Date</th>
+                          <th> Address</th>
+                          <th>Image</th>
+                          <th>Update
+                           
+                          <th>Delete</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      {% for obituary in obituary %}
+                        <tr>
+                          <td style="width: 150px; ">
+                            {{ obituary.name }}
+                          </td>
+                          <td style="width: 150px; ">
+                            {{ obituary.date }}
+                          </td>
+                          <td style="width: 600px; word-wrap: break-word; white-space: inherit; height: 200px; overflow: auto;">
+                            {{ obituary.address }}
+                        </td>
+                        
+                          <td style="width: 150px; ">
+                            {% if obituary.image %}
+                            <img src="{{ obituary.image.url }}" alt="Current Image" style="width: 80px; height: 80px;">
+                            <br>
+                            <!-- <input type="checkbox" name="remove_image"> Remove Current Image -->
+                        {% else %}
+                            <p>No image available</p>
+                        {% endif %}
+                          </td>
+
+                          <td style="width: 150px;">
+                            <a href="{% url 'update_obituary' obituary.id  %}"><button><i class="mdi mdi-cloud-upload" aria-hidden="true"></i> </button></a>
+                        </td>
+                        <!-- <td style="width: 150px; ">
+                          <a href="{% url 'delete_obituary'  obituary.id  %}"><button><i class="mdi mdi-delete" aria-hidden="true"></i> </button></a>
+                         
+                        </td> -->
+                        <td style="width: 150px;">
+                            <a href="{% url 'delete_obituary'  obituary.id  %}"><button><i class="mdi mdi-delete" aria-hidden="true"></i> </button></a>
+                        </td>
+                        
+                          
+                        </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {% endblock %}

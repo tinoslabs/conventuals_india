@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+		<!--sab banner start-->
+		<!-- <div class="sab_banner_wrap" style="margin-top: -45px">
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/assisi8.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>NIRMALARAM FRANCISCAN ASHRAM</h3>
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+			<div class="sub_slider">
+                <div class="banner_slide">
+                    <img src="{% static 'image/common-img.jpg' %}" alt="">
+                </div>
+                
+            </div>
+            <div class="container">
+				<div class="sab_banner_text">
+					<h3>{% trans "NIRMALARAM FRANCISCAN ASHRAM" %}</h3>
+					
+					<div class="banner_dots">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--sab banner end-->
+		
+		<div class="content">
+			<section class="ministry_detail padding-bottom">
+				<div class="container">
+					<div class="ministry_column">
+						<div class="left_side-content">
+							<figure>
+								<img src="{% static 'images/kerala-4.jpg' %}" alt="">
+							</figure>
+							<div class="ministry_content">
+								<h4 class="custom-font-30px" style="color: #c62641;font-family: 'Sitka Banner';word-spacing: 0.2em;color:black;">NIRMALARAM FRANCISCAN ASHRAM</h4>
+								<p style="word-spacing: 0.2em;color:black;font-family: 'Open Sans';">Nirmalaram Franciscan Ashram<br>
+                                    Conventual Franciscan Friars<br>
+                                    Chittady P.O., Chotty 686524<br>
+                                    Kottayam, Kerala, India<br>
+                                    Tel; 0091 484 270430</p>
+							</div>
+						</div>
+						<!-- <p>Quisque sollicitudin urna mollis, cursus est et, porta velit. Morbi dictum neque pretium fringilla luctus. Aliquam nulla odio, fermentum vehicula justo a, ullamcorper hendrerit arcu. Nam lacus tortor, vestibulum vulputate velit eu, sollicitudin dapibus tellus. Pellentesque sed finibus arcu, non hendrerit lacus. Ut pulvinar mi sit amet erat ornare pellentesque. Nam hendrerit aliquam malesuada. Aenean scelerisque nisl vitae risus eleifend, non faucibus massa vulputate. Nullam a diam condimentum, gravida arcu sed, feugiat sem. Nullam ullamcorper massa eget orci tristique, at semper neque venenatis. Fusce sed viverra turpis.</p> -->
+						<div class="divider_30"></div>
+						<h4 class="custom-font-30px"><b><i>HISTORY</i></b></h4>
+						<p style="text-align: justify;color:black;font-family: 'Open Sans';">Nirmalaram at Chotty in Kottayam District, Kerala in the eparchy of Kanjirappally was canonically established on March 15, 1981 as the first Friary and Minor Seminary on four acres and eighty eight cents of land and was dedicated to the Immaculate Conception of the B.V.M. Fr. Samuel Chetcuti was appointed the first Superior. On May 10, 1981 Bishop Mar Joseph Powathil of Kanjirappally blessed the first small house, which was on the land and enlarged by the friars to welcome the first vocations to the Order. Fr. Joseph Cilia, Provincial Custos blessed it again on June 22, 1996 after its renovation and named it Arambha Bhavan (the house of our beginning).<br><br>
+
+                            On December 8, 1981 the foundation stone for the new building was blessed by Bishop Mar Joseph Powathil and laid by Fr. Ferdinand Mercieca, Minister Provincial of Malta. On the top of the foundation stone the statue of the Immaculate Conception was erected. The new building, which was constructed on the plans prepared by architect Fr. J.M. Stevens S.J. of Bangalore was inaugurated and blessed by Fr. Lanfranco Serrini, Minister General on April 8, 1984. Bishop Mar Joseph Powathil blessed and consecrated the new chapel. For this occasion Fr. Sebald Reil, General Secretary for the Mission of the Order and the Major Superiors OFMConv. of Asia and Australia were present.<br><br>
+                            
+                            On March 19, 1983 the novitiate house was also established at Nirmalaram and it remained there till it was transferred to Kolbe Ashram on March 28, 1987. The first Novitiate began on May 02, 1983 under the direction of Fr. George Attard. Nirmalaram also served for the formation of the Pre-Novices till 1986 when the pre-novices started their formation at Kolbe Ashram.<br><br>
+                            
+                            During the celebrations to commemorate the establishment of the Provincial Custody, on January 29, 1995, Fr. Joseph Cilia, Provincial Custos blessed the new statue of St. Francis in front of the Chapel.<br><br>
+                            
+                            Under Nirmalaram comes the Shrine dedicated to St. Francis of Assisi by the side of KK Road erected to commemorate the tenth anniversary of the Order’s presence in India which was celebrated on November 24, 1990. Fr. Alfred Calleja, Minister Provincial of Malta, blessed the Foundation Stone of the Shrine on June 9, 1991. The Shrine was inaugurated and blessed by Bishop Mar Mathew Vattakuzhy of Kanjirappally on February 11, 1992.</p>
+						<div class="divider_30"></div>
+						
+						
+					</div>
+					
+				</div>
+			</section>
+			<div class="church_prayer_block height padding-0">
+				<div class="container">
+					<div class="church_prayer_detail padding">
+    					<h3><I>{% trans 'God Dwells In Our Midst,' %}<br>{% trans 'In The Blessed Sacrament' %}<br>{% trans 'Of The Altar.' %}</I></h3><br><br>
+						<p>{% trans 'We must not be wise and prudent according to the flesh,rather,we must be simple,humble and pure' %}..</p>
+						<P>{% trans 'SAINT FRANCIS OF ASSISI' %}</P>
+    					<a href="{% url 'friends_of_smk' %}" class="default_btn black-bg_btn">{% trans 'Join Us Now' %}</a>
+    				</div>
+					<div class="pull-right">
+						<figure>
+							<img src="{% static 'image/assisi3.jpg' %}" alt="">
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "updation_base.html" %}
+{% load static %}
+{% block content %}
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <section class="home">
+        <div class="toggle-sidebar">
+            <i class='bx bx-menu'></i>
+            <div class="text">Toggle</div>
+        </div>
+
+        <div class="container-1">
+                <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+
+                    <h2>Add Data</h2>
+                    <div class="content-1">
+                        <div class="input-box">
+                            <label for="name">name</label>
+                            <input type="text" placeholder="" name="name" value="{{administration.name}}" required>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="designation">Designation</label>
+                            <input type="text" placeholder="" name="designation" value="{{administration.designation}}" required>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="image">Image</label>
+                            <input type="file" placeholder="" name="image" required>
+                        </div>
+                        
+                        <div class="button-container-1">
+                            <button type="submit">ADD DETAILS</button>
+                        </div>
+                        
+                        <div class="button-container-1">
+                            <button type="button" onclick="window.history.back();">Back</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </section>
+{% endblock %}

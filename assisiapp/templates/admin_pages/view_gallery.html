@@ -1,0 +1,51 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+
+{% block content %}
+    <!-- ============= Home Section =============== -->
+    <section class="home" style="position: relative; background-color: #ffffff;">
+        <div class="toggle-sidebar">
+            <i class='bx bx-menu'></i>
+            <div class="text"></div>
+        </div>
+        <!-- ======================= Table ================== -->
+        <div class="table-1">
+            <div class="table-header">
+                <p><b>Packages Details</b></p>
+                
+            </div>
+            <div class="table-section">
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 150px; align-items: center;">Name</th>
+                            <th style="width: 150px; align-items: center;">Image</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for gallery in gallery %}
+                            <tr>
+                                <td>{{ gallery.name }}</td>
+                                <td>
+                                    {% if gallery.images.all %}
+                                        <div class="row">
+                                            {% for image in gallery.images.all %}
+                                                <img src="{{ image.image.url }}" alt="{{ gallery.name }}" class="img-fluid">
+                                            {% endfor %}
+                                        </div>
+                                    {% else %}
+                                        <p>Data not found</p>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+{% endblock %}
+
+<style>
+    /* Add your CSS here */
+</style>

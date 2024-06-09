@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+           
+			<div class="sab_banner_wrap overlay" style="margin-top: -45px";>
+				<div class="sub_slider">
+					<div class="banner_slide">
+						<img src="{% static 'image/common-img.jpg' %}" alt="">
+					</div>
+					
+				</div>
+				<div class="container">
+					<div class="sab_banner_text">
+						<h3>{% trans "Obituary" %}</h3>
+						<div class="banner_dots">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- page-header -->
+            <!-- Page Content -->
+            <div class="content-wrapper pad-none">
+                <div class="content-inner">					
+					<!-- Blog Section -->
+                    <section id="blog-section" class="blog-section pad-bottom-70">
+                        <div class="container">
+							<!-- Blog Main Wrap -->
+							<div class="blog-main-wrap blog-grid">
+								<!-- Row -->
+								<div class="row">
+									<!-- Col -->
+									<div class="col-lg-12">
+										<!-- Row -->
+										<div class="row">
+											{% for obituary_details in obituary %}
+											<!-- Col -->
+											<div class="col-md-4">
+												<div class="blog-style-1">
+													<!--Blog Inner-->
+													<div class="blog-inner">
+														<div class="blog-thumb relative" style="align-items: center;">
+															<img src="{{obituary_details.image.url}}" class="img-fluid" width="768" height="600" alt="blog-img" style="align-items: center;"/>
+															<div class="top-meta">
+																<ul class="top-meta-list">
+																<li><div class="post-date"><a href="#"><i class="ti-calendar"></i>{{obituary_details.date}}</a></div></li>
+																</ul>
+															</div>
+														</div>
+														<div class="blog-details">
+															<div class="blog-title">
+																<h4 class="margin-bottom-10" style="text-align: center;">{{obituary_details.name}}</h4>
+															</div>
+															<div class="post-desc mt-2">
+                                                                <div class="blog-desc">
+                                                                    <p style="text-align: center;">Address:{{obituary_details.address}}</p>
+                                                                </div>
+																
+															</div>
+														</div>
+													</div>
+													<!--Blog Inner Ends-->
+												</div>
+											</div>
+											<!-- Col -->
+											<!-- Col -->
+											
+										{% endfor %}
+											<!-- Col -->											
+										</div>
+										<!-- row -->
+									</div>									
+                                    <!-- Col -->
+								</div>
+								<!-- Row -->
+							</div>
+							<!-- Blog Main Wrap -->
+						</div>
+						<!-- Container -->
+                    </section>
+                    <!-- Blog Section End -->
+                </div>
+            </div>
+        </div>
+    <!-- .page-wrapper-inner -->
+    </div>
+    <!--page-wrapper-->
+
+{% endblock %}

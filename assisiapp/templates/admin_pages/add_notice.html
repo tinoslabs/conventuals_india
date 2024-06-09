@@ -1,0 +1,111 @@
+{% extends "admin_pages/base.html" %}
+{% load static %}
+{% block content %}
+
+
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Add Notice</h4>
+                <!-- <p class="card-description">
+                  Basic form layout
+                </p> -->
+                <form class="forms-sample" method="POST" enctype="multipart/form-data"> {% csrf_token %}
+                  <div class="form-group">
+                    <label for="name">Heading</label>
+                    <input type="text" class="form-control" id="exampleInputUsername1" name="heading" placeholder="Notice Heading" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="description">Main Description</label>
+                    <input type="text" class="form-control" id="description" name="main_description" placeholder="Enter Small Description" >
+                  </div>
+                  <div class="form-group">
+                    <label for="imageFile"> Image</label>
+                    <input type="file" class="form-control-file" id="imageFile" name="main_image" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="organizer">Organizer</label>
+                    <input type="text" class="form-control" id="organizer" name="organizer" placeholder="Organizer">
+                  </div>
+                  <div class="form-group">
+                    <label for="noticeDescription">Notice Description</label>
+                    <input type="text" class="form-control" id="noticeDescription" name="description" placeholder="enter your description">
+                  </div>
+                  
+                <div class="form-group">
+                  <label for="date">Start Date</label>
+                  <input type="datetime-local" class="form-control" id="date" name="start_date" placeholder="Start Date">
+                </div>
+                
+                <div class="form-group">
+                  <label for="endDate">End Date</label>
+                  <input type="datetime-local" class="form-control-file" id="endDate" name="end_date">
+                </div>
+
+                <div class="form-group">
+                  <label for="eventVenue">Venue</label>
+                  <input type="text" class="form-control" id="eventVenue" name="venue" placeholder="Venue">
+                </div>
+                
+                <div class="form-group">
+                  <label for="address">Address</label>
+                  <input type="text" class="form-control" id="address" name="address" placeholder="Address">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone">
+                </div>
+
+                <div class="form-group">
+                  <label for="imageFile"> Image</label>
+                  <input type="file" class="form-control-file" id="imageFile" name="image">
+                </div>
+
+                  <div class="form-check form-check-flat form-check-primary">
+                    <label class="form-check-label">
+                      <!-- <input type="checkbox" class="form-check-input">
+                      Remember me -->
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary me-2">Submit</button>
+                  <!-- <button class="btn btn-light">Cancel</button> -->
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          var today = new Date().toISOString().split('T')[0];
+          var startDateInput = document.getElementById('date');
+          var endDateInput = document.getElementById('endDate');
+          
+          startDateInput.setAttribute('min', today);
+          endDateInput.setAttribute('min', today);
+          
+          startDateInput.addEventListener('change', function() {
+              var startDate = startDateInput.value;
+              if (startDate) {
+                  endDateInput.setAttribute('min', startDate);
+              } else {
+                  endDateInput.setAttribute('min', today);
+              }
+          });
+      });
+  </script>
+     
+    
+{% endblock %}

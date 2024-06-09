@@ -1,0 +1,60 @@
+
+{% extends "admin_pages/base.html" %}
+{% load static %}
+{% block content %}
+
+    <div class="col-lg-11 grid-margin stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">News Ctegories</h4>
+            <a href="{% url 'admin_add_news_category' %}">
+                <button class="btn btn-primary">Add News Category</button>
+            </a>
+           
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>News Heading</th>
+                    <th>Description Image</th>
+                    <th>Update
+                     
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    {% for details in category %}
+                  <tr>
+                    <td style="width: 150px; ">
+                        {{details.news_heading}}
+                    </td>
+                    
+                    <td style="width: 150px; ">
+                        {% if details.main_image %}
+                        <img src="{{ details.main_image.url }}" alt="Current Image" style="width: 80px; height: 80px;">
+                        {% else %}
+                        <td>Data Not Found</td>
+                        {% endif %}
+                      </td>  
+                  
+                
+                      <td style="width: 150px; ">
+                        <a href="{% url 'admin_update_news_category' details.id  %}"><button><i class="mdi mdi-cloud-upload" aria-hidden="true"></i> </button></a>
+                      </td>
+                      <td style="width: 150px; ">
+                        <a href="{% url 'admin_delete_news_category' details.id  %}"><button><i class="mdi mdi-delete" aria-hidden="true"></i> </button></a>
+                       
+                      </td>
+                    
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
