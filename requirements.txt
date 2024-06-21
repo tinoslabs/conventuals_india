@@ -3,5 +3,4 @@ Django==5.0.6
 django-parler==2.3
 django-rosetta==0.10.0
 pillow==10.3.0
-
-
+whitenoise==6.7.0 
