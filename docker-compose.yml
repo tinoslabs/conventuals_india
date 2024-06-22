@@ -59,6 +59,7 @@ services:
       context: ./nginx
       args:
         DOMAIN: ${DOMAIN}
+        CONF_NAME: ssl
     restart: always
     ports:
       - ${NGINX_PORT}:80
@@ -68,13 +69,11 @@ services:
       - media_volume:/project/mediafiles
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
-    depends_on:
-      - web
     profiles:
-      - production
+      - nginx
 
   
-  nginx-ssl:
+  nginx-init:
     build:
       context: ./nginx
       args:
@@ -89,10 +88,8 @@ services:
       - media_volume:/project/mediafiles
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
-    depends_on:
-      - web
     profiles:
-      - ssl
+      - nginx-init
 
   certbot:
     image: certbot/certbot
@@ -101,9 +98,9 @@ services:
       - ./certbot/www:/var/www/html
     command: certonly --webroot --webroot-path=/var/www/html --force-renewal --no-eff-email --email ${EMAIL_HOST_USER} -d ${DOMAIN} -d www.${DOMAIN} --agree-tos
     depends_on:
-      - nginx-ssl
+      - nginx-init
     profiles: 
-      - ssl
+      - ssl-init
 
 volumes:
   static_volume: 
