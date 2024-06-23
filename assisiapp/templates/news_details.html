@@ -54,41 +54,35 @@
     						
     						<div class="ch_blog_detail_row post-margin">
 								{% for details in news_details %}
-    							<div class="church_blog_detail_text">
+								<div class="church_blog_detail_text">
 									{% if details.heading %}
 									<h3 class="custom-font-30px">{{details.heading}}</h3>
 									{% endif %}
-    								<ul class="church_meta_date meta_2 meta_3">
-    									<!-- <li><a href="#">By Admin</a></li> -->
+									<ul class="church_meta_date meta_2 meta_3">
+										<!-- <li><a href="#">By Admin</a></li> -->
 										{% if details.date %}
-    									<li><a href="#">{{details.date}}</a></li>
+										<li><a href="#">{{details.date}}</a></li>
 										{% endif %}
-    									
-    								</ul>
+									</ul>
 									
 									{% if details.news_images %}
-									{% if details.image %}
-    								<div class="blog_slider_posts arrows_redios">
-    									<div class="blog_item">
-											
-    										<img src="{{details.news_images.url}}" alt="" >
-    										<div class="box_span">
-												
-    											<a href="#" class="date"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
-    										</div>
-    									</div>
-										
-    								</div>
-									{% endif %}	
-
-									{% if details.description %}
-    								<p style="text-align: justify;color: black;font-family: 'Open Sans';">{{details.description}}</p>
+									<div class="blog_slider_posts arrows_redios">
+										<div class="blog_item">
+											<img src="{{details.news_images.url}}" alt="">
+											<div class="box_span">
+												<a href="#" class="date"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+											</div>
+										</div>
+									</div>
 									{% endif %}
-    								
-    
-    							</div>{% endfor %}
-								
-    						</div>
+									
+									{% if details.description %}
+									<p style="text-align: justify;color: black;font-family: 'Open Sans';">{{details.description}}</p>
+									{% endif %}
+									
+								</div>
+								{% endfor %}
+							</div>
     						
     						
     					</div>
