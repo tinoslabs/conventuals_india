@@ -211,12 +211,6 @@
                 border: 5px solid transparent;
             }
 
-            /* .church_testimonial_nav .ch_testimonial_item img {
-                height: 30%; 
-                width: 100%; 
-                max-width: 150px; 
-                display: block; 
-            } */
             .church_testimonial_nav .ch_testimonial_item img {
                 width: 100%; /* Set the width of the image */
                 max-width: 100%; /* Ensure responsiveness */
@@ -250,12 +244,6 @@
                 border: 5px solid transparent;
             }
 
-            /* .church_testimonial_nav .ch_testimonial_item img {
-                height: 30%; 
-                width: 100%; 
-                max-width: 150px; 
-                display: block; 
-            } */
             .church_testimonial_nav .ch_testimonial_item img {
                 width: 100%; /* Set the width of the image */
                 max-width: 100%; /* Ensure responsiveness */
@@ -286,12 +274,7 @@
                 border: 5px solid transparent;
             }
 
-            /* .church_testimonial_nav .ch_testimonial_item img {
-                height: 30%; 
-                width: 100%; 
-                max-width: 150px; 
-                display: block; 
-            } */
+          
             .church_testimonial_nav .ch_testimonial_item img {
                 width: 100%; /* Set the width of the image */
                 max-width: 100px; /* Ensure responsiveness */
@@ -323,12 +306,6 @@
                 border: 5px solid transparent;
             }
 
-            /* .church_testimonial_nav .ch_testimonial_item img {
-                height: 30%; 
-                width: 100%; 
-                max-width: 150px; 
-                display: block; 
-            } */
             .church_testimonial_nav .ch_testimonial_item img {
                 width: 100%; /* Set the width of the image */
                 max-width: 100px; /* Ensure responsiveness */
@@ -359,12 +336,6 @@
                 border: 10px solid transparent;
             }
 
-            /* .church_testimonial_nav .ch_testimonial_item img {
-                height: 30%; 
-                width: 100%; 
-                max-width: 150px; 
-                display: block; 
-            } */
             .church_testimonial_nav .ch_testimonial_item img {
                 width: 100%; /* Set the width of the image */
                 max-width: 100px; /* Ensure responsiveness */
@@ -464,56 +435,45 @@
 
     </style>
     <style>
-        /* @media screen and (max-width: 400px) {
-            .carousel-caption h1 {
-                font-size: 24px;
-                font-family: 'Monotype Corsiva';
-                margin-top: -50px;
-                
-            }
-        }
-        @media screen and (max-width: 600px) {
-            .carousel-caption h1 {
-                font-size: 30px;
-                font-family: 'Monotype Corsiva';
-                margin-top: -160px;
-                 
-            }
-        }
-        @media screen and (max-width: 768px) {
-            .carousel-caption h1 {
-                font-size: 40px;
-                font-family: 'Monotype Corsiva';
-                margin-top: -140px;
-                
-            }
-            
-        }
-        
-        @media screen and (min-width: 770px) and (max-width: 863px) {
-            .carousel-caption h1 {
-                font-size: 40px;
-                font-family: 'Monotype Corsiva';
-                margin-top: -220px;
-             
-            }
-        } */
-
         @media screen and (max-width: 964px) {
             .carousel-caption h1 {
                 font-size: 40px;
                 font-family: 'Motoya Maru Std-W6';
                 padding-top: -100px;
-                 
-             
             }
             .carousel-item{
                 margin-top: 130px;
+            }         
+        }
+        
+         @media screen and (max-width: 400px) {
+            .carousel-caption h1 {
+                
+                font-family: 'Motoya Maru Std-W6';        
             }
-            
         }
 
+        @media screen and (max-width: 600px) {
+            .carousel-caption h1 {
+               
+                font-family: 'Motoya Maru Std-W6';     
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .carousel-caption h1 {
+                font-family: 'Motoya Maru Std-W6';
+                
+            }    
+        }
         
+        @media screen and (min-width: 770px) and (max-width: 863px) {
+            .carousel-caption h1 {
+                font-family: 'Motoya Maru Std-W6';
+             
+            }
+        } 
+    
     </style>
     <style>
         body {
@@ -592,16 +552,7 @@
             }
 
       </style>
-      <!-- <style>
-        
-
-            .church_map iframe {
-                width: 100%;
-                height: calc(100% - 15rem); 
-                border: 0;
-                display: block;
-            }
-      </style> -->
+      
     
 
   </head>
@@ -1349,11 +1300,7 @@
     					</figure>
     				</div>
     			</div>
-    		</div>
-       
-		
-		
-		
+    		</div>		
 
         <footer>
             
@@ -1455,20 +1402,18 @@
                                    
                                     <p><a href="{% url 'Events' %}">{% trans "Events" %}</a></p>
                                     <p><a href="{% url 'gallery' %}">{% trans "Gallery" %}</a></p>
-                                    <p><a href="{% url 'video_gallery' %}">{% trans "Video Gallery" %}</a></p>
+                                    <p><a href="{% url 'video_gallery' %}">{% trans "Video Gallery" %}</a></p>                                   
                                     
                                 </div>
-                            </div>   
-                            
-                            
+                            </div>       
                             
                         </div>
                     </div>
-                    <br>
+                    
                     <div class="footer_twitter">
                         <span><i class="fa fa-youtube" aria-hidden="true"></i></span>
                         <div class="footer_twitter_caption">
-                            <p>{% trans "Conventuals Indid,Order Of Friars Minor Conventual" %}..,<a href="https://www.youtube.com/channel/UCvLgPzOC2ZmjKSpOzKXoBMQ/videos">{% trans "Kolbe Communication" %}</a></p>
+                            <p>{% trans "Conventuals India, Order Of Friars Minor Conventual" %}.., <a href="https://www.youtube.com/channel/UCvLgPzOC2ZmjKSpOzKXoBMQ/videos">{% trans "Kolbe Communication" %}</a></p>
                         </div>
                         <div class="pull-right"><a href="https://www.youtube.com/channel/UCvLgPzOC2ZmjKSpOzKXoBMQ/videos" class="default_btn black-bg_btn">Follow us</a></div>
                     </div>
@@ -1477,14 +1422,20 @@
 
             </div>
         </footer>
-        
+        <br><br><br><br>
         <div class="copyright-content center">
           <div class="container">
             <p><a href="http://tinos.co.in/">Copyright © 2024 Powered by Tinos Software And Security Solutions LLP </a></p>
           </div>
         </div>
     
-    
+    <style>
+        @media (min-width: 200px) and (max-width: 700px) {
+            .footer_twitter {
+                margin-top: -90px; /* Adjust this value as needed */
+            }
+        }
+    </style>
            
         <!--church wrapper ends-->
     
@@ -1534,19 +1485,13 @@
             <!-- Appear Js -->
         <script src="{% static 'sub-style/js/jquery.appear.min.js' %}"></script>
             <!-- Theme Custom Js -->
-        <script src="{% static 'sub-style/js/custom.js' %}"></script>
-            
-            
+        <script src="{% static 'sub-style/js/custom.js' %}"></script>               
         <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
         <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-           
-
         <script src="{% static 'js/stickyNavbarOnScroll.js' %}"></script>
         <script src="{% static 'js/languageSelector.js' %}"></script>
         <script src="{% static 'js/slickTestimonialSlider.js' %}"></script>
-        <script src="{% static 'js/testimonialItemHighlighter.js' %}"></script>
-    
-        
+        <script src="{% static 'js/testimonialItemHighlighter.js' %}"></script>   
       </body>
       
 

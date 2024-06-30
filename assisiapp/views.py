@@ -29,6 +29,7 @@ def user_login(request):
     return render(request, 'authenticate/login.html')
 
 
+@login_required(login_url='user_login')
 def admin_dashboard(request):
     if request.user.is_authenticated:
         return render(request, 'admin_pages/admin_dashboard.html')
